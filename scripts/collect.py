@@ -815,7 +815,12 @@ def main() -> int:
         _notify_fail(f"新增 {len(accepted)} 条但重建站点失败· 选题「{topic_desc}」· stderr={r.stderr[-200:]}")
         audit_log(topic_id, topic_desc, queries, raw, text, accepted, dropped)
         return 1
-    subprocess.run(["git", "-C", str(ROOT), "add", "-A", "data/", "site/"],
+    # 同步导出 markdown 文档版（与 site 同源，避免漂移）
+    rm = subprocess.run([sys.executable, str(ROOT / "scripts" / "generate_md.py")],
+                        capture_output=True, text=True, timeout=300)
+    if rm.returncode != 0:
+        print("[warn] generate_md 失败（不影响站点）:\n", rm.stderr[-400:])
+    subprocess.run(["git", "-C", str(ROOT), "add", "-A", "data/", "site/", "markdown/"],
                    capture_output=True, text=True)
     subprocess.run(["git", "-C", str(ROOT), "-c", "user.email=hermes@biz",
                     "-c", "user.name=biz-collect", "commit", "-qm",
