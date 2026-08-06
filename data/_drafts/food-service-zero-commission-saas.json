@@ -1,0 +1,24 @@
+{
+ "id": "food-service-zero-commission-saas",
+ "name": "餐饮零抽佣SaaS系统",
+ "industry": "餐饮",
+ "region": "中国",
+ "scale": "中型",
+ "channel": "混合",
+ "y2026_hot": "餐饮数字化加速，2026年行业报告指出零抽佣模式成商户选型关键趋势。",
+ "how": "向餐厅按月收取固定SaaS服务费，不收取交易佣金。通过供应链金融和耗材团购获取额外收入。",
+ "keys": [
+  "轻量级系统，快速部署",
+  "供应链整合能力"
+ ],
+ "risks": [
+  "餐饮行业倒闭率高导致客户流失"
+ ],
+ "example": [
+  "美味不用等"
+ ],
+ "sources": [
+  "https://www.renrendoc.com/paper/529854129.html",
+  "https://36kr.com/p/1722506035201"
+ ]
+}

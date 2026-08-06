@@ -1,0 +1,163 @@
+{
+ "schema_version": 1,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "英伟达数据中心芯片（AI 算力军火商）",
+  "subtitle": "全球 · AI/大模型 · 巨头 · 线上 · 订阅会员制",
+  "quality_profile": "standard",
+  "output": "nvidia-data-center-ai-infra.html"
+ },
+ "lanes": [
+  {
+   "id": "prod",
+   "label": "产品价值"
+  },
+  {
+   "id": "pay",
+   "label": "会员付费"
+  },
+  {
+   "id": "keep",
+   "label": "续费留存"
+  }
+ ],
+ "phases": [
+  {
+   "id": "acq",
+   "label": "获客",
+   "fromCol": 0,
+   "toCol": 1
+  },
+  {
+   "id": "paid",
+   "label": "付费",
+   "fromCol": 2,
+   "toCol": 2,
+   "variant": "emphasis"
+  },
+  {
+   "id": "renew",
+   "label": "续费",
+   "fromCol": 3,
+   "toCol": 5
+  }
+ ],
+ "mainPath": [
+  "nvidia-data-center-ai-infra-prod-0",
+  "nvidia-data-center-ai-infra-prod-2",
+  "nvidia-data-center-ai-infra-pay-2",
+  "nvidia-data-center-ai-infra-keep-3",
+  "nvidia-data-center-ai-infra-keep-5"
+ ],
+ "nodes": [
+  {
+   "id": "nvidia-data-center-ai-infra-prod-0",
+   "lane": "prod",
+   "col": 0,
+   "type": "frontend",
+   "label": "免费/试用",
+   "sublabel": "获客漏斗"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-prod-2",
+   "lane": "prod",
+   "col": 2,
+   "type": "messagebus",
+   "label": "分层权益",
+   "sublabel": "先进制程产能…"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-pay-2",
+   "lane": "pay",
+   "col": 2,
+   "type": "database",
+   "label": "订阅付费",
+   "sublabel": "90%"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-keep-3",
+   "lane": "keep",
+   "col": 3,
+   "type": "cloud",
+   "label": "续费复购",
+   "sublabel": "CUDA 开…"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-keep-5",
+   "lane": "keep",
+   "col": 5,
+   "type": "external",
+   "label": "ARPU增值",
+   "sublabel": "收入流主要包…"
+  }
+ ],
+ "edges": [
+  {
+   "id": "nvidia-data-center-ai-infra-e1",
+   "from": "nvidia-data-center-ai-infra-prod-0",
+   "to": "nvidia-data-center-ai-infra-prod-2",
+   "variant": "default",
+   "label": "引导转化"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-e2",
+   "from": "nvidia-data-center-ai-infra-prod-2",
+   "to": "nvidia-data-center-ai-infra-pay-2",
+   "variant": "emphasis",
+   "label": "按月/年订阅",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-e3",
+   "from": "nvidia-data-center-ai-infra-pay-2",
+   "to": "nvidia-data-center-ai-infra-keep-3",
+   "variant": "default",
+   "label": "续费提醒"
+  },
+  {
+   "id": "nvidia-data-center-ai-infra-e4",
+   "from": "nvidia-data-center-ai-infra-keep-3",
+   "to": "nvidia-data-center-ai-infra-keep-5",
+   "variant": "default",
+   "label": "交叉销售"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "优势 Strengths",
+   "items": [
+    "CUDA 难以替代的行业标准生态",
+    "与台积电深度捆绑先进制程和封装产能",
+    "超大规模客户长期订单提供可预期收入"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "劣势 Weaknesses",
+   "items": [
+    "收入高度依赖云厂资本开支周期",
+    "供货完全受限于台积电产能分配"
+   ]
+  },
+  {
+   "dot": "cyan",
+   "title": "机会 Opportunities",
+   "items": [
+    "主权 AI 和工业大模型催生百亿级新场景",
+    "推理需求随大模型部署指数上升"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "威胁 Threats",
+   "items": [
+    "自家 ASIC 替代 GPU 的长期趋势",
+    "中美出口管制可能进一步升级"
+   ]
+  }
+ ]
+}

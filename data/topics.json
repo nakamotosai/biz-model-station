@@ -1,0 +1,674 @@
+{
+ "topics": [
+  {
+   "id": "ai-agent-ops",
+   "desc": "AI Agent 代运营/外包服务（客服、销售、内容）2026新形态",
+   "kind": "model"
+  },
+  {
+   "id": "creator-membership",
+   "desc": "创作者会员/社群订阅（YouTube/note/Substack/Patreon模式）",
+   "kind": "model"
+  },
+  {
+   "id": "cross-border-logistics",
+   "desc": "跨境电商配套：海外仓、头程、本土店、物流科技",
+   "kind": "model"
+  },
+  {
+   "id": "physical-retail-tech",
+   "desc": "线下零售数字化：无人店、AI选品、自助设备、会员店",
+   "kind": "model"
+  },
+  {
+   "id": "content-monetization",
+   "desc": "内容平台分成：播客、短剧、游戏直播、知识付费",
+   "kind": "model"
+  },
+  {
+   "id": "fintech-sme",
+   "desc": "中小企业金融科技：供应链金融、聚合支付、信贷SaaS",
+   "kind": "model"
+  },
+  {
+   "id": "healthcare-digital",
+   "desc": "数字医疗：在线问诊、慢病管理、AI体检、医药电商",
+   "kind": "model"
+  },
+  {
+   "id": "education-subscription",
+   "desc": "教育订阅：AI家教、职业培训、留学中介数字化",
+   "kind": "model"
+  },
+  {
+   "id": "green-economy",
+   "desc": "绿色经济：碳交易、光伏运维、回收循环、ESG咨询",
+   "kind": "model"
+  },
+  {
+   "id": "local-life-platform",
+   "desc": "本地生活平台：到店、到家、团购、即时零售",
+   "kind": "model"
+  },
+  {
+   "id": "saas-vertical-2026",
+   "desc": "2026垂直SaaS新赛道（餐饮、美容、宠物、养老、法律）",
+   "kind": "model"
+  },
+  {
+   "id": "indie-hacker-us",
+   "desc": "美国个人开发者盈利（Micro-SaaS、AI工具、Newsletter）",
+   "kind": "model"
+  },
+  {
+   "id": "jp-side-hustle",
+   "desc": "日本个人副业变现（理财内容、投资圈、代购、兼职平台）",
+   "kind": "model"
+  },
+  {
+   "id": "cn-live-commerce",
+   "desc": "中国直播电商2026（数字人、切片、达人分销、品牌自播）",
+   "kind": "model"
+  },
+  {
+   "id": "franchise-model",
+   "desc": "连锁加盟/特许经营2026（餐饮、茶饮、便利店、教育）",
+   "kind": "model"
+  },
+  {
+   "id": "data-monetization",
+   "desc": "数据变现：API服务、数据标注、训练数据买卖、情报服务",
+   "kind": "model"
+  },
+  {
+   "id": "infra-reseller",
+   "desc": "算力/云资源转售：GPU租用、云代理、IDC、算力券",
+   "kind": "model"
+  },
+  {
+   "id": "tourism-experience",
+   "desc": "旅游体验经济：定制游、露营、研学、本地向导平台",
+   "kind": "model"
+  },
+  {
+   "id": "subscription-box",
+   "desc": "订阅盒子/会员电商：美妆、食品、宠物、盲盒",
+   "kind": "model"
+  },
+  {
+   "id": "b2b-marketplace",
+   "desc": "B2B交易平台：工业品、农产品、跨境集采佣金模式",
+   "kind": "model"
+  },
+  {
+   "id": "ai-data-service",
+   "desc": "AI 数据服务：合成数据、标注众包、RLHF 训练数据平台",
+   "kind": "model"
+  },
+  {
+   "id": "ai-ops-platform",
+   "desc": "AI 运维平台：MLOps、模型监控、推理优化、边缘部署",
+   "kind": "model"
+  },
+  {
+   "id": "ai-content-gen",
+   "desc": "AI 内容生成：营销文案、海报视频、数字人播客变现",
+   "kind": "model"
+  },
+  {
+   "id": "ai-consulting",
+   "desc": "AI 咨询与实施：企业落地诊断、PoC、定制 Agent 开发",
+   "kind": "model"
+  },
+  {
+   "id": "open-source-monetize",
+   "desc": "开源软件变现：托管服务、企业版功能、Open Core 模式",
+   "kind": "model"
+  },
+  {
+   "id": "ai-agent-workflow",
+   "desc": "企业 Agent 工作流：多 Agent 编排、RPA 替代、流程自动化",
+   "kind": "model"
+  },
+  {
+   "id": "saas-pricing-innovation",
+   "desc": "SaaS 定价创新：用量计费、结果导向、混合订阅",
+   "kind": "model"
+  },
+  {
+   "id": "ai-coding-tool",
+   "desc": "AI 代码工具：IDE 插件、代码审查、自动测试、Agent 编程",
+   "kind": "model"
+  },
+  {
+   "id": "team-collab",
+   "desc": "团队协作 SaaS：项目管理、知识库、异步沟通、AI 会议总结",
+   "kind": "model"
+  },
+  {
+   "id": "crm-ai",
+   "desc": "AI 增强 CRM：智能线索、自动跟进、客户画像、销售预测",
+   "kind": "model"
+  },
+  {
+   "id": "hr-tech",
+   "desc": "人力资源科技：AI 招聘、绩效管理、灵活用工、背调自动化",
+   "kind": "model"
+  },
+  {
+   "id": "legal-tech",
+   "desc": "法律科技：合同审查、智能法务、在线纠纷、合规自动化",
+   "kind": "model"
+  },
+  {
+   "id": "vertical-saas-manufacturing",
+   "desc": "制造业 SaaS：MES 上云、供应链协同、轻量化 ERP",
+   "kind": "model"
+  },
+  {
+   "id": "vertical-saas-construction",
+   "desc": "建筑行业 SaaS：工程管理、BIM 协同、智慧工地",
+   "kind": "model"
+  },
+  {
+   "id": "vertical-saas-agritech",
+   "desc": "农业科技 SaaS：智慧种植、产销对接、农资电商",
+   "kind": "model"
+  },
+  {
+   "id": "edge-compute",
+   "desc": "边缘计算服务：CDN+计算、IoT 网关、低延迟分发",
+   "kind": "model"
+  },
+  {
+   "id": "cloud-native-tools",
+   "desc": "云原生工具：K8s 周边、可观测性、FinOps 成本优化",
+   "kind": "model"
+  },
+  {
+   "id": "serverless-platform",
+   "desc": "Serverless 平台：函数计算、按调用计费、事件驱动架构",
+   "kind": "model"
+  },
+  {
+   "id": "multicloud-management",
+   "desc": "多云管理：统一调度、跨云迁移、成本优化平台",
+   "kind": "model"
+  },
+  {
+   "id": "embedded-finance",
+   "desc": "嵌入式金融：场景化信贷、供应链付款、分期 API",
+   "kind": "model"
+  },
+  {
+   "id": "insurtech",
+   "desc": "保险科技：智能核保、动态定价、理赔自动化、互助模式",
+   "kind": "model"
+  },
+  {
+   "id": "crypto-payments",
+   "desc": "加密支付：跨境结算、稳定币、商户收单、链上合规",
+   "kind": "model"
+  },
+  {
+   "id": "wealth-tech",
+   "desc": "财富科技：智能投顾、基金分销、社区化投资、组合管理",
+   "kind": "model"
+  },
+  {
+   "id": "credit-scoring-alt",
+   "desc": "替代信用评分：社交数据、行为风控、小微商户授信",
+   "kind": "model"
+  },
+  {
+   "id": "podcast-economy",
+   "desc": "播客经济：会员订阅、品牌播客、广告网络、内容许可",
+   "kind": "model"
+  },
+  {
+   "id": "shortdrama-overseas",
+   "desc": "短剧出海：ReelShort 模式、微付费、本地化翻译",
+   "kind": "model"
+  },
+  {
+   "id": "ai-vtuber",
+   "desc": "AI 虚拟主播：二次元直播、虚拟偶像运营、粉丝经济",
+   "kind": "model"
+  },
+  {
+   "id": "newsletter-paid",
+   "desc": "付费 Newsletter：Substack/beehiiv 模式、赞助、社群联动",
+   "kind": "model"
+  },
+  {
+   "id": "ugc-licensing",
+   "desc": "UGC 内容授权：素材交易、短视频版权、AI 训练素材",
+   "kind": "model"
+  },
+  {
+   "id": "fan-economy",
+   "desc": "粉丝经济：会员体系、周边众筹、虚拟礼物、见面会变现",
+   "kind": "model"
+  },
+  {
+   "id": "manga-ip",
+   "desc": "漫画/IP 运营：网漫出海、IP 授权、周边衍生、影视联动",
+   "kind": "model"
+  },
+  {
+   "id": "social-commerce",
+   "desc": "社交电商：社群团购、KOC 种草、私域复购、分销裂变",
+   "kind": "model"
+  },
+  {
+   "id": "d2c-brand",
+   "desc": "DTC 品牌出海：独立站、社媒投流、仓储物流、订阅复购",
+   "kind": "model"
+  },
+  {
+   "id": "refurbished-market",
+   "desc": "二手/翻新电商：回收鉴定、翻新认证、以旧换新平台",
+   "kind": "model"
+  },
+  {
+   "id": "instant-retail-drug",
+   "desc": "即时零售延伸：O2O 药品、24h 便利店、前置仓",
+   "kind": "model"
+  },
+  {
+   "id": "group-buying-community",
+   "desc": "社区团购：生鲜集采、团长分层、仓配网络",
+   "kind": "model"
+  },
+  {
+   "id": "cross-border-d2c",
+   "desc": "跨境 DTC：TikTok Shop、Amazon 品牌、独立站矩阵",
+   "kind": "model"
+  },
+  {
+   "id": "consumer-electronics-brand",
+   "desc": "消费电子品牌出海：众筹冷启、亚马逊、渠道铺货",
+   "kind": "model"
+  },
+  {
+   "id": "community-service",
+   "desc": "社区服务：家政、维修、保洁、上门洗护撮合平台",
+   "kind": "model"
+  },
+  {
+   "id": "fitness-studio-tech",
+   "desc": "健身房科技：SaaS 管理、智能器械、私教匹配、会员数据",
+   "kind": "model"
+  },
+  {
+   "id": "smart-parking",
+   "desc": "智慧停车：无人值守、动态定价、车位共享、充电联动",
+   "kind": "model"
+  },
+  {
+   "id": "coffee-chain",
+   "desc": "咖啡连锁出海：海外加盟、供应链本地化、数字会员",
+   "kind": "model"
+  },
+  {
+   "id": "ghost-kitchen",
+   "desc": "云厨房/共享厨房：外卖-only、多品牌孵化、场地租赁",
+   "kind": "model"
+  },
+  {
+   "id": "food-supply-chain",
+   "desc": "餐饮供应链：中央厨房、净菜加工、冷链配送、集采平台",
+   "kind": "model"
+  },
+  {
+   "id": "smart-restaurant",
+   "desc": "智慧餐厅：点餐收银、后厨动线、会员营销、翻台优化",
+   "kind": "model"
+  },
+  {
+   "id": "ai-tutor",
+   "desc": "AI 家教：个性化练习、作文批改、口语陪练、学情分析",
+   "kind": "model"
+  },
+  {
+   "id": "vocational-bootcamp",
+   "desc": "职业培训：编程/设计/AI 营销训练营、先学后付、就业对赌",
+   "kind": "model"
+  },
+  {
+   "id": "study-abroad-tech",
+   "desc": "留学科技：AI 选校、文书生成、签证材料、校友社群",
+   "kind": "model"
+  },
+  {
+   "id": "kids-edutainment",
+   "desc": "儿童素质教育：编程、机器人、STEAM 盒子、赛事运营",
+   "kind": "model"
+  },
+  {
+   "id": "elderly-care-tech",
+   "desc": "养老科技：居家监测、智能呼叫、适老化改造、护理匹配",
+   "kind": "model"
+  },
+  {
+   "id": "mental-health-app",
+   "desc": "心理健康 App：AI 倾诉、CBT 课程、企业 EAP、匿名社群",
+   "kind": "model"
+  },
+  {
+   "id": "pharma-ecommerce",
+   "desc": "医药电商：处方流转、慢病管理、DTP 药房、保险直付",
+   "kind": "model"
+  },
+  {
+   "id": "pet-health",
+   "desc": "宠物医疗：在线问诊、疫苗提醒、保险、宠物医院 SaaS",
+   "kind": "model"
+  },
+  {
+   "id": "marketing-automation",
+   "desc": "营销自动化：邮件/短信/推送、用户旅程、AB 测试 SaaS",
+   "kind": "model"
+  },
+  {
+   "id": "influencer-platform",
+   "desc": "KOL 营销平台：达人匹配、效果监测、内容素材库、佣金分发",
+   "kind": "model"
+  },
+  {
+   "id": "programmatic-ad",
+   "desc": "程序化广告：RTD/DSP、移动归因、隐私计算、CTV 广告",
+   "kind": "model"
+  },
+  {
+   "id": "brand-consulting-dx",
+   "desc": "品牌数字化咨询：渠道诊断、私域搭建、内容工厂、增长代运营",
+   "kind": "model"
+  },
+  {
+   "id": "custom-travel",
+   "desc": "定制游平台：AI 行程规划、当地向导匹配、小团定制",
+   "kind": "model"
+  },
+  {
+   "id": "camping-economy",
+   "desc": "露营经济：营地连锁、装备租赁、内容获客、亲子研学",
+   "kind": "model"
+  },
+  {
+   "id": "travel-saas",
+   "desc": "旅游 SaaS：酒店/民宿管理、渠道分销、收益管理、点评监控",
+   "kind": "model"
+  },
+  {
+   "id": "study-tour-edu",
+   "desc": "研学旅行：营地教育、名校参访、自然探索、亲子营",
+   "kind": "model"
+  },
+  {
+   "id": "pet-food-brand",
+   "desc": "宠物食品品牌：功能粮、处方粮、平价粮、工厂直供",
+   "kind": "model"
+  },
+  {
+   "id": "pet-service-platform",
+   "desc": "宠物服务撮合：洗护上门、寄养匹配、训练、宠物殡葬",
+   "kind": "model"
+  },
+  {
+   "id": "ai-caas",
+   "desc": "AI 能力 CaaS：模型 API 转售、能力封装、按调用量计费",
+   "kind": "model"
+  },
+  {
+   "id": "robotics-rps",
+   "desc": "机器人 RaaS：配送/清洁/巡检机器人按服务收费",
+   "kind": "model"
+  },
+  {
+   "id": "carbon-credit",
+   "desc": "碳信用交易：企业碳盘查、CCER 开发、碳中和服务",
+   "kind": "model"
+  },
+  {
+   "id": "recycling-platform",
+   "desc": "回收循环：电子回收、旧衣再造、塑料再生、以旧换新",
+   "kind": "model"
+  },
+  {
+   "id": "data-broker",
+   "desc": "数据中介：行业情报、消费画像、设备数据、合规交易",
+   "kind": "model"
+  },
+  {
+   "id": "ai-test-automation",
+   "desc": "AI 测试自动化：UI/App/接口自动测、缺陷预测、混沌工程",
+   "kind": "model"
+  },
+  {
+   "id": "devtools-monetize",
+   "desc": "开发者工具变现：CLI/SDK/插件订阅、企业版、托管服务",
+   "kind": "model"
+  },
+  {
+   "id": "fusion-energy-startup",
+   "desc": "聚变能/新能源创业：关键技术融资、里程碑交付",
+   "kind": "model"
+  },
+  {
+   "id": "autonomous-driving-service",
+   "desc": "自动驾驶服务：Robotaxi 运营、港口/园区无人车、高精地图",
+   "kind": "model"
+  },
+  {
+   "id": "ai-chip-startup",
+   "desc": "AI 芯片创业：推理加速、边缘 AI、RISC-V、定制算力",
+   "kind": "model"
+  },
+  {
+   "id": "biotech-platform",
+   "desc": "生物科技平台：AI 药物发现、基因数据分析、CRO 服务",
+   "kind": "model"
+  },
+  {
+   "id": "space-economy",
+   "desc": "太空经济：商业卫星、遥感数据、发射服务、太空旅游",
+   "kind": "model"
+  },
+  {
+   "id": "quantum-computing",
+   "desc": "量子计算商业化：云算力、算法库、行业 PoC、咨询服务",
+   "kind": "model"
+  },
+  {
+   "id": "ai-ip-licensing",
+   "desc": "AI 知识产权授权：模型许可、生成内容版权、IP 交易",
+   "kind": "model"
+  },
+  {
+   "id": "community-drugstore-tech",
+   "desc": "社区药店数字化：处方共享、库存协同、慢病服务、会员复购",
+   "kind": "model"
+  },
+  {
+   "id": "used-car-platform",
+   "desc": "二手车平台：检测鉴定、715 退换、金融保险、直播卖车",
+   "kind": "model"
+  },
+  {
+   "id": "warehouse-robotics",
+   "desc": "仓储机器人：分拣/搬运/盘点一体化、RaaS 按单计费",
+   "kind": "model"
+  },
+  {
+   "id": "ai-game-npc",
+   "desc": "AI 游戏 NPC：动态对话、剧情生成、角色养成、NPC 即服务",
+   "kind": "model"
+  },
+  {
+   "id": "smart-home-subscription",
+   "desc": "智能家居订阅：安防/清洁/能耗监测按月服务包",
+   "kind": "model"
+  },
+  {
+   "id": "creator-tools-saas",
+   "desc": "创作者工具 SaaS：剪辑/调色/封面/发布一条龙，按需或订阅",
+   "kind": "model"
+  },
+  {
+   "id": "local-delivery-network",
+   "desc": "同城配送网络：众包骑手、运力调度、聚合接单、按单计费",
+   "kind": "model"
+  },
+  {
+   "id": "journey-ai-voice",
+   "desc": "AI语音输入/AI沟通Agent创业路径（端侧优先、出海）",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ai-coding-tool",
+   "desc": "AI编程工具/IDE创业路径（Cursor类、开源工具）",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ai-image-gen",
+   "desc": "AI生图/创意工具创业路径（个人开发者、出海）",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ai-companion",
+   "desc": "AI情感陪伴/角色产品创业路径",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ai-search",
+   "desc": "AI搜索/answer engine创业路径（Perplexity类）",
+   "kind": "journey"
+  },
+  {
+   "id": "scam-ai-course",
+   "desc": "AI卖课/AI培训骗局（知识付费伪装）",
+   "kind": "scam"
+  },
+  {
+   "id": "scam-ai-agent-fake",
+   "desc": "假AI Agent/伪自动化工具骗局",
+   "kind": "scam"
+  },
+  {
+   "id": "scam-ai-mining",
+   "desc": "AI挖矿/AI算力理财骗局",
+   "kind": "scam"
+  },
+  {
+   "id": "scam-ai-data-anno",
+   "desc": "AI数据标注兼职骗局（押金/培训费）",
+   "kind": "scam"
+  },
+  {
+   "id": "scam-crypto-ai",
+   "desc": "AI+加密货币/DeFi伪AI理财骗局",
+   "kind": "scam"
+  },
+  {
+   "id": "journey-ai-chatbot-vertical",
+   "kind": "journey",
+   "desc": "垂类聊天机器人/AI客服Agent创业（客服、导购、私域运营）"
+  },
+  {
+   "id": "journey-ai-avatar",
+   "kind": "journey",
+   "desc": "数字人直播/AI主播代运营创业"
+  },
+  {
+   "id": "journey-ai-tutor",
+   "kind": "journey",
+   "desc": "AI家教/学习辅导产品创业"
+  },
+  {
+   "id": "journey-ai-video",
+   "kind": "journey",
+   "desc": "AI视频生成/剪辑工具创业（个人开发者、出海）"
+  },
+  {
+   "id": "journey-ai-writing",
+   "kind": "journey",
+   "desc": "AI写作/公文/营销文案工具创业"
+  },
+  {
+   "id": "journey-ai-legal",
+   "kind": "journey",
+   "desc": "AI合同审查/法律文书工具创业"
+  },
+  {
+   "id": "journey-ai-medical",
+   "kind": "journey",
+   "desc": "AI医疗影像/辅助诊断创业（合规、出海）"
+  },
+  {
+   "id": "journey-ai-hardware",
+   "kind": "journey",
+   "desc": "AI硬件/桌面机器人/陪伴硬件创业"
+  },
+  {
+   "id": "journey-ai-local",
+   "kind": "journey",
+   "desc": "私有化部署/企业AI中台服务创业"
+  },
+  {
+   "id": "journey-ai-ops",
+   "kind": "journey",
+   "desc": "AI Agent运维/客服自动化（RPA+LLM）创业"
+  },
+  {
+   "id": "scam-ai-clone",
+   "kind": "scam",
+   "desc": "AI换脸/声音克隆诈骗（冒充熟人领导转账）"
+  },
+  {
+   "id": "scam-ai-invest",
+   "kind": "scam",
+   "desc": "AI荐股/量化跟单理财骗局"
+  },
+  {
+   "id": "scam-ai-recruit",
+   "kind": "scam",
+   "desc": "AI岗前培训/内推费骗局"
+  },
+  {
+   "id": "scam-ai-dating",
+   "kind": "scam",
+   "desc": "AI交友/杀猪盘变种骗局"
+  },
+  {
+   "id": "scam-ai-call",
+   "kind": "scam",
+   "desc": "AI语音电话/批量骚扰诈骗"
+  },
+  {
+   "id": "scam-ai-token",
+   "kind": "scam",
+   "desc": "假AI代币/空气币项目骗局"
+  },
+  {
+   "id": "scam-ai-app",
+   "kind": "scam",
+   "desc": "仿冒AI App/虚假订阅收费骗局"
+  },
+  {
+   "id": "scam-ai-license",
+   "kind": "scam",
+   "desc": "假AI证书/资质/评奖代办骗局"
+  },
+  {
+   "id": "scam-ai-arbitrage",
+   "kind": "scam",
+   "desc": "AI套利/搬砖/挂机赚佣金骗局"
+  },
+  {
+   "id": "scam-ai-outsourcing",
+   "kind": "scam",
+   "desc": "AI客服外包/代运营收服务费跑路骗局"
+  }
+ ]
+}

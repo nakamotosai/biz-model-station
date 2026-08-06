@@ -1,0 +1,154 @@
+{
+ "schema_version": 1,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "具身智能训练数据采销平台（复售模式）",
+  "subtitle": "中 · AI/大模型 · 中型 · 混合 · 通用变现链",
+  "quality_profile": "standard",
+  "output": "ai-training-data-marketplace.html"
+ },
+ "lanes": [
+  {
+   "id": "mkt",
+   "label": "市场"
+  },
+  {
+   "id": "prod",
+   "label": "产品"
+  },
+  {
+   "id": "rev",
+   "label": "收入"
+  }
+ ],
+ "phases": [
+  {
+   "id": "mkt",
+   "label": "市场",
+   "fromCol": 0,
+   "toCol": 1
+  },
+  {
+   "id": "prod",
+   "label": "产品",
+   "fromCol": 2,
+   "toCol": 3,
+   "variant": "emphasis"
+  },
+  {
+   "id": "rev",
+   "label": "变现",
+   "fromCol": 4,
+   "toCol": 5
+  }
+ ],
+ "mainPath": [
+  "ai-training-data-marketplace-mkt-0",
+  "ai-training-data-marketplace-prod-2",
+  "ai-training-data-marketplace-rev-4",
+  "ai-training-data-marketplace-rev-5"
+ ],
+ "nodes": [
+  {
+   "id": "ai-training-data-marketplace-mkt-0",
+   "lane": "mkt",
+   "col": 0,
+   "type": "external",
+   "label": "市场需求",
+   "sublabel": "人形及具身智…"
+  },
+  {
+   "id": "ai-training-data-marketplace-prod-2",
+   "lane": "prod",
+   "col": 2,
+   "type": "messagebus",
+   "label": "产品交付",
+   "sublabel": "率先绑定头部…"
+  },
+  {
+   "id": "ai-training-data-marketplace-rev-4",
+   "lane": "rev",
+   "col": 4,
+   "type": "database",
+   "label": "收费变现",
+   "sublabel": "主要通过一次…"
+  },
+  {
+   "id": "ai-training-data-marketplace-rev-5",
+   "lane": "rev",
+   "col": 5,
+   "type": "security",
+   "label": "主要风险",
+   "sublabel": "机器人量产进…"
+  }
+ ],
+ "edges": [
+  {
+   "id": "ai-training-data-marketplace-e1",
+   "from": "ai-training-data-marketplace-mkt-0",
+   "to": "ai-training-data-marketplace-prod-2",
+   "variant": "default",
+   "label": "切入需求",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "ai-training-data-marketplace-e2",
+   "from": "ai-training-data-marketplace-prod-2",
+   "to": "ai-training-data-marketplace-rev-4",
+   "variant": "emphasis",
+   "label": "变现",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "ai-training-data-marketplace-e3",
+   "from": "ai-training-data-marketplace-rev-4",
+   "to": "ai-training-data-marketplace-rev-5",
+   "variant": "security",
+   "label": "防范"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "优势 Strengths",
+   "items": [
+    "数据集可无限次复售，复售率>10倍，利润高",
+    "绑定头部具身智能客户，数据需求明确且持续",
+    "技术壁垒伴随数据量累积形成先发优势"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "劣势 Weaknesses",
+   "items": [
+    "真机采集硬件及环境搭建成本高",
+    "特定场景数据泛化能力有限",
+    "严重依赖下游机器人产业发展进度"
+   ]
+  },
+  {
+   "dot": "cyan",
+   "title": "机会 Opportunities",
+   "items": [
+    "中国多部位推动人形机器人发展，未来千亿级训练数据市场",
+    "国家数据局政策推动数据集证券化及融资",
+    "具身智能数据需求从工业向家庭服务场景扩展"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "威胁 Threats",
+   "items": [
+    "仿真合成数据技术快速进步，可能取代部分真实采集",
+    "大型科技公司自建数据采集团队，绕过第三方",
+    "数据隐私、产权及合规界限模糊性带来潜在纠纷"
+   ]
+  }
+ ]
+}

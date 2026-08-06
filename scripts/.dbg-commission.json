@@ -1,0 +1,195 @@
+{
+ "schema_version": 1,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "Agent交易/智能商务支付基础设施",
+  "subtitle": "美 · 金融科技 · 巨头 · 线上 · 双边撮合抽佣",
+  "quality_profile": "standard",
+  "output": "agentic-commerce-payments.html"
+ },
+ "lanes": [
+  {
+   "id": "supply",
+   "label": "供给侧"
+  },
+  {
+   "id": "plat",
+   "label": "平台撮合"
+  },
+  {
+   "id": "demand",
+   "label": "需求侧"
+  }
+ ],
+ "phases": [
+  {
+   "id": "agg",
+   "label": "聚合",
+   "fromCol": 0,
+   "toCol": 1
+  },
+  {
+   "id": "match",
+   "label": "匹配",
+   "fromCol": 2,
+   "toCol": 2,
+   "variant": "emphasis"
+  },
+  {
+   "id": "deal",
+   "label": "成交",
+   "fromCol": 3,
+   "toCol": 3
+  },
+  {
+   "id": "take",
+   "label": "变现",
+   "fromCol": 5,
+   "toCol": 5
+  }
+ ],
+ "mainPath": [
+  "agentic-commerce-payments-supply-0",
+  "agentic-commerce-payments-plat-0",
+  "agentic-commerce-payments-plat-2",
+  "agentic-commerce-payments-plat-3",
+  "agentic-commerce-payments-plat-5"
+ ],
+ "nodes": [
+  {
+   "id": "agentic-commerce-payments-supply-0",
+   "lane": "supply",
+   "col": 0,
+   "type": "external",
+   "label": "供应商",
+   "sublabel": "金融科技供给…"
+  },
+  {
+   "id": "agentic-commerce-payments-plat-0",
+   "lane": "plat",
+   "col": 0,
+   "type": "frontend",
+   "label": "入驻上架",
+   "sublabel": "商家准入"
+  },
+  {
+   "id": "agentic-commerce-payments-plat-2",
+   "lane": "plat",
+   "col": 2,
+   "type": "messagebus",
+   "label": "智能匹配",
+   "sublabel": "推动标准化代…"
+  },
+  {
+   "id": "agentic-commerce-payments-plat-3",
+   "lane": "plat",
+   "col": 3,
+   "type": "database",
+   "label": "下单成交",
+   "sublabel": "直接付费方为…"
+  },
+  {
+   "id": "agentic-commerce-payments-demand-0",
+   "lane": "demand",
+   "col": 0,
+   "type": "external",
+   "label": "需求方",
+   "sublabel": "直接付费方为…"
+  },
+  {
+   "id": "agentic-commerce-payments-plat-5",
+   "lane": "plat",
+   "col": 5,
+   "type": "cloud",
+   "label": "抽佣分账",
+   "sublabel": "抽佣"
+  }
+ ],
+ "edges": [
+  {
+   "id": "agentic-commerce-payments-e1",
+   "from": "agentic-commerce-payments-supply-0",
+   "to": "agentic-commerce-payments-plat-0",
+   "variant": "default",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "agentic-commerce-payments-e2",
+   "from": "agentic-commerce-payments-plat-0",
+   "to": "agentic-commerce-payments-plat-2",
+   "variant": "default",
+   "label": "聚合供给",
+   "fromSide": "right",
+   "toSide": "left",
+   "labelSegment": 1
+  },
+  {
+   "id": "agentic-commerce-payments-e3",
+   "from": "agentic-commerce-payments-demand-0",
+   "to": "agentic-commerce-payments-plat-2",
+   "variant": "emphasis",
+   "label": "发起需求",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "agentic-commerce-payments-e4",
+   "from": "agentic-commerce-payments-plat-2",
+   "to": "agentic-commerce-payments-plat-3",
+   "variant": "emphasis"
+  },
+  {
+   "id": "agentic-commerce-payments-e5",
+   "from": "agentic-commerce-payments-plat-3",
+   "to": "agentic-commerce-payments-plat-5",
+   "variant": "emphasis",
+   "label": "按成交抽佣",
+   "fromSide": "right",
+   "toSide": "left",
+   "labelSegment": 1
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "优势 Strengths",
+   "items": [
+    "巨头已有庞大商户网络和银行后端连接能力",
+    "先发建立专为代理设计的一次性卡与Token级流式结算，抢跑标准",
+    "内部来自Sessions的符号性支持强化市场信心"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "劣势 Weaknesses",
+   "items": [
+    "代理行为数据积累尚浅，反欺诈模型需长期训练",
+    "行业通用协议未定型，存在多个并行的探索版本碎片化风险",
+    "大规模Agent交易高峰未至，收入贡献仍依赖传统支付业务补贴"
+   ]
+  },
+  {
+   "dot": "cyan",
+   "title": "机会 Opportunities",
+   "items": [
+    "Juniper预测代理交易至2030年可达1.5万亿美元，整体赛道天花板极高",
+    "异构LLM和SaaS代理普及，放大对跨平台钱包与统一结算的服务需求",
+    "监管可能支持有条件合规准入，有望拉开正牌与野鸡服务之间的竞争差距"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "威胁 Threats",
+   "items": [
+    "AI原生巨头将结算变成平台原生功能，边缘化第三方服务",
+    "跨国监管分歧致运营复杂性加剧，成本上升",
+    "AI代理滥用漏铜引发重大经济事件后，监管可能收紧甚至暂停某些支付方式"
+   ]
+  }
+ ]
+}

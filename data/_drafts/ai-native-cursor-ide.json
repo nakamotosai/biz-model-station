@@ -1,0 +1,67 @@
+{
+ "type": "journey",
+ "id": "ai-native-cursor-ide",
+ "name": "Anysphere：AI原生IDE颠覆者Cursor的爆火之路",
+ "company": "Anysphere",
+ "founders": "Michael Truell、Aman Sanger、Sualeh Asif、Arvid Lunnemark",
+ "industry": "AI/大模型",
+ "region": "美",
+ "scale": "巨头",
+ "channel": "开发者口碑与社区传播",
+ "y2026_hot": "两年估值破2000亿人民币，验证AI重构传统IDE的造富潜力，但随着大厂围剿与底层API成本重压，2026年的护城河之争极具看点。",
+ "origin": "四位MIT毕业生发现传统IDE中的AI插件体验割裂，底层模型与编辑器结合不够深。他们决定不依赖外部插件，而是直接 fork VS Code 从头构建一款AI原生代码编辑器 Cursor。",
+ "milestones": [
+  {
+   "time": "2022年",
+   "stage": "早期探索",
+   "outcome": "失败",
+   "detail": "最初尝试构建代码搜索引擎，未能找到产品市场契合点，团队被迫推翻重来，转向AI代码编辑器赛道。"
+  },
+  {
+   "time": "2023年初",
+   "stage": "产品发布",
+   "outcome": "转折",
+   "detail": "推出Cursor IDE，放弃从零造轮子，直接fork VS Code并深度集成大模型，通过极低延迟的Tab自动补全吸引首批种子开发者。"
+  },
+  {
+   "time": "2024年中",
+   "stage": "功能突破",
+   "outcome": "PMF",
+   "detail": "推出Composer（多文件编辑）功能，突破单行补全局限，彻底引爆口碑，ARR在短时间内从100万美元激增至1亿美元。"
+  },
+  {
+   "time": "2024年底",
+   "stage": "资本追捧",
+   "outcome": "增长",
+   "detail": "获得大量融资，估值飙升至超250亿美元，成为史上增速最快的SaaS公司之一，引发行业对AI编程工具护城河的广泛讨论。"
+  }
+ ],
+ "turning_points": [
+  "放弃代码搜索引擎想法，全面转型做AI原生代码编辑器，直接押注IDE赛道。",
+  "推出Composer多文件编辑功能，突破单行单文件补全局限，实现真正意义上的AI协同编程。"
+ ],
+ "failures": [
+  "早期构建的代码搜索引擎无法打动开发者，遭逢创业初期的方向性失败，被迫推翻重来。",
+  "底层依赖第三方大模型，面临高昂API成本和模型同质化风险，常被业内质疑缺乏长期护城河。"
+ ],
+ "keys": [
+  "Fork底层开源架构VS Code省去从零开发编辑器的时间，集中精力打磨AI交互与补全体验。",
+  "专注开发者核心痛点，用延迟极低的Tab补全和自然语言跨文件修改功能建立产品驱动增长飞轮。"
+ ],
+ "lessons": [
+  "AI时代应用层创业的护城河不再仅靠功能堆砌，而取决于对工作流的深度颠覆和极高用户转移成本。",
+  "初创公司挑战大厂传统产品时，敢于扔掉历史包袱做原生重构是切入市场的最有力武器。"
+ ],
+ "metrics": {
+  "ARR增长": "18个月内从400万美元增至20亿美元",
+  "估值": "约290亿美元",
+  "团队规模": "早期4人起家",
+  "核心产品": "Cursor IDE"
+ },
+ "competitors": "主要竞争对手包括GitHub Copilot（背靠微软与OpenAI）、Codeium、Zed以及各大科技巨头内置的AI编程助手。巨头拥有生态绑定能力和自研大模型的优势，而Cursor通过极致的IDE交互体验及大模型路由策略在夹缝中实现错位竞争。",
+ "sources": [
+  "https://news.qq.com/rain/a/20251119A03IQU00",
+  "https://www.huxiu.com/article/3456683.html",
+  "https://36kr.com/p/3857038868222984"
+ ]
+}

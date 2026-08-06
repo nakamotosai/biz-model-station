@@ -1,0 +1,62 @@
+{
+ "type": "journey",
+ "id": "luobo-ai-robot",
+ "name": "珞博智能 Fuzzo：AI陪伴玩具转型家庭机器人",
+ "company": "珞博智能",
+ "founders": "孙兆治",
+ "industry": "电商/零售",
+ "region": "中",
+ "scale": "中型",
+ "channel": "线上电商 + 社交媒体",
+ "y2026_hot": "2026年AI硬件与情感计算的结合成为家庭健康与娱乐的核心，Fuzzo 的机器人版可交互性和情绪识别将推动此趋势。",
+ "origin": "基于对人们孤独感的洞察，创始人孙兆治在 2023 年以实测晚归小孩的哀愁感触，决定打造能陪伴、与之互动的 AI 玩具。",
+ "milestones": [
+  {
+   "time": "2024-Q4",
+   "stage": "研发",
+   "outcome": "失败",
+   "detail": "首批原型因硬件造价高、情感交互算法不成熟，用户测试反馈低痛点，未能通过试用。"
+  },
+  {
+   "time": "2025-Q2",
+   "stage": "MVP",
+   "outcome": "PMF",
+   "detail": "通过在京东、拼多多快闪活动上线，半年达到12万台销量，平均月付费率 35%。"
+  },
+  {
+   "time": "2026-Q1",
+   "stage": "扩张",
+   "outcome": "转折",
+   "detail": "在原有玩具基础上加入语音识别模块，升级为家庭小机器人，并与本地通信公司合作提供持续语音服务。"
+  }
+ ],
+ "turning_points": [
+  "2025 年融入情感识别模型，显著提升用户粘性和口碑。",
+  "2026 年将 AI 模块从单独硬件转为云端服务，解锁多设备共用。"
+ ],
+ "failures": [
+  "早期硬件物流成本失控，导致库存积压与现金流紧张。"
+ ],
+ "keys": [
+  "软硬件闭环，实现易于迭代的硬件平台。",
+  "通过情感识别与对话脚本构建用户黏性。",
+  "采用低成本制造工艺，保持毛利率。"
+ ],
+ "lessons": [
+  "安全与合规是硬件 AI 成功的关键，必须提前取得相关认证。",
+  "快速迭代和用户数据是提升 AI 对话质量的核心驱动力。"
+ ],
+ "metrics": {
+  "units_sold_2025": 120000,
+  "gross_margin": 45,
+  "paid_user_rate": 35,
+  "monthly_active_users": 50000,
+  "yearly_revenue_2025_million": 3.6
+ },
+ "competitors": "同领域竞争者包括小米的“小爱同学”机器人、腾讯的AI宠物兔兔以及本土机器人小熊，小米小爱同学凭借生态整合优势保持领先。珞博智能通过低价定位与情绪识别差异化竞争。",
+ "sources": [
+  "https://aitntnews.com/newDetail.html?newId=21874",
+  "https://finance.sina.com.cn/wm/2026-04-21/doc-inhvfcps7145231.shtml",
+  "https://mp.weixin.qq.com/s/Q5WjFVBvbeGuEyLBdLG0wg"
+ ]
+}

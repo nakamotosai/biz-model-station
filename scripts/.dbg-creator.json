@@ -1,0 +1,187 @@
+{
+ "schema_version": 1,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "note会员制/续费订阅",
+  "subtitle": "日 · 教育/知识付费 · 个人 · 线上 · 双边撮合抽佣",
+  "quality_profile": "standard",
+  "output": "note-membership-subscription.html"
+ },
+ "lanes": [
+  {
+   "id": "supply",
+   "label": "供给侧"
+  },
+  {
+   "id": "plat",
+   "label": "平台撮合"
+  },
+  {
+   "id": "demand",
+   "label": "需求侧"
+  }
+ ],
+ "phases": [
+  {
+   "id": "agg",
+   "label": "聚合",
+   "fromCol": 0,
+   "toCol": 1
+  },
+  {
+   "id": "match",
+   "label": "匹配",
+   "fromCol": 2,
+   "toCol": 2,
+   "variant": "emphasis"
+  },
+  {
+   "id": "deal",
+   "label": "成交",
+   "fromCol": 3,
+   "toCol": 3
+  },
+  {
+   "id": "take",
+   "label": "变现",
+   "fromCol": 5,
+   "toCol": 5
+  }
+ ],
+ "mainPath": [
+  "note-membership-subscription-supply-0",
+  "note-membership-subscription-plat-0",
+  "note-membership-subscription-plat-2",
+  "note-membership-subscription-plat-3",
+  "note-membership-subscription-plat-5"
+ ],
+ "nodes": [
+  {
+   "id": "note-membership-subscription-supply-0",
+   "lane": "supply",
+   "col": 0,
+   "type": "external",
+   "label": "供应商",
+   "sublabel": "教育/知识付…"
+  },
+  {
+   "id": "note-membership-subscription-plat-0",
+   "lane": "plat",
+   "col": 0,
+   "type": "frontend",
+   "label": "入驻上架",
+   "sublabel": "商家准入"
+  },
+  {
+   "id": "note-membership-subscription-plat-2",
+   "lane": "plat",
+   "col": 2,
+   "type": "messagebus",
+   "label": "智能匹配",
+   "sublabel": "持续稳定输出…"
+  },
+  {
+   "id": "note-membership-subscription-plat-3",
+   "lane": "plat",
+   "col": 3,
+   "type": "database",
+   "label": "下单成交",
+   "sublabel": "付费用户是希…"
+  },
+  {
+   "id": "note-membership-subscription-demand-0",
+   "lane": "demand",
+   "col": 0,
+   "type": "external",
+   "label": "需求方",
+   "sublabel": "付费用户是希…"
+  },
+  {
+   "id": "note-membership-subscription-plat-5",
+   "lane": "plat",
+   "col": 5,
+   "type": "cloud",
+   "label": "抽佣分账",
+   "sublabel": "订阅费"
+  }
+ ],
+ "edges": [
+  {
+   "id": "note-membership-subscription-e1",
+   "from": "note-membership-subscription-supply-0",
+   "to": "note-membership-subscription-plat-0",
+   "variant": "default",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "note-membership-subscription-e2",
+   "from": "note-membership-subscription-plat-0",
+   "to": "note-membership-subscription-plat-2",
+   "variant": "default",
+   "label": "聚合供给",
+   "fromSide": "right",
+   "toSide": "left",
+   "labelSegment": 1
+  },
+  {
+   "id": "note-membership-subscription-e3",
+   "from": "note-membership-subscription-demand-0",
+   "to": "note-membership-subscription-plat-2",
+   "variant": "emphasis",
+   "label": "发起需求",
+   "route": "drop",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "labelSegment": 1
+  },
+  {
+   "id": "note-membership-subscription-e4",
+   "from": "note-membership-subscription-plat-2",
+   "to": "note-membership-subscription-plat-3",
+   "variant": "emphasis"
+  },
+  {
+   "id": "note-membership-subscription-e5",
+   "from": "note-membership-subscription-plat-3",
+   "to": "note-membership-subscription-plat-5",
+   "variant": "emphasis",
+   "label": "按成交抽佣",
+   "fromSide": "right",
+   "toSide": "left",
+   "labelSegment": 1
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "优势 Strengths",
+   "items": [
+    "直接粉丝变现路径短，无需依赖广告或电商转化"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "劣势 Weaknesses",
+   "items": [
+    "收入完全依赖持续输出，无法停更后自动产生收益"
+   ]
+  },
+  {
+   "dot": "cyan",
+   "title": "机会 Opportunities",
+   "items": [
+    "AI时代下“真人创作”的信赖溢价扩大，个人价值持续上升"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "威胁 Threats",
+   "items": [
+    "AI生成内容泛滥可能稀释会员制的付费价值感"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "solar-rooftop-bipv-asset-service",
+ "name": "光伏屋顶BIPV轻资产运维与微网服务",
+ "industry": "绿色经济",
+ "region": "中国",
+ "scale": "中型",
+ "channel": "混合",
+ "y2026_hot": "2026年中国BIPV市场因建筑节能新规强制推广，存量光伏屋顶运维缺口超百万座；绿电交易与储能成本下降推动轻资产代运营模式爆发。",
+ "how": "为工商业业主提供BIPV屋顶的第三方智慧运维、能效诊断与参与绿电交易服务，通过SaaS平台远程监控资产发电和碳减排数据。收入来自运维年费（按兆瓦计）、绿电交易分成、储能调峰辅助服务收益及碳配额代运营佣金。",
+ "keys": [
+  "覆盖大量存量分散屋顶的数字化运维网络",
+  "打通电力市场交易与碳市场的通道资质",
+  "轻资产模式缩短现金流回收周期"
+ ],
+ "risks": [
+  "屋顶产权分散带来收款周期长",
+  "组件厂商直营运维打压第三方空间"
+ ],
+ "example": [
+  "晶科电力提供电站运维与资产服务",
+  "森特士兴BIPV屋顶项目遍地铺开"
+ ],
+ "sources": [
+  "https://wap.hibor.com.cn/data/c4032a83fc12052c26273d6464992e1c.html",
+  "http://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-20/603098_20260420_PY7Y.pdf",
+  "https://epaper.cs.com.cn/zgzqb/images/2026-04/29/B760/zqB76029.pdf"
+ ]
+}

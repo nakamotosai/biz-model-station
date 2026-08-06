@@ -1,0 +1,43 @@
+{
+ "id": "genai-skill-side-hustle-matching",
+ "name": "生成AI人才副业匹配平台",
+ "industry": "其他",
+ "region": "日",
+ "scale": "小企",
+ "channel": "线上",
+ "background": "生成AI的人才需求急增但企业难以找到即战力，2026年多模态AI普及使得有AI技能的个人通过副业接单成为高收益趋势。专注于生成AI技能的垂直匹配平台填补了这一市场空白。",
+ "target": "有AI操作技能的副业接单方，与需要生成AI实施业务的企业付费方",
+ "revenue": "企业成功匹配的介绍手续费\n企业端月额订阅费\n副业者平台利用手续费",
+ "cost": "平台开发与维护成本\n精准匹配技术投入\n市场推广获取双边流量费用",
+ "moat": "垂直聚焦生成AI领域沉淀的供需双端数据库与匹配技术",
+ "swot": {
+  "s": [
+   "专注生成AI垂直领域，供需匹配精度高"
+  ],
+  "w": [
+   "新平台冷启动期双边网络效应较弱"
+  ],
+  "o": [
+   "日本普及副业解禁与工作方式改革，人才流动需求增加"
+  ],
+  "t": [
+   "大型综合招聘平台增设AI副业分类抢夺市场"
+  ]
+ },
+ "keys": [
+  "精准的技能评估机制",
+  "双边市场冷启动完成",
+  "保障副业者与企业的合规安全性"
+ ],
+ "risks": [
+  "企业削减AI外包预算",
+  "大平台低价竞争"
+ ],
+ "example": [
+  "Oshigoto Job"
+ ],
+ "sources": [
+  "https://www.sankei.com/pressrelease/prtimes/DTDR6MRMOJO7XMGINGLJU67GIA/",
+  "https://forbesjapan.com/articles/detail/94130"
+ ]
+}
