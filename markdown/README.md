@@ -3,9 +3,9 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **212** 篇（model 199 / journey 8 / scam 5）
+共 **219** 篇（model 206 / journey 8 / scam 5）
 
-## 💰 赚钱模式（199）
+## 💰 赚钱模式（206）
 
 - [Agent交易/智能商务支付基础设施](agentic-commerce-payments.md) · 金融科技 · 美
 - [AI Agent 代运营按结果付费服务商](agentic-outsourcing-aas.md) · AI/大模型 · 全球
@@ -56,6 +56,7 @@
 - [品牌原创播客全案代运营公司](brand-original-podcast-agency.md) · 内容/创作者经济 · 中
 - [品牌自播矩阵+AI数字人托管运营](brand-self-broadcast-matrix-plus-ai-agent.md) · 电商/零售 · 中
 - [量贩零食硬折扣连锁（厂商直供）](bulk-snack-discount.md) · 电商/零售 · 中
+- [比亚迪垂直整合+电动化+全球化盈利路径](byd-vertical-integration-ev-globalization.md) · 其他 · 跨地区
 - [C2B2C二手电子以旧换新回收平台](c2b2c-electronics-recycling-platform.md) · 电商/零售 · 中
 - [独立咖啡馆/烘焙坊订阅制（咖啡豆订阅+饮品月费）](cafe-subscription.md) · 电商/零售 · 美
 - [研学营地IP化运营与高客单复购](camp-education-ip-operation.md) · 旅游 · 中
@@ -132,6 +133,7 @@
 - [本地向导SaaS与抽佣平台](local-guide-saas-commission.md) · 旅游 · 中
 - [本地生活平台佣金+广告（美团/抖音）](local-life-platform-commission.md) · 本地生活 · 中
 - [本地生活四强争霸到店/外卖](local-life-service.md) · 本地生活 · 中
+- [低价咖啡私域加盟快反模式](luckin-coffee-private-domain-franchise-fast-follow.md) · 餐饮/茶饮 · 中
 - [托管式AI Agent运营外包服务](managed-ai-agent-bpo-service.md) · AI/大模型 · 全球
 - [制造业服务化（从卖货到卖服务）](manufacturing-servitization.md) · 其他 · 日
 - [付费会员制仓储店](membership-warehouse-club.md) · 电商/零售 · 中
@@ -144,9 +146,11 @@
 - [单人微SaaS订阅小工具](micro-saas-solo-tools.md) · SaaS/企业软件 · 美
 - [Microsoft 365 Copilot 席位订阅（软件订阅+AI 加价）](microsoft-365-copilot-subscription.md) · SaaS/企业软件 · 全球
 - [微软 Azure 云与 AI 服务](microsoft-azure-cloud-ai.md) · AI/大模型 · 全球
+- [米哈游全球二次元IP变现](miho-yo-global-ip.md) · 内容/创作者经济 · 全球
 - [茶饮供应链加盟（卖原料给加盟商）](milk-tea-supply-chain-franchise.md) · 餐饮/茶饮 · 中
 - [特许经营加盟·多店化整合经营](multi-unit-franchise.md) · 电商/零售 · 美
 - [日本代购无本创业变现](needs-side-hustle-proxy-shopping.md) · 电商/零售 · 跨地区
+- [流媒体广告订阅与IP矩阵变现模式](netflix-ads-ip-empire.md) · 内容/创作者经济 · 全球
 - [Netflix 会员订阅+广告层（流媒体双轨变现）](netflix-ads-membership.md) · 内容/创作者经济 · 全球
 - [经验型理财内容付费变现](note-finance-content-paywall.md) · 内容/创作者经济 · 日
 - [note会员制/续费订阅](note-membership-subscription.md) · 教育/知识付费 · 日
@@ -165,7 +169,9 @@
 - [宠物洗护+即时零售一体化SaaS](pet-care-wash-retail-saas.md) · 宠物 · 中
 - [宠物按月订购订阅盒](pet-monthly-subscription-box.md) · 电商/零售 · 中
 - [医药O2O前置仓与24小时智慧药房](pharma-o2o-24h-smart-pharmacy.md) · 电商/零售 · 中
+- [拼多多-兴趣社区+下沉电商+Temu](pinduoduo-community-ecommerce.md) · 电商/零售 · 跨地区
 - [播客程序化广告网络](podcast-ad-network-programmatic.md) · 营销/广告 · 中
+- [潮玩IP盲盒全渠道出海模式](pop-mart-ip-blindbox-global.md) · 电商/零售 · 跨地区
 - [预制菜B端供应链（餐饮+商超双渠道）](prepared-dishes-b2b.md) · 餐饮/茶饮 · 中
 - [县镇光伏扶贫资产专业运维及增值开发](pv-ops-subsidy-clean.md) · 其他 · 中
 - [餐饮SaaS收银+数字化（订阅制）](restaurant-saas-pos.md) · 本地生活 · 中
@@ -204,6 +210,7 @@
 - [垃圾焚烧电厂智能化增效运营](waste-to-energy-digital-operator.md) · 其他 · 中
 - [微信私域会员复购经济](wechat-private-domain.md) · 电商/零售 · 中
 - [AI工具白标转售](white-label-ai-reselling.md) · AI/大模型 · 美
+- [小米人车家全生态铁人三项模式](xiaomi-human-car-home-ecosystem.md) · 其他 · 中
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 

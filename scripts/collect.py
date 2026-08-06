@@ -586,10 +586,12 @@ def main() -> int:
     ap.add_argument("--topic", help="指定选题 id（默认轮换）")
     ap.add_argument("--limit", type=int, default=DEFAULT_LIMIT,
                     help=f"条目总数达此值自动停（默认 {DEFAULT_LIMIT}，0=禁用）")
+    ap.add_argument("--no-publish", action="store_true",
+                    help="仅采集写 data，跳过站点重建/markdown/发布（供并发多 topic 采集，全部跑完统一重建）")
     args = ap.parse_args()
     import atexit
-    # 锁：上一轮仍在跑 → 跳过（防止 cron 重叠）
-    if _locked():
+    # 锁：上一轮仍在跑 → 跳过（防止 cron 重叠）。并发 --no-publish 场景禁用锁
+    if not args.no_publish and _locked():
         print("[skip] 上一轮仍在运行，本轮跳过")
         return 0
     atexit.register(_release)
@@ -806,6 +808,11 @@ def main() -> int:
         (DATA / f"{nm['id']}.json").write_text(
             json.dumps(nm, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"      + {nm['id']} — {nm['name']}")
+    audit_log(topic_id, topic_desc, queries, raw, text, accepted, dropped)
+    if args.no_publish:
+        # 并发采集模式：只写 data，站点重建/发布由统一阶段执行
+        print(f"[ok] 采集完成（--no-publish，未重建站点）：+{len(accepted)} 条 × {topic_id}")
+        return 0
 
     print("[5/5] 重建站点…")
     r = subprocess.run([sys.executable, str(ROOT / "scripts" / "generate_site.py")],

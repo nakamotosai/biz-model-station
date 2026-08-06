@@ -669,6 +669,56 @@
    "id": "scam-ai-outsourcing",
    "kind": "scam",
    "desc": "AI客服外包/代运营收服务费跑路骗局"
+  },
+  {
+   "id": "case-tesla",
+   "desc": "特斯拉 Tesla：电动车+能源+AI 的一体化商业模式",
+   "kind": "model"
+  },
+  {
+   "id": "case-byd",
+   "desc": "比亚迪 BYD：垂直整合+电动化+全球化盈利路径",
+   "kind": "model"
+  },
+  {
+   "id": "case-xiaomi",
+   "desc": "小米集团：硬件生态+互联网+汽车 铁人三项",
+   "kind": "model"
+  },
+  {
+   "id": "case-genshin-mihoyo",
+   "desc": "米哈游 miHoYo：二次元游戏+IP+全球化变现",
+   "kind": "model"
+  },
+  {
+   "id": "case-pinduoduo",
+   "desc": "拼多多 PDD：下沉电商+兴趣社区+全球 Temu",
+   "kind": "model"
+  },
+  {
+   "id": "case-luckin",
+   "desc": "瑞幸咖啡：低价+私域+加盟 快反商业模式",
+   "kind": "model"
+  },
+  {
+   "id": "case-popmart",
+   "desc": "泡泡玛特 Pop Mart：潮玩 IP+盲盒+出海",
+   "kind": "model"
+  },
+  {
+   "id": "case-nongfuspring",
+   "desc": "农夫山泉：天然水+大单品+渠道 消费品牌打法",
+   "kind": "model"
+  },
+  {
+   "id": "case-netflix",
+   "desc": "奈飞 Netflix：订阅制+内容投资+全球扩张",
+   "kind": "model"
+  },
+  {
+   "id": "case-bytedance",
+   "desc": "字节跳动：算法分发+广告+多产品矩阵变现",
+   "kind": "model"
   }
  ]
 }
