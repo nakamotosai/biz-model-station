@@ -820,6 +820,11 @@ def main() -> int:
                         capture_output=True, text=True, timeout=300)
     if rm.returncode != 0:
         print("[warn] generate_md 失败（不影响站点）:\n", rm.stderr[-400:])
+    # 自动发布到 GitHub 公开仓（干净快照：只 data(无bak)/markdown/scripts，推 deploy key）
+    pub = subprocess.run([str(ROOT / "scripts" / "publish.sh")],
+                         capture_output=True, text=True, timeout=120)
+    if pub.returncode != 0:
+        print("[warn] publish 到公开仓失败（不影响本站）:\n", pub.stderr[-400:])
     subprocess.run(["git", "-C", str(ROOT), "add", "-A", "data/", "site/", "markdown/"],
                    capture_output=True, text=True)
     subprocess.run(["git", "-C", str(ROOT), "-c", "user.email=hermes@biz",
