@@ -3,9 +3,9 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **219** 篇（model 206 / journey 8 / scam 5）
+共 **220** 篇（model 207 / journey 8 / scam 5）
 
-## 💰 赚钱模式（206）
+## 💰 赚钱模式（207）
 
 - [Agent交易/智能商务支付基础设施](agentic-commerce-payments.md) · 金融科技 · 美
 - [AI Agent 代运营按结果付费服务商](agentic-outsourcing-aas.md) · AI/大模型 · 全球
@@ -102,6 +102,7 @@
 - [企业数据API按Token计费变现](enterprise-data-token-monetization.md) · AI/大模型 · 中
 - [企业级MaaS推理优化与边缘部署平台](enterprise-maas-inference-edge-platform.md) · AI/大模型 · 中
 - [企业多Agent流程编排SaaS](enterprise-multi-agent-orchestration-saas.md) · SaaS/企业软件 · 中
+- [全产业链水源+大单品+深度线下渠道模式](fmcg-full-chain-big-single-offline.md) · 电商/零售 · 中
 - [基础大模型按量订阅（模型层变现）](foundation-model-revenue.md) · AI/大模型 · 美
 - [生鲜配送转净菜加工一体化供应链](fresh-delivery-to-prepared-food-supply-chain.md) · 餐饮/茶饮 · 中
 - [新茶饮实体连锁质价比+出海](fresh-tea-chain.md) · 餐饮/茶饮 · 中
