@@ -3,9 +3,9 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **220** 篇（model 207 / journey 8 / scam 5）
+共 **222** 篇（model 209 / journey 8 / scam 5）
 
-## 💰 赚钱模式（207）
+## 💰 赚钱模式（209）
 
 - [Agent交易/智能商务支付基础设施](agentic-commerce-payments.md) · 金融科技 · 美
 - [AI Agent 代运营按结果付费服务商](agentic-outsourcing-aas.md) · AI/大模型 · 全球
@@ -57,6 +57,7 @@
 - [品牌自播矩阵+AI数字人托管运营](brand-self-broadcast-matrix-plus-ai-agent.md) · 电商/零售 · 中
 - [量贩零食硬折扣连锁（厂商直供）](bulk-snack-discount.md) · 电商/零售 · 中
 - [比亚迪垂直整合+电动化+全球化盈利路径](byd-vertical-integration-ev-globalization.md) · 其他 · 跨地区
+- [巨头内容流量矩阵变现模式](bytedance-douyin-matrix-monetization.md) · 其他 · 中
 - [C2B2C二手电子以旧换新回收平台](c2b2c-electronics-recycling-platform.md) · 电商/零售 · 中
 - [独立咖啡馆/烘焙坊订阅制（咖啡豆订阅+饮品月费）](cafe-subscription.md) · 电商/零售 · 美
 - [研学营地IP化运营与高客单复购](camp-education-ip-operation.md) · 旅游 · 中
@@ -199,6 +200,7 @@
 - [供应链盈利型加盟模式](supply-chain-profit-franchise-model.md) · 餐饮/茶饮 · 中
 - [茶饮GMV分成加盟](tea-beverage-gmv-sharing-franchise.md) · 餐饮/茶饮 · 中
 - [茶饮品牌供应链金融加盟模式](tea-chain-supply-chain-finance-franchise.md) · 餐饮/茶饮 · 中
+- [特斯拉 FSD 订阅模式](tesla-fsd-subscription.md) · SaaS/企业软件 · 美
 - [TikTok Shop达人矩阵分销出海](tiktok-shop-kol-matrix-distribution.md) · 电商/零售 · 跨地区
 - [TikTok Shop 社交电商（内容带货）](tiktok-shop-social-commerce.md) · 电商/零售 · 全球
 - [Token工厂商业化运营](token-factory-commercial-operation.md) · AI/大模型 · 中
