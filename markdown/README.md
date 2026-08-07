@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **251** 篇（model 238 / journey 8 / scam 5）
+共 **252** 篇（model 238 / journey 8 / scam 6）
 
 ## 💰 赚钱模式（238）
 
@@ -257,8 +257,9 @@
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 
-## ⚠️ 避坑指南（5）
+## ⚠️ 避坑指南（6）
 
+- [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
 - [AI 中转站骗局：超低价 Token 背后的跑路、降智与数据倒卖](ai-relay-station-scam.md) · AI/大模型 · 中

@@ -864,6 +864,441 @@
    "id": "case-airwallex",
    "desc": "Airwallex 澳洲跨境支付 新兴公司：企业跨境收款+多币种账户 全球",
    "kind": "model"
+  },
+  {
+   "id": "journey-dongpeng-tonic-drink",
+   "desc": "东鹏特饮靠et歌谣仿红牛锣绿瓶与数字化终端从一家县局逆袭，2026年市值已超农夫山泉，成本土快消反拆国际巨头的样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-yuanqi-senlin-beverage",
+   "desc": "元气森林创始人唐彬森从游戏出海转战无糖气泡水，靠断货式C端引爆挑战可乐，2026年看它如何在白热化渠道战里守住长青。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-chagee-tea-global",
+   "desc": "霸王茶姬把东方原叶茶做到标准化并推向全球，2025年上市后2026年着重海外新市场与下沉双线，看中国新茶饮如何造出全球品牌。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nayuki-tea-ipo",
+   "desc": "奈雪的茶彭心赵林用“茶饮+软欧包”开新茶饮先河并抢得港股第一股，2026年面临同质化与亏损，回看其从网红店到上市又转型的取舍。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-chapanda-franchise",
+   "desc": "茶百道靠加盟标准化从成都跑成万店，2024年港交所上市，2026年在蜜雪与喜茶夹击下靠年轻化单品与供应链求生，还原加盟茶饮帝国从0到1。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-guming-downstream",
+   "desc": "古茗从县城乳品自饮起步深耕下沉市场，凭门店模型与饮品供应链做成隐形冠军并冲刺IPO，2026年看细分区域龙头如何与头部茶饮角力。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-pangdonglai-retail",
+   "desc": "胖东来于东来把河南小超市做成中国零售界顶流文化IP，高薪不加班退款自由在2026年仍是现象级，拆解善意商业如何留住员工与顾客。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-miniso-global",
+   "desc": "名创优品叶国富从十元店到全球万店，用IP+生活好物反向出海成为Z世代顶流，2026年仰望免税店与二次增长曲线能否守住低价高质护城河。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-dreame-motor-tech",
+   "desc": "追觅科技用自研高速马达切入扫地机器人与吸尘器赛道，两年冲到出海一线品牌，2026年看它在清洁电器红海里靠核心元件与技术卷出新王。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-narwal-robot",
+   "desc": "云鲸智能从自清洁基站首创切入扫拖机器人生态，靠单品爆款杀出石头与科沃斯重围，2026年看它如何在强敌林立时维持领先身位。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-anker-overseas",
+   "desc": "安克创新阳萌从亚马逊充电宝代工起家，用产品经理思维把品牌做到全球装机第一，2026年看中国出海电子如何从贴牌走向高溢价全球化。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-dji-drone",
+   "desc": "大疆汪滔用无人机改写全球航拍与中国制造，把螺旋桨电机做到霸占全球七成市场份额，2026年在禁令与竞争下重新数它从学生宿舍到硬科技王者的路。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-lingshi-snack-consolidation",
+   "desc": "量贩零食赛道零食很忙与赵一鸣合并成万辰集团，用性价比折扣店模式两年冲上3000家店并上市，2026年看下沉零食混战里谁吃到底价红利。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-bananain-underwear",
+   "desc": "蕉内用“无感标签”与科技面料把内衣家居做成新消费黑马，2026年仍靠情绪设计与线下体验对抗优衣库，看它如何从一品类长成生活方式品牌。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-winona-sensitive",
+   "desc": "云南贝泰妮薇诺据围绕敏感肌皮肤科背书从医院渠道做起，做成药妆第一股，2026年在功效护肤内卷里看它如何凭医学专业壁垒守住山头。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-bosideng-transition",
+   "desc": "波司登从羽绒服大王到提价潮牌，靠登珠峰IP与高端化打法重获年轻人，2026年看老羽绒巨头如何借国潮与提价转型翻盘。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-laoxiangji-chicken",
+   "desc": "老乡鸡从养鸡到自建鸡场开中式快餐，方言营销“咯咯哒”出圈，2026年看它把农业算术做成全国快餐连锁的坎坷与坚持。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-guoquan-hotpot",
+   "desc": "锅圈食汇把火锅食材搬进闭架超市，万店配冷链在预制菜风口起飞并港股上市，2026年看家庭火锅场景能否撑起食材生意的护城河。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-stripe",
+   "desc": "Stripe：爱尔兰兄弟 2011 年用 7 行代码切入开发者支付的硅谷独角兽，2026 年看其如何靠嵌入式金融与 AI Agent 支付重构全球线上交易。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-airbnb",
+   "desc": "Airbnb：2008 年靠卖麦片盒挺过危机、以共享住宿起家的民宿平台，2026 年看其从沙发客到 AI 搜索与体验经济（Icons）的逆袭路径。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-notion",
+   "desc": "Notion：创始人 2013 年做数据库工具失败后彻底重构、靠社区与模板生态翻盘的全能工作台，2026 年看 Notion AI 如何切入企业协作与 AI 时代。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-figma",
+   "desc": "Figma：2012 年从云端设计工具起家、2023 年 Adobe 200 亿美元收购被监管叫停后独立壮大的设计平台，2026 年看其 AI 设计功能与估值新故事。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-canva",
+   "desc": "Canva：澳洲创始团队被上百家 VC 拒绝后靠设计民主化崛起、估值一度达 260 亿美元，2026 年看其 AI 设计套件与上市传闻。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-doordash",
+   "desc": "DoorDash：2013 年斯坦福学生从送餐创业、靠郊区物流差异化打赢外卖大战的独角兽，2026 年看其拓展商超与便利配送的新边界。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-zoom",
+   "desc": "Zoom：袁征 2011 年离开 WebEx 另起炉灶、疫情期间一夜爆发的视频会议公司，2026 年看其在 AI Companion 与混合办公下的二次增长。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-shopify",
+   "desc": "Shopify：滑雪板网店店主 2006 年自建开店工具、成就全球独立站 SaaS 巨头，2026 年看其 AI 助手 Sidekick 与商家生态的攻防。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-snap",
+   "desc": "Snap：斯坦福学生 2011 年创立阅后即焚、拒绝 Facebook 30 亿美元收购，2026 年看其 Spectacles 硬件踩坑后靠 AI 与 AR 重生的社交平台。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-duolingo",
+   "desc": "Duolingo：2011 年用游戏化与猫头鹰 IP 把免费语言学习做成亿万用户的独角兽，2026 年看其 AI 语伴 Max 变现与上市后的增长曲线。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-robinhood",
+   "desc": "Robinhood：2013 年以零佣金交易颠覆券商、经历 GameStop 散户大战与监管风暴，2026 年看其靠加密业务扩张迎来的业绩复兴。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sweetgreen",
+   "desc": "Sweetgreen：2007 年从校园沙拉店做到上市的连锁快餐品牌，2026 年看其机器人厨房 Infinite Kitchen 与健康快餐的 AI 转型。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-peloton",
+   "desc": "Peloton：2012 年以动感单车加内容订阅开创居家健身、疫情暴涨后暴跌再转型，2026 年看其 AI 教练与 GLP-1 时代的求生之路。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-patreon",
+   "desc": "Patreon：音乐人 Jack Conte 2013 年创立、让创作者靠粉丝订阅变现的会员平台，2026 年看其在创作者经济整合浪潮中的位置。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-discord",
+   "desc": "Discord：游戏公司 2015 年转型靠游戏语音起家、成为数亿人社区平台，2026 年看其商业化提速与 AI 机器人生态的拓展。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-roblox",
+   "desc": "Roblox：2004 年以 UGC 游戏起家、2021 年上市的游戏平台，2026 年看其 AI 创作工具与创作者分成的虚拟经济模式。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-slack",
+   "desc": "Slack：Flickr 创始人游戏创业失败后 2013 年转型团队协作工具并引爆办公软件，2026 年看其被 Salesforce 收购后的 AI 整合。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-coinbase",
+   "desc": "Coinbase：2012 年创立、美国最大合规加密交易所，经历 SEC 诉讼与熊市低谷后，2026 年看其在加密牛市与 ETF 托管下的复兴。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-reddit",
+   "desc": "Reddit：2005 年创立、2024 年上市后靠 AI 数据授权协议股价暴涨的社区平台，2026 年看其内容数据金矿与广告增长故事。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-epic-games-fortnite",
+   "desc": "Epic Games：1991 年起家、Paragon 停服后转攻吃鸡、Fortnite 于 2017 年爆红，2026 年看其打赢苹果诉讼与 UGC 创作者经济。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-bumble",
+   "desc": "Bumble：Whitney Wolfe 2014 年离开 Tinder 后创立女性先发起的交友 App、2021 年以最年轻女 CEO 身份上市，2026 年看其 AI 交友转型。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-uber",
+   "desc": "Uber：2009 年从一键叫车颠覆出行、经历创始人出局与全球监管围剿后扭亏，2026 年看其自动驾驶合作与多品类扩张的新棋局。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-don-quijote",
+   "desc": "唐吉诃德（激安殿堂）从一家濒临倒闭的杂货店起家，靠深夜营业与「泥船」折扣模式逆袭成全球折扣零售巨头，2026年日元贬值下是访日游客扫货地标。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-daiso",
+   "desc": "大创创始人矢野博丈从失败生意与流动摊贩做起，1972年创立「全店100日元」模式，如今全球超6000家店，2026年通胀时代仍是被复制的平价零售标杆。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-tsutaya-ccc",
+   "desc": "增田宗昭1983年从枚方一家唱片租赁店起家，把茑屋做成「生活方式提案」式书店帝国，2026年线下体验消费复兴让代官山T-SITE再度成为零售风向标。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-hoshino-resorts",
+   "desc": "星野佳路1991年接手濒临倒闭的百年温泉旅馆，靠品牌化与体验改造打造虹夕诺雅等奢华度假村，2026年入境游复苏中代表日本高端住宿品牌出海。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nitori",
+   "desc": "似鸟昭雄1967年从北海道一家小店做起，靠赴美考察、成本控制与物流改革登顶日本家具零售第一，2026年正加速全球扩张、被称为「亚洲宜家」。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sanrio",
+   "desc": "三丽鸥创始人辻信太郎1960年从丝袜店转型礼品业，1974年Hello Kitty诞生开创角色经济帝国，2026年Kitty迎来50周年，IP授权生意依旧长青。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nissin",
+   "desc": "台湾出身的安藤百福1958年在战后日本发明鸡汤拉面，1971年再创杯面，日清由此成为全球速食面帝国，2026年仍是方便面品类创新的原点。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-samyang-buldak",
+   "desc": "三养食品1961年创韩国首家方便面厂，一度陷入衰退，2012年推出火鸡面靠「辣味挑战」红遍全球，2026年继续吃辣味食品与吃播文化的红利。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-binggrae",
+   "desc": "宾格瑞1974年推出香蕉牛奶，用便利店渠道加国民记忆做成韩国国民饮料，2026年复古情怀与韩流文化让它成为怀旧消费营销的经典案例。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-hybe-bts",
+   "desc": "作曲家方时赫2005年创办Big Hit，2013年打造BTS全球爆红，2020年HYBE上市并收购扩张成全球娱乐集团，2026年仍是K-pop产业化的头号样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-kakao",
+   "desc": "金范洙从单机游戏开发起家，2010年推出KakaoTalk，长成覆盖金融、出行与内容的韩国超级app，2026年正面临平台垄断与监管的考验。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-coupang",
+   "desc": "金范锡从哈佛退学创业，让Coupang从团购转型电商，靠自建物流「火箭配送」登顶韩国电商，2026年继续加码人工智能与即时配送的军备竞赛。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-musinsa",
+   "desc": "Musinsa从2001年服装爱好者论坛起家，转型成韩国最大时尚电商并孵化本土设计师品牌，2026年上市传闻不断，是社区变平台的典型发家路径。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-stylenanda-3ce",
+   "desc": "金素熙2004年从网上服装店起家，做红彩妆品牌3CE并于2018年被欧莱雅收购，2026年回顾仍是K-beauty从网店到全球化的逆袭范本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-lee-kum-kee",
+   "desc": "李锦裳1888年意外发明蚝油，李锦记由此传承130多年并靠2002年家族宪法稳定治理，2026年仍是华人百年家族企业走向全球化的标杆。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-chow-tai-fook",
+   "desc": "郑裕彤从金铺学徒做起，入赘继承后把周大福做成华人珠宝帝国，2026年金价连创新高，黄金消费让这家老字号在动荡市况下重焕价值。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sa-sa",
+   "desc": "郭少明1978年从5平米化妆品柜台起家，莎莎做成香港美妆零售龙头，2026年面对游客消费变迁，正靠电商与数字化谋求第二次转型。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-vitasoy",
+   "desc": "罗桂祥1940年因饥饿危机发明豆奶，维他奶从「香港豆浆大王」走向全球，2026年植物基饮品热潮让这家老字号再次站上风口。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-lalamove",
+   "desc": "周胜馥从职业德州扑克选手赢钱创业，2013年把Lalamove做成亚洲同城货运独角兽，2026年平台经济监管与即时物流竞争让这家公司再成焦点。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-lan-kwai-fong",
+   "desc": "盛智文从成衣贸易转行，买下中环旧楼打造兰桂坊酒吧区，被封「兰桂坊之父」，2026年香港夜经济复苏让这块地标重回聚光灯。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-din-tai-fung",
+   "desc": "杨秉彝1958年从油行转型小笼包，鼎泰丰把街头小吃做成米其林一星全球连锁，2026年仍是中华美食品牌国际化的参照系。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-eslite",
+   "desc": "吴清友1989年从机械贸易转做书店，诚品用24小时书店成为文化地标，2026年二代吴旻洁接班，实体书店与文化消费的转型仍在继续。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-chun-shui-tang",
+   "desc": "刘汉介1980年代在台中改良泡沫红茶并创出珍珠奶茶，春水堂成为公认的珍珠奶茶发源地，2026年珍珠奶茶已是席卷全球的饮品现象。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sunnyhills",
+   "desc": "许铭仁从电子业转行，用南投土凤梨做凤梨酥并以三合院体验店营销，微热山丘成为台湾伴手礼品牌化的范本，2026年观光消费议题下仍具话题。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-giant-bicycles",
+   "desc": "刘金标1972年从自行车代工做起，1981年创自有品牌捷安特，做到全球最大自行车厂，2026年骑行热潮与E-bike让这家制造老兵再出发。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-want-want",
+   "desc": "蔡衍明19岁接班屡战屡败，靠仙贝米果翻身，旺旺做成两岸零食巨头，2026年面对消费迭代，正在为品牌老化寻找新增长曲线。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-htc",
+   "desc": "王雪红从威盛芯片到HTC手机代工再自创品牌，曾登顶安卓之王后衰落，2026年转向VR与AI，是台湾科技品牌完整兴衰的样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-grab",
+   "desc": "2026年视角看Grab：2012年吉隆坡打车起家，2018年吞并Uber东南亚业务，长成覆盖出行外卖金融的超级应用，东南亚创业标杆。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-goto",
+   "desc": "2026年视角看GoTo：Gojek从印尼摩托打车起家，2021年与电商Tokopedia合并上市，超级应用与电商合体，印尼数字经济十年缩影。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sea-group",
+   "desc": "2026年视角看冬海集团：从Garena游戏代理赚第一桶金，押注Shopee电商与SeaMoney金融，市值神话到暴跌扭亏，东南亚最跌宕故事。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-jt-express",
+   "desc": "2026年视角看极兔：2015年印尼本地快递起家，2020年杀回中国打价格战，2023年港股上市，东南亚物流逆袭资本样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-jollibee",
+   "desc": "2026年视角看快乐蜂：1975年马尼拉冰淇淋店起家，靠炸鸡成为菲律宾国民品牌，收购CBTL等出海全球，新兴市场餐饮逆袭样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-vinfast",
+   "desc": "2026年视角看VinFast：越南首富范日旺砸百亿美元造电动车，2023年纳斯达克上市市值一度超通用，越南制造野心与泡沫样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-momo-vietnam",
+   "desc": "2026年视角看MoMo：越南电子钱包起家，覆盖过半网民成支付代名词，从充值工具到金融生态，东南亚数字支付普及样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-kopi-kenangan",
+   "desc": "2026年视角看Kopi Kenangan：2017年印尼平价咖啡起家，数字化会员加即取模式横扫市场，估值超10亿美元成东南亚咖啡独角兽。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-carsome",
+   "desc": "2026年视角看Carsome：整合东南亚碎片化二手车市场起家，做到区域最大平台并获腾讯投资，东南亚二手车数字化隐形冠军。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ninja-van",
+   "desc": "2026年视角看Ninja Van：2014年新加坡小包裹起家，打通东南亚六国最后一公里成物流独角兽，电商基建里的隐形冠军。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-gcash-mynt",
+   "desc": "2026年视角看GCash：把菲律宾带进无现金时代，蚂蚁参股下估值升至50亿美元，东南亚金融普惠与资本化双样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-flipkart",
+   "desc": "2026年视角看Flipkart：2007年网上书店起家，十年做到印度最大电商，2018年160亿美元卖身沃尔玛，印度电商启蒙叙事。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-zomato-blinkit",
+   "desc": "2026年视角看Zomato：餐厅点评转型外卖霸主，吞下Uber Eats印度业务后上市，再押注Blinkit即时零售，印度互联网二次创业典型。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-oyo",
+   "desc": "2026年视角看Oyo：21岁创始人聚合印度廉价旅馆，烧钱全球扩张后疫情暴跌，2023年艰难上市，印度独角兽狂飙的反面教材。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-paytm",
+   "desc": "2026年视角看Paytm：借2016年废钞令成印度支付代名词，蚂蚁背书创印度最大IPO，遭央行处罚市值蒸发，巅峰跌落一线间。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nykaa",
+   "desc": "2026年视角看Nykaa：49岁女创始人Falguni Nayar创立，十年做到印度美妆零售第一股，2021年上市，印度女性创业样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-zerodha",
+   "desc": "2026年视角看Zerodha：零佣金颠覆印度券商格局，不靠融资长成印度最大经纪商，技术自研派金融科技自盈利代表。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-zoho",
+   "desc": "2026年视角看Zoho：1996年网络管理软件起家，零融资不上市做SaaS全家桶，年营收超10亿美元，印度自研软件派图腾。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-freshworks",
+   "desc": "2026年视角看Freshworks：金奈客服软件起家，2021年纳斯达克上市成印度SaaS第一股，印度软件出口向产品转型标志。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-meesho",
+   "desc": "2026年视角看Meesho：借WhatsApp分销让印度小城女性卖货，社交裂变撬动下沉市场，估值一度近50亿美元，电商新范式。",
+   "kind": "journey"
   }
  ]
 }
