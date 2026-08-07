@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **293** 篇（model 238 / journey 44 / scam 11）
+共 **294** 篇（model 238 / journey 45 / scam 11）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（44）
+## 🛤 发家路径（45）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -292,6 +292,7 @@
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [来也科技：从私人助理到RPA+大模型智能自动化的中国版走向](rpa-llm-automation-laiye.md) · 其他 · 中
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
+- [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
 ## ⚠️ 避坑指南（11）
 
