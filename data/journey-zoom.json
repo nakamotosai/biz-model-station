@@ -1,0 +1,65 @@
+{
+  "type": "journey",
+  "id": "journey-zoom",
+  "name": "Zoom Video Communications",
+  "company": "Zoom Video Communications, Inc.",
+  "founders": "Eric Yuan",
+  "industry": "Video communications",
+  "region": "美",
+  "scale": "成长",
+  "channel": "B2B",
+  "y2026_hot": "Zoom maintains a significant share in the hybrid-work video conferencing market, despite rising competition, thanks to its global platform and strong brand.",
+  "origin": "Founded to address the frustration of poor video-conference quality, especially high-latency and ease-of-use issues in enterprise communications.",
+  "milestones": [
+    {
+      "time": "2011",
+      "stage": "创立",
+      "outcome": "成立",
+      "detail": "Eric Yuan founded Zoom in San Jose, California, after leaving Cisco."
+    },
+    {
+      "time": "2013",
+      "stage": "发布",
+      "outcome": "产品上线",
+      "detail": "Initial version of Zoom was released for SMB customers, gaining early traction."
+    },
+    {
+      "time": "2019",
+      "stage": "上市",
+      "outcome": "IPO",
+      "detail": "Zoom debuted on NASDAQ raising $250M, marking a major funding milestone."
+    },
+    {
+      "time": "2020",
+      "stage": "爆炸",
+      "outcome": "疫情",
+      "detail": "Global COVID-19 pandemic accelerated adoption, reaching 345M daily users."
+    }
+  ],
+  "turning_points": [
+    "疫情导致需求爆炸，企业加速迁移到Zoom",
+    "推出Zoom Rooms与SDK生态扩展"
+  ],
+  "failures": [
+    "2022年安全漏洞导致多家机构数据泄露",
+    "2023年平台遇到多起停机事件，用户信任受挫"
+  ],
+  "keys": [
+    "低延迟、跨平台兼容",
+    "免费基础套餐驱动用户增长",
+    "强安全加密与合规支持"
+  ],
+  "lessons": [
+    "要持续创新功能以防止被竞争取代",
+    "快速扩张需保持品牌声誉和数据安全"
+  ],
+  "metrics": {
+    "MonthlyActiveUsers": "70M",
+    "AnnualRevenue2025": "$5.1B"
+  },
+  "competitors": "Microsoft Teams、Cisco Webex、Google Meet",
+  "sources": [
+    "https://investor.zoom.us",
+    "https://en.wikipedia.org/wiki/Zoom_(company)"
+  ]
+}
