@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **261** 篇（model 238 / journey 15 / scam 8）
+共 **262** 篇（model 238 / journey 16 / scam 8）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（15）
+## 🛤 发家路径（16）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -256,6 +256,7 @@
 - [波形智能蛙蛙写作：锁定网文作者群体，做高人均时长AI辅助](ai-novel-writing-wuxia-platform.md) · AI/大模型 · 中
 - [ChatCut：金马导演转型AI视频剪辑工具出海创业者](ai-video-editing-tool-indie-founder-chatcut.md) · AI/大模型 · 跨地区
 - [霸王茶姬：张俊杰从流浪少年到美股茶饮第一股，国风鲜奶茶如何杀出茶颜悦色阴影](journey-chagee-tea-global.md) · 餐饮/新茶饮 · 中
+- [Discord：从被收购的游戏社交失败品到两亿月活的社区帝国，2026 年冲刺 IPO](journey-discord.md) · SaaS/企业软件 · 美
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
 - [英伟达：黄仁勋从 Denny's 餐厅到 AI 算力帝国的三十年长押注](journey-nvidia.md) · 半导体/AI 芯片 · 美
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
