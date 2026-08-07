@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **264** 篇（model 238 / journey 18 / scam 8）
+共 **267** 篇（model 238 / journey 20 / scam 9）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（18）
+## 🛤 发家路径（20）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -258,8 +258,10 @@
 - [破壳剑–以情感陪伴为先的家庭机器人](broken-shell-robot.md) · 其他 · 中
 - [霸王茶姬：张俊杰从流浪少年到美股茶饮第一股，国风鲜奶茶如何杀出茶颜悦色阴影](journey-chagee-tea-global.md) · 餐饮/新茶饮 · 中
 - [Discord：从被收购的游戏社交失败品到两亿月活的社区帝国，2026 年冲刺 IPO](journey-discord.md) · SaaS/企业软件 · 美
+- [大疆：汪滔从宿舍飞控到霸占全球七成市场](journey-dji-drone.md) · AI/大模型 · 中
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
 - [英伟达：黄仁勋从 Denny's 餐厅到 AI 算力帝国的三十年长押注](journey-nvidia.md) · 半导体/AI 芯片 · 美
+- [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
@@ -267,13 +269,14 @@
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 
-## ⚠️ 避坑指南（8）
+## ⚠️ 避坑指南（9）
 
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
 - [AI 中转站骗局：超低价 Token 背后的跑路、降智与数据倒卖](ai-relay-station-scam.md) · AI/大模型 · 中
 - [仿冒AI应用诈骗：借知名大模型热点套壳收取高价永久会员费](fake-ai-app-subscription-scam.md) · AI/大模型 · 全国/跨境
+- [假人工智能证书/资质/评奖代办骗局：以官方认证为名收取高额费用，证书无法通过人社部等正规渠道核验。](fake-ai-certificate-rating-agency-scam.md) · AI/大模型 · 全国
 - [伪AI加密量化理财骗局：借ChatGPT与高息智能合约掏空本金](fake-ai-crypto-quant-fund-scam.md) · 金融科技 · 全国及跨境
 - [假人工智能代币资金盘骗局：套牌知名公司发币搞传销](fake-ai-token-ponzi-scam.md) · 金融科技 · 全球
 - [“招转培”AI岗内推费骗局——以高薪AI岗承诺诱骗培训费与培训贷](fake-job-training-referral-scam.md) · 教育/知识付费 · 中国大陆
