@@ -22,6 +22,8 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+from anubis.verifier import run_verifier, Verdict
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SITE = ROOT / "site"
@@ -1186,71 +1188,4 @@ if __name__ == "__main__":
     raise SystemExit(main())
 
 
-# -------------------------------------------------------------------
-# Verifier framework (journey TIER2/TIER3 + single-file sealed logic)
-# -------------------------------------------------------------------
-class Verdict:
-    OK = "ok"
-    TOMBSTONE = "tombstone"
-    DEFER = "defer"
-    FAIL = "fail"
 
-
-def _load_verifiers():
-    verifier_path = ROOT / "anubis" / "verifier.py"
-    if not verifier_path.exists():
-        return {}
-    ns: dict = {}
-    exec(verifier_path.read_text(encoding="utf-8"), ns)
-    return ns
-
-
-def _resolve_callable(verifiers: dict, names):
-    for name in names:
-        fn = verifiers.get(name)
-        if callable(fn):
-            return fn
-    return None
-
-
-def run_verifier(id_or_path, snapshot: dict | None = None, snapshot_path=None):
-    if snapshot is None and snapshot_path:
-        try:
-            snapshot = json.loads(Path(snapshot_path).read_text(encoding="utf-8"))
-        except Exception:
-            return Verdict.FAIL
-    if not isinstance(snapshot, dict):
-        return Verdict.FAIL
-    verifiers = _load_verifiers()
-    pkg_id = snapshot.get("pkg_id") or snapshot.get("package_identity") or ""
-    chains = ([id_or_path], verifiers) if isinstance(id_or_path, str) else id_or_path
-    chain_id = chains[0]
-    chain = verifiers.get(chain_id)
-    if isinstance(chain, dict):
-        sequence = chain.get("sequence") or list(chain.keys())
-    elif isinstance(chain, (list, tuple)):
-        sequence = list(chain)
-    else:
-        sequence = [chain_id]
-    for name in sequence:
-        fn = _resolve_callable(verifiers, [name])
-        if not callable(fn):
-            continue
-        state = {"chain_id": chain_id, "step": name}
-        result = fn(state, snapshot)
-        if result is Verdict.OK:
-            continue
-        if result is Verdict.DEFER:
-            return Verdict.DEFER
-        return result
-    return Verdict.OK
-
-
-# -------------------------------------------------------------------
-# CLI entrypoint (optional)
-# -------------------------------------------------------------------
-if __name__ == "__main__":
-    try:
-        build_wisdom_book("testimony")
-    except Exception as e:
-        print(f"witness: build failed: {e}")
