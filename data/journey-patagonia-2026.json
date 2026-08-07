@@ -1,0 +1,26 @@
+{
+  "type": "journey",
+  "id": "journey-patagonia-2026",
+  "name": "Patagonia, Inc. – 2026 时区看点",
+  "company": "Patagonia, Inc.",
+  "founders": "Yvon Chouinard (1973) & Co.",
+  "industry": "Apparel / Outdoor",
+  "region": "美",
+  "scale": "巨头",
+  "channel": "线上下沉结合",
+  "y2026_hot": "在 2026 年，Patagonia 正面临股价回升与持续巴黎气候协议的压力。品牌以 1% 销售额捐赠至环保组织，继续强化其 ESG 核心竞争力，赢得消费者忠诚度。",
+  "origin": "Yvon Chouinard 于 1973 年在加州创立，起初为攀岩工具制造商，随后转向户外服装。公司一直保持公正经营与环境使命的同步发展。",
+  "milestones": [
+    {"time": "1973", "stage": "Found", "outcome": "拐点", "detail": "成立并推出第一件登山外套，树立了高标准的户外服装品质。"},
+    {"time": "1993", "stage": "Expand", "outcome": "增长", "detail": "首次采用回收聚酯生产服装，成为行业先锋。"},
+    {"time": "2013", "stage": "Sustain", "outcome": "转折", "detail": "推出 Worn Wear 二手服装回收计划，减少环保足迹并开启新业务模式。"},
+    {"time": "2022", "stage": "Litig", "outcome": "挑战", "detail": "因环保技师使用未知标志遭遇针对性诉讼，凸显品牌风险管理的重要性。"}
+  ],
+  "turning_points": ["Sustainability pivot", "Legal challenge 2022"],
+  "failures": ["2008 业绩下滑", "供应链劳工争议"],
+  "keys": ["环境责任", "社区捐赠", "二手经济"],
+  "lessons": ["持续透明度是信任的基石", "可持续产品创新能形成差异化竞争"],
+  "metrics": {"Revenue": "$1.5B (2022 est)", "Employees": "3,000"},
+  "competitors": "竞争对手包括 The North Face、Arc'teryx、REI 等同业企业，均在可持续发展与数字化转型上展开竞争。",
+  "sources": ["https://en.wikipedia.org/wiki/Patagonia_(clothing)", "https://www.investopedia.com/articles/technology/120724/why-patagonia-gets-focus-latest-trends.asp"]
+}
