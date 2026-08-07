@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **290** 篇（model 238 / journey 42 / scam 10）
+共 **291** 篇（model 238 / journey 42 / scam 11）
 
 ## 💰 赚钱模式（238）
 
@@ -291,13 +291,14 @@
 - [来也科技：从私人助理到RPA+大模型智能自动化的中国版走向](rpa-llm-automation-laiye.md) · 其他 · 中
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 
-## ⚠️ 避坑指南（10）
+## ⚠️ 避坑指南（11）
 
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
 - [AI挂机搬砖佣金骗局：以AI算力/代理名义包装的零撸分红资金盘](ai-idle-farming-commission-pyramid-scam.md) · AI/大模型 · 中国大陆及东南亚跨境
 - [AI 中转站骗局：超低价 Token 背后的跑路、降智与数据倒卖](ai-relay-station-scam.md) · AI/大模型 · 中
+- [AI培训月入过万骗局·9.9元体验课引流后诱导贷款购数千至数万元套餐](ai-training-monetization-scam.md) · 教育/知识付费 · 全国
 - [仿冒AI应用诈骗：借知名大模型热点套壳收取高价永久会员费](fake-ai-app-subscription-scam.md) · AI/大模型 · 全国/跨境
 - [假人工智能证书/资质/评奖代办骗局：以官方认证为名收取高额费用，证书无法通过人社部等正规渠道核验。](fake-ai-certificate-rating-agency-scam.md) · AI/大模型 · 全国
 - [伪AI加密量化理财骗局：借ChatGPT与高息智能合约掏空本金](fake-ai-crypto-quant-fund-scam.md) · 金融科技 · 全国及跨境
