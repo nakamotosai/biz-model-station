@@ -69,4 +69,4 @@
 - [https://www.hupun.com/articles/erp-wms-2026-bGOwbDE7.html](https://www.hupun.com/articles/erp-wms-2026-bGOwbDE7.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

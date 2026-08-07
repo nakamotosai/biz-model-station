@@ -65,4 +65,4 @@ MrBeast作为全球顶流创作者，将YouTube内容流量转化为多元化商
 - [https://www.businessinsider.com/mrbeast-jimmy-donaldson-net-worth](https://www.businessinsider.com/mrbeast-jimmy-donaldson-net-worth)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

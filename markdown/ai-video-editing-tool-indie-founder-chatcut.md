@@ -80,4 +80,4 @@ ChatCut所在的AI视频剪辑赛道竞争异常激烈。海外方面，CapCut�
 - [https://stationlm.com/analysis/4a80c468-a8de-4a61-acfd-c6f20f405007](https://stationlm.com/analysis/4a80c468-a8de-4a61-acfd-c6f20f405007)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

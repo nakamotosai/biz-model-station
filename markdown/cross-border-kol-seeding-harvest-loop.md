@@ -73,4 +73,4 @@ TikTok Shop直播带货与达人分销佣金差价
 - [https://www.36kr.com/p/3630706468094985](https://www.36kr.com/p/3630706468094985)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

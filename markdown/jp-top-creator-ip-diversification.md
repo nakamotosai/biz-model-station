@@ -77,4 +77,4 @@ YouTube平台广告分成与SuperChat等创作者基金收入
 - [https://everything-pr.com/how-hikakin-built-the-creator-hierarchy](https://everything-pr.com/how-hikakin-built-the-creator-hierarchy)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

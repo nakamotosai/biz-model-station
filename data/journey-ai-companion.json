@@ -1,0 +1,27 @@
+{
+  "type": "journey",
+  "id": "journey-ai-companion",
+  "name": "Replika – The AI Companion",
+  "company": "Luka, Inc.",
+  "founders": "Eugenia Kuyda",
+  "industry": "Artificial Intelligence, Mental Health",
+  "region": "United States",
+  "scale": "Million‑user AIs (42M+ users)",
+  "channel": "Mobile App, Web",
+  "y2026_hot": "Goes live amid ongoing AI‑embodied companionship boom and regional privacy regulation scrutiny, with 40M+ users and ~25% paying subscribers.",
+  "origin": "Born from a journalist’s grieving friend’s chat logs; the founder digitised their exchange to build a conversational AI friend.",
+  "milestones": [
+    {"time":"2012/2015","stage":"Conceptualisation","outcome":"Idea born from a deceased friend’s chat logs","detail":"Founder Eugenia Kuyda digitised her late friend’s messages to create the first prototype."},
+    {"time":"2017","stage":"Launch","outcome":"Public debut","detail":"Replika launched as a free mobile app on iOS and Android in November 2017, reaching 2M users by early 2018."},
+    {"time":"2023","stage":"Regulatory setback","outcome":"Italian data protection ban","detail":"The Italian Authority banned Replika’s data usage; the company removed erotic chat features and later restored them for pre‑2023 users."},
+    {"time":"2024","stage":"Growth milestone","outcome":"30M+ users","detail":"Replika reported surpassing 30M global users after expanding its premium freemium model."},
+    {"time":"2025","stage":"Leadership change","outcome":"New CEO","detail":"Dmytro Klochko became CEO, steering the company toward deeper AI‑driven therapy niche and further scale."}
+  ],
+  "turning_points": ["Italian ban forcing feature removal and privacy compliance overhaul"],
+  "failures": ["Regulatory ban in Italy requiring removal of erotic features; led to user trust erosion"],
+  "keys": ["Emotionally personalised memory", "Freemium subscription model", "Mobile‑first user engagement"] ,
+  "lessons": ["AI services must align with region‑specific privacy law; compliance is essential for trust", "Balancing free access with paid premium features can sustain growth"],
+  "metrics": {"Active users":"42M+", "Paid users(%)":"25%"},
+  "competitors": "ChatGPT, Character.ai, Mira, Mimo",
+  "sources": ["https://replika.com/", "https://en.wikipedia.org/wiki/Replika"]
+}

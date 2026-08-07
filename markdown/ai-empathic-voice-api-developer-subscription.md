@@ -71,4 +71,4 @@ API 按调用量计费（按音频时长或字符数阶梯定价）
 - [https://toolchase.com/tool/hume-ai/](https://toolchase.com/tool/hume-ai/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

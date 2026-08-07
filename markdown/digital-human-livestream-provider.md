@@ -66,4 +66,4 @@ AI模型训练与推理算力费用、3D形象制作成本、数字人主播版�
 - [https://www.ainchina.com/blog/ai-digital-humans-china-billion-dollar-livestream-revolution/](https://www.ainchina.com/blog/ai-digital-humans-china-billion-dollar-livestream-revolution/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

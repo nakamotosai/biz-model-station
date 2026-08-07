@@ -76,4 +76,4 @@ AI模型API费用 (OpenAI/Anthropic/DeepSeek等)、数据库托管 (Supabase/Tur
 - [https://waytoclawearn.com/cases/solo-dev-deepseek-v4-claude-code-micro-saas-8500-month](https://waytoclawearn.com/cases/solo-dev-deepseek-v4-claude-code-micro-saas-8500-month)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

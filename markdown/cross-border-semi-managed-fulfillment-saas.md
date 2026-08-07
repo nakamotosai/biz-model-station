@@ -70,4 +70,4 @@ SaaS订阅费（按月/按年阶梯定价）
 - [https://www.hupun.com/articles/erp-kua-jing-dian-shang-2026-DQOXJIDJ.html](https://www.hupun.com/articles/erp-kua-jing-dian-shang-2026-DQOXJIDJ.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

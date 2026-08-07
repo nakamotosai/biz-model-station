@@ -67,4 +67,4 @@ AI大模型的调用成本；教研内容研发与题库采购；产品研发与
 - [https://www.gooduo.net/news/40](https://www.gooduo.net/news/40)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

@@ -69,4 +69,4 @@ IP孵化与潮玩开模研发成本；规模化生产及供应链履约成本；
 - [https://runwise.co/dtc/272354/](https://runwise.co/dtc/272354/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

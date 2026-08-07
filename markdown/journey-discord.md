@@ -93,4 +93,4 @@
 - [https://techcrunch.com/2011/04/21/japanese-company-gree-buys-mobile-social-gaming-platform-openfeint-for-104-million/](https://techcrunch.com/2011/04/21/japanese-company-gree-buys-mobile-social-gaming-platform-openfeint-for-104-million/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

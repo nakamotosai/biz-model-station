@@ -19,9 +19,12 @@ import argparse
 import json
 import re
 import subprocess
+import sys
+import os
 from datetime import datetime
 from pathlib import Path
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from anubis.verifier import run_verifier, Verdict
 
 ROOT = Path(__file__).resolve().parent.parent

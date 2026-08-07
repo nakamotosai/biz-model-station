@@ -68,4 +68,4 @@ AI模型微调及推理调用费、医学与心理学内容审核及CBT课程制
 - [https://k.sina.cn/article_7857141524_1d452771401901s6ys.html](https://k.sina.cn/article_7857141524_1d452771401901s6ys.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

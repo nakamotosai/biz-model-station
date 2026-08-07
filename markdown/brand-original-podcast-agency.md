@@ -73,4 +73,4 @@
 - [https://www.xiaoyuzhoufm.com/episode/69edbe9b1d989496e78877cc](https://www.xiaoyuzhoufm.com/episode/69edbe9b1d989496e78877cc)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

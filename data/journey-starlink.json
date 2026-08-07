@@ -1,0 +1,65 @@
+{
+  "type": "journey",
+  "id": "journey-starlink",
+  "name": "Starlink：全球卫星互联网",
+  "company": "SpaceX（Starlink）",
+  "founders": "Elon Musk",
+  "industry": "云计算",
+  "region": "全球",
+  "scale": "巨头",
+  "channel": "线上",
+  "y2026_hot": "凭纵向网络设施实现全球光纤替代。",
+  "origin": "SpaceX以卫星网络取代传统光纤，突破陆地限度。",
+  "milestones": [
+    {
+      "time": "2015",
+      "stage": "起步",
+      "outcome": "失误",
+      "detail": "早期卫星发射技术与运营测试遇到重力与轨道控制问题。"
+    },
+    {
+      "time": "2017",
+      "stage": "获批",
+      "outcome": "拐点",
+      "detail": "赢得FCC许可后，启动大规模卫星群部署。"
+    },
+    {
+      "time": "2020",
+      "stage": "扩张",
+      "outcome": "增长",
+      "detail": "首批1,000颗卫星投入轨道，实现全球覆盖区。"
+    },
+    {
+      "time": "2023",
+      "stage": "商业化",
+      "outcome": "PMF",
+      "detail": "完成面向商业用户的订阅服务，收入显著提升。"
+    }
+  ],
+  "turning_points": [
+    "FCC许可",
+    "全球卫星群部署",
+    "商业订阅收入突破"
+  ],
+  "failures": [
+    "技术试跑期间的卫星失控",
+    "高频段信号干扰测试失败"
+  ],
+  "keys": [
+    "低延迟全球网络",
+    "大规模卫星重叠覆盖"
+  ],
+  "lessons": [
+    "规模化可行带来竞争优势",
+    "持续投入研发抗干扰至关重要"
+  ],
+  "metrics": {
+    "卫星数量": "1,500+",
+    "年度营收": "约30亿美元"
+  },
+  "competitors": "亚马逊AWS、谷歌云、IBM等云服务商正在争夺低时延网络业务。",
+  "sources": [
+    "https://www.spacex.com/starlink",
+    "https://en.wikipedia.org/wiki/Starlink"
+  ]
+}

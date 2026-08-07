@@ -73,4 +73,4 @@ B端景区SaaS粘性高+数据集累积形成RAG知识库壁垒；C端用户评�
 - [https://finance.tom.com/202606/1903002208.html](https://finance.tom.com/202606/1903002208.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

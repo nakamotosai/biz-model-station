@@ -68,4 +68,4 @@ Airwallex 2026年完成3.2亿美元H轮融资，估值达110亿美元，正从�
 - [https://www.airwallex.com/cn/blog/new-at-airwallex-july-edition-2026](https://www.airwallex.com/cn/blog/new-at-airwallex-july-edition-2026)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

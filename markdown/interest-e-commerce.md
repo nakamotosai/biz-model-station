@@ -69,4 +69,4 @@
 - [https://adspolar.com/cn-breg/docs/how-ter-navigate-the-future-of-tiktok-shop-advertising](https://adspolar.com/cn-breg/docs/how-ter-navigate-the-future-of-tiktok-shop-advertising)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

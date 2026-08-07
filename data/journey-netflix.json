@@ -1,0 +1,61 @@
+{
+  "type": "journey",
+  "id": "journey-netflix",
+  "name": "Netflix: Streaming Giant (Founded 1998) – Global Video Wall",
+  "company": "Netflix, Inc.",
+  "founders": "Reed Hastings, Marc Randolph",
+  "industry": "内容/创作者经济",
+  "region": "美",
+  "scale": "上市",
+  "channel": "内容",
+  "y2026_hot": "在 2026 年，Netflix 仍是首屈一指的全球付费视频平台，用户数突破 3.25 亿，原创剧集及电影持续领先。",
+  "origin": "最初为 DVD 邮寄业务，2007 年转型为流媒体服务。",
+  "milestones": [
+    {
+      "time": "1998",
+      "stage": "创业",
+      "outcome": "启动",
+      "detail": "成立公司，开始 DVD 邮寄租赁业务"
+    },
+    {
+      "time": "2007",
+      "stage": "转型",
+      "outcome": "PMF",
+      "detail": "推出流媒体服务，正式演示第一部电影《Babel》的点播；用户体验显著提升"
+    },
+    {
+      "time": "2013",
+      "stage": "拐点",
+      "outcome": "拐点",
+      "detail": "开启原创剧集《House of Cards》合作，开启平台原创化之路"
+    }
+  ],
+  "turning_points": [
+    "2007 由 DVD 转为流媒体",
+    "2013 括号内引入原创剧集与电影"
+  ],
+  "failures": [
+    "2010 订阅计划上市后遇到剧集折扣与合作纠纷导致几百万人取消订阅"
+  ],
+  "keys": [
+    "内容版权采购",
+    "原创内容投入",
+    "会员付费模式",
+    "跨平台兼容"
+  ],
+  "lessons": [
+    "创新的付费模型是核心",
+    "版权成本需长期管理",
+    "持续数据驱动决策须必不可少"
+  ],
+  "metrics": {
+    "Paid memberships 2026": "325 million",
+    "Paid memberships 2023": "340 million",
+    "YoY growth 2024": "2.9%"
+  },
+  "competitors": "Hulu、Disney+、Amazon Prime Video、HBO Max",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Netflix",
+    "https://about.netflix.com/"
+  ]
+}

@@ -65,4 +65,4 @@
 - [https://www.grandviewresearch.com/industry-analysis/esg-software-market-report](https://www.grandviewresearch.com/industry-analysis/esg-software-market-report)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

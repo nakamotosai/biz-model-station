@@ -81,4 +81,4 @@
 - [https://www.scmp.com/news/people-culture/trending-china/article/3268443/china-supermarket-chain-makes-us12-million-payout-customers-over-dirty-noodles](https://www.scmp.com/news/people-culture/trending-china/article/3268443/china-supermarket-chain-makes-us12-million-payout-customers-over-dirty-noodles)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

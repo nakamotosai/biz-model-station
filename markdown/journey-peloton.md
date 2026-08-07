@@ -92,4 +92,4 @@ John Foley 在 Barnes & Noble 做电商总监时工作极忙，想去线下高�
 - [https://www.bbc.com/news/business-56993894](https://www.bbc.com/news/business-56993894)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-07*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*

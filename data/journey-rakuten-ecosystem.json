@@ -1,0 +1,59 @@
+{
+  "type": "journey",
+  "id": "journey-rakuten-ecosystem",
+  "name": "Rakuten生态链演进路径",
+  "company": "Rakuten（乐天）",
+  "founders": "三谷浩史",
+  "industry": "互联网/电商",
+  "region": "亚洲/日本",
+  "scale": "巨头",
+  "channel": "线上/多元",
+  "y2026_hot": "2026年Rakuten将继续巩固其日系电商巨头地位，利用AI、物流和内容生态实现闭环商业模式。",
+  "origin": "Rakuten由首席技术官三谷浩史于1997年创立，最初以彩色线路书店起家，随后转向综合电商。",
+  "milestones": [
+    {
+      "time": "1997",
+      "stage": "起家",
+      "outcome": "成就日系电商巨头",
+      "detail": "Rakuten由三谷浩史创立，最初以网络书店起家，奠定运营与粉丝的基础。"
+    },
+    {
+      "time": "2010",
+      "stage": "扩张",
+      "outcome": "多元化业务",
+      "detail": "Rakuten以积分体系拉拢用户，进军金融、旅行、媒体等领域，形成社交化生态。"
+    },
+    {
+      "time": "2025",
+      "stage": "转型",
+      "outcome": "AI智能与闭环",
+      "detail": "2025年左右，Rakuten在AI、IoT与物流上加速布局，深化内容与商业闭环，提升会员黏性与数据价值。"
+    }
+  ],
+  "turning_points": [
+    "移动支付领跑",
+    "AI内容整合"
+  ],
+  "failures": [
+    "面对阿里巴巴与腾讯竞争，市场份额受压"
+  ],
+  "keys": [
+    "平台模式",
+    "积分激励",
+    "多元化生态"
+  ],
+  "lessons": [
+    "持续技术投入是核心驱动力",
+    "平台开放生态提升外部合作",
+    "消费者至上打造忠诚度"
+  ],
+  "metrics": {
+    "收入": "2026年预计收入超3000亿日元",
+    "用户": "会员用户超过3亿"
+  },
+  "competitors": "阿里巴巴、腾讯、亚马逊日本等",
+  "sources": [
+    "https://rakuten.com/",
+    "https://en.wikipedia.org/wiki/Rakuten"
+  ]
+}

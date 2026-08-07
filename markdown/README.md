@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **279** 篇（model 238 / journey 31 / scam 10）
+共 **284** 篇（model 238 / journey 36 / scam 10）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（31）
+## 🛤 发家路径（36）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -256,6 +256,7 @@
 - [波形智能蛙蛙写作：锁定网文作者群体，做高人均时长AI辅助](ai-novel-writing-wuxia-platform.md) · AI/大模型 · 中
 - [ChatCut：金马导演转型AI视频剪辑工具出海创业者](ai-video-editing-tool-indie-founder-chatcut.md) · AI/大模型 · 跨地区
 - [破壳剑–以情感陪伴为先的家庭机器人](broken-shell-robot.md) · 其他 · 中
+- [Replika – The AI Companion](journey-ai-companion.md) · Artificial Intelligence, Mental Health · United States
 - [Airbnb：从气垫床加奥巴马麦片到900亿市值，2026年靠世界杯与AI守擂](journey-airbnb.md) · 旅游 · 美
 - [Casper 泡沫破裂：美 DTC 床垫独角兽从上市到被并购](journey-casper-sleep.md) · 电商/零售 · 美
 - [霸王茶姬：张俊杰从流浪少年到美股茶饮第一股，国风鲜奶茶如何杀出茶颜悦色阴影](journey-chagee-tea-global.md) · 餐饮/新茶饮 · 中
@@ -263,14 +264,18 @@
 - [大疆：汪滔从宿舍飞控到霸占全球七成市场](journey-dji-drone.md) · AI/大模型 · 中
 - [多彩语 ⚡️ Duolingo 1.3B / 月, AI先行, 2026 股价](journey-duolingo.md) · 教育科技/在线教育 · 美国/欧盟
 - [Figma从浏览器编辑器逆袭Adobe被禁购](journey-figma.md) · AI/大模型 · 美
+- [基因科技：Ginkgo Bioworks 的骤飞之路](journey-ginkgo-bioworks.md) · 生物技术 · 美国
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
+- [Netflix: Streaming Giant (Founded 1998) – Global Video Wall](journey-netflix.md) · 内容/创作者经济 · 美
 - [英伟达：黄仁勋从 Denny's 餐厅到 AI 算力帝国的三十年长押注](journey-nvidia.md) · 半导体/AI 芯片 · 美
 - [胖东来：于东来从许昌八平米小店到中国零售课代表](journey-pangdonglai-retail.md) · 电商/零售 · 中
 - [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
+- [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
 - [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
 - [Shopify：Tobi Lütke 从雪板店到全球电商基建，物流豪赌翻车后靠AI商务再起](journey-shopify-platform.md) · SaaS/企业软件 · 全球
 - [Slack：从两度失败的喜剧式创业到企业消息SaaS之王，被277亿美元收购后在2026年拼AI Agent续命](journey-slack.md) · SaaS/企业软件 · 美
+- [Starlink：全球卫星互联网](journey-starlink.md) · 云计算 · 全球
 - [Stripe：9行代码到千亿美金支付帝国](journey-stripe.md) · 金融科技 · 美/欧
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
