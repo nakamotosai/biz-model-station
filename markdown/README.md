@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **285** 篇（model 238 / journey 37 / scam 10）
+共 **286** 篇（model 238 / journey 38 / scam 10）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（37）
+## 🛤 发家路径（38）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -260,6 +260,7 @@
 - [Airbnb：从气垫床加奥巴马麦片到900亿市值，2026年靠世界杯与AI守擂](journey-airbnb.md) · 旅游 · 美
 - [Casper 泡沫破裂：美 DTC 床垫独角兽从上市到被并购](journey-casper-sleep.md) · 电商/零售 · 美
 - [霸王茶姬：张俊杰从流浪少年到美股茶饮第一股，国风鲜奶茶如何杀出茶颜悦色阴影](journey-chagee-tea-global.md) · 餐饮/新茶饮 · 中
+- [Coinbase：从数字支付到加密资产的演进](journey-coinbase.md) · 金融科技 · 美
 - [Discord：从被收购的游戏社交失败品到两亿月活的社区帝国，2026 年冲刺 IPO](journey-discord.md) · SaaS/企业软件 · 美
 - [大疆：汪滔从宿舍飞控到霸占全球七成市场](journey-dji-drone.md) · AI/大模型 · 中
 - [多彩语 ⚡️ Duolingo 1.3B / 月, AI先行, 2026 股价](journey-duolingo.md) · 教育科技/在线教育 · 美国/欧盟
