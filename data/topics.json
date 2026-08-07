@@ -961,11 +961,6 @@
    "kind": "journey"
   },
   {
-   "id": "journey-notion",
-   "desc": "Notion：创始人 2013 年做数据库工具失败后彻底重构、靠社区与模板生态翻盘的全能工作台，2026 年看 Notion AI 如何切入企业协作与 AI 时代。",
-   "kind": "journey"
-  },
-  {
    "id": "journey-figma",
    "desc": "Figma：2012 年从云端设计工具起家、2023 年 Adobe 200 亿美元收购被监管叫停后独立壮大的设计平台，2026 年看其 AI 设计功能与估值新故事。",
    "kind": "journey"
@@ -1293,6 +1288,11 @@
   {
    "id": "journey-meesho",
    "desc": "2026年视角看Meesho：借WhatsApp分销让印度小城女性卖货，社交裂变撬动下沉市场，估值一度近50亿美元，电商新范式。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ai-video",
+   "desc": "AI视频生成/剪辑工具创业（个人开发者、出海）",
    "kind": "journey"
   }
  ]
