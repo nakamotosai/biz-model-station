@@ -1,0 +1,70 @@
+{
+  "type": "journey",
+  "id": "journey-coupang",
+  "name": "Coupang(韩国最大电商)",
+  "company": "Coupang Inc.",
+  "founders": "Bom Kim",
+  "industry": "电商",
+  "region": "东亚/韩国",
+  "scale": "上市",
+  "channel": "线上",
+  "y2026_hot": "Coupang以Rocket Delivery与AI物流全程无人化，2026年成为东亚最大电商平台并实现跨境物流全链覆盖，业务模式与AI供应链深度融合。",
+  "origin": "Coupang于2010年由Bom Kim创立，以24小时极速配送为核心，首次将物流与支付与平台结合，彻底改变韩国电商生态。",
+  "milestones": [
+    {
+      "time": "2010-07-01",
+      "stage": "创业",
+      "outcome": "成立",
+      "detail": "Bom Kim以小团队在韩国经济区创立Coupang，目标是通过统一平台实现供应链与支付的整合。"
+    },
+    {
+      "time": "2012-09-01",
+      "stage": "物流",
+      "outcome": "规模化",
+      "detail": "推出Rocket Delivery，打造24小时极速配送网络，采用AI订单规划与仓储管理，实现同城近毛羊配送。"
+    },
+    {
+      "time": "2017-05-01",
+      "stage": "IPO",
+      "outcome": "上市",
+      "detail": "在纽约证券交易所上市，发行20亿美元股份，融资加速技术与物流扩张。"
+    },
+    {
+      "time": "2019-10-01",
+      "stage": "扩张",
+      "outcome": "国际",
+      "detail": "首次进入台湾及日本等东亚市场，打造跨境物流与本土化运营模式。"
+    },
+    {
+      "time": "2025-05-01",
+      "stage": "AI",
+      "outcome": "创新",
+      "detail": "公司全线平台引入AI订单预测、物流调度与供应链优化，实现物流成本下降25%。"
+    }
+  ],
+  "turning_points": [
+    "2018年物流成本失控，导致配送延误与用户投诉激增，促使公司加速AI调度与仓储自动化改革。",
+    "2020年国内与国际竞争加剧，Coupang通过与本土快递伙伴合作完成跨境配送网络建设。"
+  ],
+  "failures": [
+    "2018年业务扩张期间物流成本超过预测30%，造成当年净利润率压缩。",
+    "2021年过度扩展物流网络导致运营失衡，短期内人力成本攀升。"
+  ],
+  "keys": [
+    "极速24小时配送网络",
+    "自建仓库AI物流"
+  ],
+  "lessons": [
+    "需持续维护物流基础设施与技术投入，物流是电商的核心竞争力。",
+    "持续的技术创新与成本控制是实现可持续增长的关键。"
+  ],
+  "metrics": {
+    "Revenue 2024": "30.3亿",
+    "Net income 2024": "66亿"
+  },
+  "competitors": "Amazon Global, Gmarket, Naver Smart Store",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coupang",
+    "https://en.wikipedia.org/wiki/Coupang#Controversy"
+  ]
+}
