@@ -1,0 +1,59 @@
+{
+  "type": "journey",
+  "id": "journey-elevenlabs",
+  "name": "ElevenLabs",
+  "company": "ElevenLabs",
+  "founders": "Piotr Dąbkowski, Mati Staniszewski",
+  "industry": "AI/大模型",
+  "region": "UK·US",
+  "scale": "巨头",
+  "channel": "线上",
+  "y2026_hot": "2026 年成为语音 AI 关键场景，ElevenLabs 的多语言、多情感模型奠定行业基础，覆盖 30+ 语言并实现 100% 语音真实性。",
+  "origin": "创始人从 Google 与 Palantir 提取技术，受市场对高保真语音的需求推动而起步。",
+  "milestones": [
+    {
+      "time": "2022-05-01",
+      "stage": "启动",
+      "outcome": "增长",
+      "detail": "总部在伦敦的两位创始人 Piotr Dąbkowski 与 Mati Staniszewski 联手推出 ElevenLabs，致力让文字变成高保真、多语言语音。"
+    },
+    {
+      "time": "2023-06-20",
+      "stage": "融资",
+      "outcome": "增长",
+      "detail": "完成 19 亿元美元 Series A，Andreessen Horowitz、Nat Friedman 与 Daniel Gross 加入，确认 ElevenLabs 继续扩展语音模型与生态。"
+    },
+    {
+      "time": "2024-01-22",
+      "stage": "融资",
+      "outcome": "增长",
+      "detail": "完成 8000 万美元 Series B，估值突破 10 亿元美元，标志着 ElevenLabs 成为行业 Unicorn。"
+    },
+    {
+      "time": "2024-06-01",
+      "stage": "危机",
+      "outcome": "失败",
+      "detail": "因 4chan 盗版声卡泄露导致疑似乔·拜登抬头的深度伪造电话事件，促使公司在 2024 年 6 月正式发布 AI 语音检测与 Watermark 技术以防滥用。"
+    },
+    {
+      "time": "2025-01-30",
+      "stage": "融资",
+      "outcome": "增长",
+      "detail": "完成 1.8 亿美元 Series C，估值突破 33 亿美元，获得多家机构的融资支持。"
+    }
+  ],
+  "turning_points": ["创办初期的技术积累", "深度伪造事件后加强安全机制", "多轮融资推动全球化扩张"],
+  "failures": ["深度伪造电话事件导致信任危机", "早期 API 安全漏洞导致外部下载被滥用"],
+  "keys": ["高保真多语言语音合成", "情感情绪控刻", "可公开 API 供快速集成"],
+  "lessons": ["安全措施必须与功能同步推出", "透明的安全更新能缓解公众担忧"],
+  "metrics": {
+    "注册用户": "100+ 万",
+    "累计语音里程碑": "超过 10 年音频时长"
+  },
+  "competitors": "Descript、Respeecher、Google Cloud Text‑to‑Speech 仅是局部对手，ElevenLabs 通过多语言、情感定位与成本优势保持领先。",
+  "sources": [
+    "https://en.wikipedia.org/wiki/ElevenLabs",
+    "https://elevenlabs.io/blog/series-b",
+    "https://tech.eu/2025/01/30/elevenlabs-triples-valuation-to-3-3bn-after-confirming-180m-funding-round/"
+  ]
+}
