@@ -1,0 +1,53 @@
+{
+ "id": "shopback-cashback-affiliate-marketing",
+ "name": "购物返现与联盟营销平台",
+ "industry": "电商/零售",
+ "region": "东南亚",
+ "scale": "中型",
+ "channel": "线上",
+ "background": "东南亚电商渗透率快速提升，返现与联盟营销成为电商导流的重要方式。ShopBack以购物返现切入，2026财年营收增长超30%并实现盈利，同时扩展游戏与AI业务，成为区域内代表性的返现与联盟营销平台。",
+ "target": "目标客户是面向东南亚及亚太地区的消费者，同时服务电商商家与品牌广告主。消费者免费使用返现服务，商家按成交支付联盟佣金。",
+ "revenue": "向合作商家收取联盟营销佣金，按用户成交订单比例分成。同时通过广告推荐、购物数据服务以及新增的ShopBack Play游戏业务获取收入。",
+ "cost": "成本结构包括用户返现支出、技术研发与平台运维、市场营销推广、团队运营成本以及游戏内容采购成本。",
+ "moat": "护城河来自规模化的用户基础和商家合作网络，以及多年积累的消费行为数据，形成返现与联盟营销的协同效应。",
+ "swot": {
+  "s": [
+   "品牌在东南亚知名度高，用户基数庞大",
+   "已实现盈利，财务健康度高"
+  ],
+  "w": [
+   "核心业务依赖商家佣金比例，利润空间受挤压",
+   "返现模式同质化明显，用户忠诚度有限"
+  ],
+  "o": [
+   "东南亚数字消费与移动电商持续增长",
+   "游戏和AI新业务带来多元化收入机会"
+  ],
+  "t": [
+   "同类返现平台与电商自带会员体系竞争激烈",
+   "宏观经济波动可能影响商家营销预算"
+  ]
+ },
+ "keys": [
+  "持续扩大合作商家覆盖范围",
+  "增强用户返现体验与留存机制",
+  "拓展游戏、AI等新收入引擎"
+ ],
+ "risks": [
+  "返现成本上升可能导致毛利率下降",
+  "依赖大型电商平台的合作关系",
+  "监管政策变动影响营销与支付业务"
+ ],
+ "example": [
+  "ShopBack新加坡总部",
+  "ShopBack Play游戏返现平台"
+ ],
+ "sources": [
+  "https://www.businesstimes.com.sg/startups-tech/startups/tech-in-asia/shopping-gaming-shopback-sees-over-30-growth-fy-2026",
+  "https://fintechnews.sg/129676/payments/shopback-profit-2025/",
+  "https://corporate.shopback.com/about",
+  "https://www.shopback.sg/blog/savings/how-much-earn-shopback-play-2026",
+  "https://www.thepeakmagazine.com.sg/influence/how-shopbacks-ethos-giving-back-paying-company-turns-profitable",
+  "https://ammtw.com/149971"
+ ]
+}

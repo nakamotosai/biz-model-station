@@ -3,9 +3,9 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **222** 篇（model 209 / journey 8 / scam 5）
+共 **251** 篇（model 238 / journey 8 / scam 5）
 
-## 💰 赚钱模式（209）
+## 💰 赚钱模式（238）
 
 - [Agent交易/智能商务支付基础设施](agentic-commerce-payments.md) · 金融科技 · 美
 - [AI Agent 代运营按结果付费服务商](agentic-outsourcing-aas.md) · AI/大模型 · 全球
@@ -23,8 +23,10 @@
 - [AI数据标注众包平台](ai-data-annotation-outsourcing-platform.md) · AI/大模型 · 中
 - [AI智能体驱动的开放式无人零售网络](ai-driven-unmanned-retail-intelligent-vending.md) · AI/大模型 · 中
 - [AI情感陪伴与轻度心理干预应用](ai-emotional-companion-hardware.md) · 内容/创作者经济 · 中
+- [情感语音AI API + 开发者订阅](ai-empathic-voice-api-developer-subscription.md) · AI/大模型 · 美
 - [AI驱动家庭维修蓝领撮合平台](ai-home-repair-matching-platform.md) · 本地生活 · 中
 - [AI虚拟偶像声音数据与广告投放代理](ai-idol-voice-data-ads-agency.md) · AI/大模型 · 中
+- [内存中心架构AI推理NPU芯片厂商](ai-inference-npu-memory-centric-chip.md) · AI/大模型 · 跨地区
 - [AI驱动KOL营销ROI全链路SaaS平台](ai-kol-marketing-roi-saas.md) · 营销/广告 · 中
 - [AI心理健康综合服务及EAP平台](ai-mental-health-eap-comprehensive-platform.md) · 医疗/养老 · 中
 - [AI微SaaS矩阵式变现](ai-micro-saas-indie-developer-matrix.md) · AI/大模型 · 跨地区
@@ -32,7 +34,11 @@
 - [AI原生人力资源SaaS平台化转型](ai-native-hr-saas-platform.md) · SaaS/企业软件 · 中
 - [AI无代码轻量化制造SaaS交付模式](ai-nocode-lightweight-mes-erp.md) · SaaS/企业软件 · 中
 - [AI个性化分级阅读伴学平台](ai-personalized-reading-tutor.md) · 教育/知识付费 · 中
+- [AI修图订阅与电商目录自动化](ai-photo-editing-creator-subscription-photoroom.md) · AI/大模型 · 欧洲
 - [AI前台/接线员B2B外包服务](ai-receptionist-agency.md) · 本地生活 · 美
+- [AI录音笔硬件销售加转录订阅出海模式](ai-recorder-hardware-subscription-overseas.md) · AI/大模型 · 跨地区
+- [AI数字销售员工企业订阅](ai-sdr-digital-worker-subscription.md) · AI/大模型 · 欧洲
+- [AI搜索智能体与出版商分成模式](ai-search-agent-publisher-revenue-share.md) · AI/大模型 · 美
 - [AI多智能体自愈测试平台](ai-self-healing-test-agent-platform.md) · SaaS/企业软件 · 中
 - [AI短剧平台广告分账模式](ai-short-drama-platform-revenue-share.md) · 内容/创作者经济 · 中
 - [AI留学中介赋能SaaS工具](ai-study-abroad-agency-empowerment-saas.md) · SaaS/企业软件 · 中
@@ -41,6 +47,7 @@
 - [AI训练数据版权授权平台](ai-training-data-licensing-platform.md) · AI/大模型 · 中
 - [具身智能训练数据采销平台（复售模式）](ai-training-data-marketplace.md) · AI/大模型 · 中
 - [AI家教跨年龄订阅服务](ai-tutor-subscription-k12-career.md) · 教育/知识付费 · 全球
+- [AI自然语言应用生成平台订阅模式](ai-vibe-coding-app-builder-subscription.md) · AI/大模型 · 欧洲
 - [AI视频生成（企业级SaaS）](ai-video-saas.md) · AI/大模型 · 美
 - [AI技能职业培训订阅平台](ai-vocational-training-subscription.md) · 教育/知识付费 · 中
 - [虚拟偶像全栈式运营与变现代理](ai-vtuber-agency-end-to-end.md) · 内容/创作者经济 · 中
@@ -82,6 +89,7 @@
 - [创作者会员制订阅经济](creator-membership-subscription.md) · 内容/创作者经济 · 全球
 - [创作者付费订阅/会员经济](creator-paid-subscription.md) · 内容/创作者经济 · 美
 - [全球创作者会员订阅变现智能升级](creator-subscription-upgrade-2026.md) · 内容/创作者经济 · 全球
+- [AI驱动跨境支付与多币种企业账户平台](cross-border-ai-agent-payment-platform.md) · 金融科技 · 跨地区
 - [全托管/半托管跨境电商出海](cross-border-fully-managed.md) · 电商/零售 · 全球
 - [跨境红人矩阵种草收割闭环](cross-border-kol-seeding-harvest-loop.md) · 电商/零售 · 跨地区
 - [跨境电商零佣金海外仓托管模式](cross-border-overseas-warehouse-0commission.md) · 电商/零售 · 跨地区
@@ -90,6 +98,7 @@
 - [短剧出海本土化制发平台](cross-border-short-drama-localization-platform.md) · 内容/创作者经济 · 跨地区
 - [跨境海外仓一件代发履约SaaS](cross-border-warehouse-fulfillment-saas.md) · SaaS/企业软件 · 中
 - [云端众包/技能挂牌接单](crowdsourcing-freelance.md) · 其他 · 日
+- [DeepSeek开源大模型与低价API平台](deepseek-open-source-ai-api-platform.md) · AI/大模型 · 中
 - [数字医疗一体化平台（医+药+险+AI服务）](digital-health-integrated-platform.md) · 医疗/养老 · 中
 - [数字人/AI直播带货降本模式](digital-human-livestream.md) · AI/大模型 · 中
 - [数字人直播代运营与工具服务商](digital-human-livestream-provider.md) · 电商/零售 · 中
@@ -103,6 +112,10 @@
 - [企业数据API按Token计费变现](enterprise-data-token-monetization.md) · AI/大模型 · 中
 - [企业级MaaS推理优化与边缘部署平台](enterprise-maas-inference-edge-platform.md) · AI/大模型 · 中
 - [企业多Agent流程编排SaaS](enterprise-multi-agent-orchestration-saas.md) · SaaS/企业软件 · 中
+- [Eureka Labs AI原生教育平台](eureka-labs-ai-native-education.md) · 教育/知识付费 · 美
+- [欧洲主权AI开源模型企业订阅](european-sovereign-ai-open-model-enterprise.md) · AI/大模型 · 欧洲
+- [进化算法驱动的日语大模型与垂直行业方案](evolutionary-ai-japan-vertical-llm.md) · AI/大模型 · 日
+- [跨境支付升级全金融服务平台模式](flutterwave-africa-cross-border-payment-banking.md) · 金融科技 · 跨地区
 - [全产业链水源+大单品+深度线下渠道模式](fmcg-full-chain-big-single-offline.md) · 电商/零售 · 中
 - [基础大模型按量订阅（模型层变现）](foundation-model-revenue.md) · AI/大模型 · 美
 - [生鲜配送转净菜加工一体化供应链](fresh-delivery-to-prepared-food-supply-chain.md) · 餐饮/茶饮 · 中
@@ -127,9 +140,13 @@
 - [即时零售店仓一体精细化盈利模式](instant-retail-margin-optimization.md) · 电商/零售 · 中
 - [兴趣电商内容场+复购滚雪球](interest-e-commerce.md) · 内容/创作者经济 · 全球
 - [日本个人副业：金融内容与投资自媒体变现](japan-side-hustle-financial-affiliate-content.md) · 金融科技 · 日
+- [日本顶流网红个人IP多元化变现](jp-top-creator-ip-diversification.md) · 内容/创作者经济 · 日
+- [长上下文大模型助手C端增值订阅与企业接口双轨变现](kimi-long-context-c-assistant-monetization.md) · AI/大模型 · 中
 - [知识付费私域零抽佣SCRM服务商](knowledge-paid-0commission-scrm.md) · SaaS/企业软件 · 中
+- [韩国Toss超级App金融平台](korea-fintech-superapp-toss.md) · 金融科技 · 韩国
 - [法律AI代理SaaS结果付费模式](legal-ai-agent-saas.md) · 其他 · 全球
 - [LINE AI机器人/小程序变现](line-ai-bot-monetization.md) · AI/大模型 · 日
+- [Linear 设计驱动的极简项目管理工具](linear-design-driven-project-tool.md) · SaaS/企业软件 · 全球
 - [垂直领域LLM微调定制（企业/本地微调与部署）](llm-fine-tuning-entreprise-service.md) · AI/大模型 · 全球
 - [轻资产本地向导撮合平台](local-guide-platform-light-asset.md) · 旅游 · 中
 - [本地向导SaaS与抽佣平台](local-guide-saas-commission.md) · 旅游 · 中
@@ -150,6 +167,8 @@
 - [微软 Azure 云与 AI 服务](microsoft-azure-cloud-ai.md) · AI/大模型 · 全球
 - [米哈游全球二次元IP变现](miho-yo-global-ip.md) · 内容/创作者经济 · 全球
 - [茶饮供应链加盟（卖原料给加盟商）](milk-tea-supply-chain-franchise.md) · 餐饮/茶饮 · 中
+- [MiniMax海螺AI音乐生成订阅与版权变现](minimax-hailuo-ai-music-subscription.md) · 内容/创作者经济 · 中
+- [MrBeast个人IP商业帝国：YouTube流量+Feastables食品+游戏](mrbeast-ip-empire-feastables-games.md) · 内容/创作者经济 · 跨地区
 - [特许经营加盟·多店化整合经营](multi-unit-franchise.md) · 电商/零售 · 美
 - [日本代购无本创业变现](needs-side-hustle-proxy-shopping.md) · 电商/零售 · 跨地区
 - [流媒体广告订阅与IP矩阵变现模式](netflix-ads-ip-empire.md) · 内容/创作者经济 · 全球
@@ -160,6 +179,7 @@
 - [note付费经验/技能文章](note-paid-knowledge-article.md) · 内容/创作者经济 · 日
 - [note pro 法人客户媒体（B2B服务）](note-pro-b2b-ownmedia.md) · SaaS/企业软件 · 日
 - [Notion模板销售（数字商品）](notion-template-stock.md) · SaaS/企业软件 · 日
+- [无网点数字银行拉美扩张模式](nubank-branchless-digital-bank-latam.md) · 金融科技 · 跨地区
 - [英伟达数据中心芯片（AI 算力军火商）](nvidia-data-center-ai-infra.md) · AI/大模型 · 全球
 - [AI驱动的全域即时零售履约网络](omni-channel-instant-retail-ai-fulfillment.md) · 电商/零售 · 中
 - [开源商业化：开放核心+云托管](open-source-commercialization.md) · AI/大模型 · 美
@@ -167,6 +187,9 @@
 - [按结果/用量定价取代per-seat](outcome-based-agent-pricing.md) · SaaS/企业软件 · 美
 - [付费 Newsletter 平台生态与多渠道变现](paid-newsletter-platform-economy.md) · 内容/创作者经济 · 跨地区
 - [母婴/幼儿教育App订阅制（分级内容续费）](parenting-edu-subscription-china.md) · 教育/知识付费 · 中
+- [非洲太阳能分期租赁+移动支付普惠金融模式](pay-as-you-go-solar-mobile-finance-africa.md) · 金融科技 · 跨地区
+- [非遗内容驱动型个人IP商业生态模式](personal-ip-heritage-content-brand.md) · 内容/创作者经济 · 中
+- [知识带货个人IP直播商业模式](personal-ip-knowledge-livestream-commerce.md) · 电商/零售 · 中
 - [个人YouTube/AI短视频收益化](personal-youtube-ai-shorts.md) · 内容/创作者经济 · 日
 - [宠物洗护+即时零售一体化SaaS](pet-care-wash-retail-saas.md) · 宠物 · 中
 - [宠物按月订购订阅盒](pet-monthly-subscription-box.md) · 电商/零售 · 中
@@ -176,6 +199,8 @@
 - [潮玩IP盲盒全渠道出海模式](pop-mart-ip-blindbox-global.md) · 电商/零售 · 跨地区
 - [预制菜B端供应链（餐饮+商超双渠道）](prepared-dishes-b2b.md) · 餐饮/茶饮 · 中
 - [县镇光伏扶贫资产专业运维及增值开发](pv-ops-subsidy-clean.md) · 其他 · 中
+- [暗仓密度飞轮式十分钟快送](quick-commerce-dark-store-india.md) · 本地生活 · 跨地区
+- [Razorpay印度B2B支付网关与中小企业金融服务平台](razorpay-india-payment-gateway-fintech.md) · 金融科技 · 跨地区
 - [餐饮SaaS收银+数字化（订阅制）](restaurant-saas-pos.md) · 本地生活 · 中
 - [机器人编程硬件与赛事运营闭环](robot-education-competition-operation.md) · 教育/知识付费 · 中
 - [机器人RaaS订阅与按需服务](robot-raas-delivery-cleaning-inspection.md) · SaaS/企业软件 · 中
@@ -183,6 +208,7 @@
 - [结果导向型SaaS定价模式](saas-result-based-pricing.md) · SaaS/企业软件 · 中
 - [用量计费型SaaS Token化模式](saas-token-usage-pricing.md) · SaaS/企业软件 · 中
 - [商业卫星遥感数据即服务](satellite-remote-sensing-data-service.md) · 其他 · 中
+- [购物返现与联盟营销平台](shopback-cashback-affiliate-marketing.md) · 电商/零售 · 东南亚
 - [Skeb有偿委托（个人作品接单）](skeb-commission-commission.md) · 内容/创作者经济 · 日
 - [小地接社非标定制游模式](small-dao-private-custom-tour.md) · 旅游 · 中
 - [24小时自助智能健身房（月付制）](smart-fitness-studio.md) · 本地生活 · 中
@@ -198,6 +224,7 @@
 - [Substack千粉深度变现策略](substack-1000-fans-monetization-2026.md) · 内容/创作者经济 · 全球
 - [AI供应链脱核融资平台](supply-chain-ai-credit-platform.md) · 金融科技 · 中
 - [供应链盈利型加盟模式](supply-chain-profit-franchise-model.md) · 餐饮/茶饮 · 中
+- [先买后付消费金融平台（中东模式）](tabby-bnpl-middle-east-consumer-finance.md) · 金融科技 · 跨地区
 - [茶饮GMV分成加盟](tea-beverage-gmv-sharing-franchise.md) · 餐饮/茶饮 · 中
 - [茶饮品牌供应链金融加盟模式](tea-chain-supply-chain-finance-franchise.md) · 餐饮/茶饮 · 中
 - [特斯拉 FSD 订阅模式](tesla-fsd-subscription.md) · SaaS/企业软件 · 美
@@ -210,6 +237,8 @@
 - [二手车检测交易与金融一体化平台](used-car-platform-inspection-finance-live-stream.md) · 电商/零售 · 中
 - [垂直AI代理（法律/客服/知识/编码）](vertical-ai-agent.md) · AI/大模型 · 美
 - [足疗采耳休闲业态垂直SaaS矩阵](vertical-saas-foot-massage-matrix.md) · SaaS/企业软件 · 中
+- [越南电子钱包超级应用模式](vietnam-superapp-digital-wallet-fintech.md) · 金融科技 · 东南亚
+- [虚拟偶像IP全产业链与全球扩张模式](vtuber-ip-global-expansion-cover.md) · 内容/创作者经济 · 跨地区
 - [垃圾焚烧电厂智能化增效运营](waste-to-energy-digital-operator.md) · 其他 · 中
 - [微信私域会员复购经济](wechat-private-domain.md) · 电商/零售 · 中
 - [AI工具白标转售](white-label-ai-reselling.md) · AI/大模型 · 美

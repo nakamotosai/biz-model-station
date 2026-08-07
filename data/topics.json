@@ -719,6 +719,151 @@
    "id": "case-bytedance",
    "desc": "字节跳动 抖音电商+广告+本地生活 巨头多产品矩阵变现模式",
    "kind": "model"
+  },
+  {
+   "id": "case-plaud",
+   "desc": "Plaud AI录音笔 新兴硬件公司：AI转录订阅+硬件出海 2025爆火",
+   "kind": "model"
+  },
+  {
+   "id": "case-hume-ai",
+   "desc": "Hume AI 情感语音AI 新兴公司：情感识别API+开发者订阅",
+   "kind": "model"
+  },
+  {
+   "id": "case-linear-app",
+   "desc": "Linear 项目协作工具 小而美公司：设计驱动+团队订阅 科技圈口碑",
+   "kind": "model"
+  },
+  {
+   "id": "case-mrbeast",
+   "desc": "MrBeast 个人IP商业帝国：YouTube流量+Feastables食品+游戏 个人变现标杆",
+   "kind": "model"
+  },
+  {
+   "id": "case-eureka-labs",
+   "desc": "Eureka Labs 卡帕西个人创业：AI原生教育+编程课程订阅",
+   "kind": "model"
+  },
+  {
+   "id": "case-perplexity",
+   "desc": "Perplexity AI搜索 新兴公司：实时搜索+Pro订阅 2025高速增长",
+   "kind": "model"
+  },
+  {
+   "id": "case-deepseek",
+   "desc": "DeepSeek 深度求索 新兴AI公司：开源模型+API低价+技术突破 2025全球爆火",
+   "kind": "model"
+  },
+  {
+   "id": "case-kimi-moonshot",
+   "desc": "月之暗面Kimi 新兴AI公司：长上下文大模型+智能助手+订阅",
+   "kind": "model"
+  },
+  {
+   "id": "case-minimax",
+   "desc": "MiniMax 海螺AI音乐生成（音乐创作工具+订阅+版权）单点变现模式",
+   "kind": "model"
+  },
+  {
+   "id": "case-lizhizi",
+   "desc": "李子柒 个人IP复出：内容创作+非遗商业化+品牌联名 个人IP变现",
+   "kind": "model"
+  },
+  {
+   "id": "case-yuhuidongfang",
+   "desc": "董宇辉与辉同行 个人IP直播：知识带货+文旅+个人品牌 转型标杆",
+   "kind": "model"
+  },
+  {
+   "id": "case-cover-hololive",
+   "desc": "Cover hololive VTuber企划：虚拟偶像+粉丝经济+演唱会周边 全球扩张",
+   "kind": "model"
+  },
+  {
+   "id": "case-sakana-ai",
+   "desc": "Sakana AI 日本AI初创：模型进化算法+日本语模型+大额融资",
+   "kind": "model"
+  },
+  {
+   "id": "case-hikakin",
+   "desc": "HIKAKIN 个人YouTube商业：顶流网红+品牌合作+副业多元化 日本个人IP",
+   "kind": "model"
+  },
+  {
+   "id": "case-rebellions",
+   "desc": "Rebellions 韩国AI芯片初创：NPU芯片+数据中心+大额融资",
+   "kind": "model"
+  },
+  {
+   "id": "case-toss-im",
+   "desc": "Toss韩国金融科技 新兴公司：超级App+支付+银行 本土霸主",
+   "kind": "model"
+  },
+  {
+   "id": "case-lovable-swe",
+   "desc": "Lovable 瑞典AI建站 新兴公司：AI生成应用+订阅 2025全球爆火",
+   "kind": "model"
+  },
+  {
+   "id": "case-mistral",
+   "desc": "Mistral AI 法国 新兴公司：开源模型+企业订阅+欧洲主权AI",
+   "kind": "model"
+  },
+  {
+   "id": "case-11x-ai",
+   "desc": "11x AI英国AI销售代理 新兴公司：AI销售SDR+企业订阅",
+   "kind": "model"
+  },
+  {
+   "id": "case-photoroom",
+   "desc": "Photoroom 法国AI修图 新兴公司：AI背景编辑+创作者订阅",
+   "kind": "model"
+  },
+  {
+   "id": "case-momo-vn",
+   "desc": "MoMo 越南电子钱包 新兴公司：数字支付+生活服务 越南金融科技",
+   "kind": "model"
+  },
+  {
+   "id": "case-shopback",
+   "desc": "ShopBack 新加坡返现 新兴公司：购物返现+联盟营销 东南亚",
+   "kind": "model"
+  },
+  {
+   "id": "case-zepto",
+   "desc": "Zepto 印度10分钟快送 新兴公司：超快商务+大都市 2025爆火",
+   "kind": "model"
+  },
+  {
+   "id": "case-razorpay",
+   "desc": "Razorpay 印度支付 新兴公司：支付网关+金融产品 印度",
+   "kind": "model"
+  },
+  {
+   "id": "case-nubank",
+   "desc": "Nubank 巴西数字银行 新兴公司：无网点信用卡+加密+拉美扩张",
+   "kind": "model"
+  },
+  {
+   "id": "case-tabby",
+   "desc": "Tabby 沙特先买后付 新兴公司：BNPL+中东消费金融 2025爆火",
+   "kind": "model"
+  },
+  {
+   "id": "case-flutterwave",
+   "desc": "Flutterwave 尼日利亚支付 新兴公司：跨境支付+商家服务 非洲独角兽",
+   "kind": "model"
+  },
+  {
+   "id": "case-mkopa",
+   "desc": "M-KOPA 肯尼亚太阳能 新兴公司：太阳能分期+移动支付 非洲普惠",
+   "kind": "model"
+  },
+  {
+   "id": "case-airwallex",
+   "desc": "Airwallex 澳洲跨境支付 新兴公司：企业跨境收款+多币种账户 全球",
+   "kind": "model"
   }
  ]
 }
