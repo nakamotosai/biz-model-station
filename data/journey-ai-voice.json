@@ -1,0 +1,85 @@
+{
+  "type": "journey",
+  "id": "journey-ai-voice",
+  "name": "Speechmatics Ltd – AI Voice Input & Interaction Platform",
+  "company": "Speechmatics Ltd.",
+  "founders": "Tony Robinson",
+  "industry": "Speech Recognition / AI",
+  "region": "UK",
+  "scale": "成长",
+  "channel": "SaaS B2B",
+  "y2026_hot": "Speechmatics is expanding its voice interaction API 'Flow' and continues to improve multilingual ASR, attracting enterprise adoption across industries such as legal, healthcare, and finance.",
+  "origin": "Founded in 2006 in Cambridge by Tony Robinson (originally Cantab Research), Speechmatics focused on applying deep neural networks to speech recognition.\\n\\n  The company quickly grew, leveraging its 1B-word corpus to pioneer benchmark datasets, and expanded globally with offices in the UK, India, and Czech Republic.\\n\\n  Speechmatics designed a cloud‑based ASR platform that can run on‑premises, in the public or private cloud.\\n\\n  In 2019, it raised £6.35M Series A, secured a Queen's Award for Innovation, and laid the groundwork for future voice interaction services.\\n\\n  Recent releases – Ursa (2023) and Flow (2024) – further cement the company’s position as a leading voice‑AI platform.",
+  "milestones": [
+    {
+      "time": "2006",
+      "stage": "foundation",
+      "outcome": "pivot",
+      "detail": "Founded as Cantab Research Ltd in Cambridge, UK by Tony Robinson, focused on deep neural network‑based ASR"
+    },
+    {
+      "time": "2014",
+      "stage": "dataset",
+      "outcome": "growth",
+      "detail": "Released a public 1B‑word corpus for language modeling, accelerating speech‑recognition research"
+    },
+    {
+      "time": "2017",
+      "stage": "method",
+      "outcome": "innovation",
+      "detail": "Introduced a fast computational method for generating language models and partnered with QCRI for Arabic services"
+    },
+    {
+      "time": "2018",
+      "stage": "Global English",
+      "outcome": "market breakthrough",
+      "detail": "Launched Global English language pack, supporting all major English dialects in one model"
+    },
+    {
+      "time": "2019",
+      "stage": "Funding & Award",
+      "outcome": "validation & growth",
+      "detail": "Raised £6.35M Series A, win Queen's Award for Innovation (category: Innovation)"
+    },
+    {
+      "time": "2021",
+      "stage": "Marketplace",
+      "outcome": "adoption",
+      "detail": "Launched Azure Marketplace integration, enabling instant cloud deployment for enterprises"
+    },
+    {
+      "time": "2023",
+      "stage": "Ursa Engine",
+      "outcome": "benchmark",
+      "detail": "Released Ursa, a speech‑to‑text engine with state‑of‑the‑art accuracy in noisy settings"
+    },
+    {
+      "time": "2024",
+      "stage": "Flow API",
+      "outcome": "expansion",
+      "detail": "Released Flow API for voice interaction, expanding vendor ecosystem"
+    }
+  ],
+  "turning_points": [
+    "Series A funding and Queen's Award (2019)",
+    "Flow API launch (2024)"
+  ],
+  "failures": ["none"],
+  "keys": [
+    "Deep neural network ASR",
+    "Multilingual language models",
+    "Voice interaction APIs"
+  ],
+  "lessons": [
+    "Open‑source contributions and large public corpora accelerate model accuracy.",
+    "Consistent CMI integration (cloud and on‑premises) broadens market reach."
+  ],
+  "metrics": {
+    "2021 Revenue (EUR)": "11.3M"
+  },
+  "competitors": "Google Cloud Speech, Amazon Transcribe, Microsoft Azure Speech",
+  "sources": [
+    "https://speechmatics.com/",
+    "https://en.wikipedia.org/wiki/Speechmatics"
+  ]
+}

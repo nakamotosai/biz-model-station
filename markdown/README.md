@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **300** 篇（model 238 / journey 50 / scam 12）
+共 **301** 篇（model 238 / journey 51 / scam 12）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（50）
+## 🛤 发家路径（51）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -257,6 +257,7 @@
 - [ChatCut：金马导演转型AI视频剪辑工具出海创业者](ai-video-editing-tool-indie-founder-chatcut.md) · AI/大模型 · 跨地区
 - [破壳剑–以情感陪伴为先的家庭机器人](broken-shell-robot.md) · 其他 · 中
 - [Replika – The AI Companion](journey-ai-companion.md) · Artificial Intelligence, Mental Health · United States
+- [Speechmatics Ltd – AI Voice Input & Interaction Platform](journey-ai-voice.md) · Speech Recognition / AI · UK
 - [Airbnb：从气垫床加奥巴马麦片到900亿市值，2026年靠世界杯与AI守擂](journey-airbnb.md) · 旅游 · 美
 - [Anker Innovations（安克创新）](journey-anker-innovations.md) · 消费电子 · 中/中国
 - [Canva——设计工具到 AI 生态](journey-canva.md) · Graphic Design, Software, AI · Australia
