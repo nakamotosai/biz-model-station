@@ -1,0 +1,31 @@
+{
+  "type": "journey",
+  "id": "journey-canva",
+  "name": "Canva——设计工具到 AI 生态",
+  "company": "Canva, Inc.",
+  "founders": "Melanie Perkins, Cliff Obrecht, Cameron Adams",
+  "industry": "Graphic Design, Software, AI",
+  "region": "Australia",
+  "scale": "IPO-level——$50B+",
+  "channel": "线上/IE/平台",
+  "y2026_hot": "2026 里 AI+生产力工具推动用户爆炸式扩张与全球生态布局",
+  "origin": "Melanie 在大学设计软件创业，最初是为大学图书馆学生提供创作工具",
+  "milestones": [
+    {"time":"2013","stage":"成立","outcome":"加速成长","detail":"在珀斯创办，创始人用大学年刊生意孵化"},
+    {"time":"2018","stage":"融资","outcome":"估值达1亿美元","detail":"A$40M Series A 令市值突破 1B"},
+    {"time":"2019","stage":"安全事件","outcome":"数据泄露","detail":"139M用户数据被泄露导致信任危机"},
+    {"time":"2024","stage":"AI升级","outcome":"AI 写手","detail":"Magic Write 与 Canva GPT 接入"},
+    {"time":"2026","stage":"专业化","outcome":"产品扩张","detail":"推出 Canva Offline、Learn Grid、Print Shop"}
+  ],
+  "turning_points": ["从设计工具到 AI 创意运营 OS","从免费模型跃升为企业级 SaaS 生态"],
+  "failures": ["2019 数据泄露导致用户数下降","2013 早期 100+ 投资人被拒"],
+  "keys": ["简易拖拽、免费+增值","AI 推动创意、企业生态","全球化市场、宽平台接入"],
+  "lessons": ["技术与商业双轮驱动不可分割","危机响应速度决定用户留存","投资人选择与公司愿景匹配"],
+  "metrics": {"ARR": "$3.5B", "MAU": "260M", "Valuation": "$42B"},
+  "competitors": "Adobe Express、AnnieApp、Figma、Adobe Spark 等",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Canva",
+    "https://www.canva.com/about/",
+    "https://en.wikipedia.org/wiki/Canva#cite_note-50-0"
+  ]
+}
