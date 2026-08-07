@@ -1294,6 +1294,166 @@
    "id": "journey-ai-video",
    "desc": "AI视频生成/剪辑工具创业（个人开发者、出海）",
    "kind": "journey"
+  },
+  {
+   "id": "journey-manner-coffee",
+   "desc": "Manner咖啡：韩玉龙2015年在上海南阳路开2平米小店做精品平价咖啡，靠自带杯减5元与全直营扩张站稳心智，2026年门店数千家，成为瑞幸与库迪贴身竞争下差异化打法的样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-haidilao-hotpot",
+   "desc": "海底捞：张勇1994年从四川简阳四张桌子起家，以极致服务与师徒制裂变开店，2018年港股上市，2026年靠出海海外与啄木鸟计划提质增效，重拾火锅王增长。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-tastine-burger",
+   "desc": "塔斯汀：创始团队2018年研发现烤手擀堡胚转型中国汉堡，靠下沉市场与国潮定位冲出麦当劳煌上煌围剿，2024年门店破八千家，2026年出击东南亚的中式汉堡扩张样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-juewei-duck",
+   "desc": "绝味食品：戴文军2005年在长沙开出首家鸭脖店，靠供应链与加盟体系铺出万店，2017年上交所上市，2026年面对零食量贩冲击，加速出海与品类扩张寻找第二曲线。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-weilong-latiao",
+   "desc": "卫龙美味：刘卫平兄弟1999年在漯河把辣条工业化，靠营销造梗风靡全国，2022年港交所上市，2026年健康化与出海东南亚，试图翻新辣条一哥的增长叙事。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-threer-squirrel",
+   "desc": "三只松鼠：章燎原2012年芜湖创业做坚果电商，靠IP化与全渠道打爆单品，2019年深交所上市，2026年转型量贩零食与短视频电商再战的下沉样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-anjoy-frozen",
+   "desc": "安井食品：2001年刘鸣鸣在厦门创立，靠火锅丸子与锁鲜装产能扩张成速冻食品龙头，2017年上交所上市，2026年以预制菜第二曲线与新渠道下沉升级增长。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-babi-baozi",
+   "desc": "巴比食品：刘会平2003年在上海卖包子起家，靠标准化早餐连锁开进社区，2020年成为馒头第一股，2026年冲刺万店与早餐生态的商业样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-jiu-maojiu",
+   "desc": "九毛九：管毅宏1995年海口开面馆起家，用太二酸菜鱼孵化多品牌矩阵，2019年港股上市，2026年海外扩张与品牌结构调整中的中餐连锁样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nvidia",
+   "desc": "英伟达黄仁勋1993年从游戏显卡起家，借CUDA生态与AI算力押注，市值一度破四万亿美元成全球第一，2026年仍稳坐AI训练推理算力基石，黄仁勋式独断创新样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-anthropic",
+   "desc": "Anthropic达米德·阿莫迪2021年离开OpenAI创立，主打Claude大模型与安全对齐，获亚马逊谷歌投资估值超千亿，2026年成为AI安全对齐与AGI竞赛的硅谷独角兽标杆。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-mistral",
+   "desc": "Mistral法国团队2023年创立开源大模型公司，对标全球巨头坚持开源权重路线，2026年欧洲AI主权旗手估值超百亿欧元，成欧盟AI独立发展的重要样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-wiz",
+   "desc": "Wiz阿萨·拉帕波特2020年创立云安全公司，以Agentless扫描快速拿下全球客户，获谷歌230亿美元收购邀约，2026年云安全赛道最大并购案，硅谷安全独角兽样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-databricks",
+   "desc": "Databricks由阿里·戈迪西2013年在伯克利孵化，以Apache Spark大数据起家，2024年估值620亿，2026年冲刺IPO的AI数据湖仓独角兽，理工男创业样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-snowflake",
+   "desc": "Snowflake克鲁兹等2012年创立云数据仓库，重写数仓架构，2020年上市成软件业最大IPO，2026年转型AI数据云，营收稳健增长的云计算标杆企业。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-palantir",
+   "desc": "Palantir彼得·蒂尔2003年创立，从情报数据分析起家，转向AIP商业AI平台，2024年入标普500，2026年市值大涨的军工与商业双杠杆独角兽样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-atlassian",
+   "desc": "Atlassian法博与布鲁克斯2002年悉尼创立，凭Jira与Confluence开发者工具快速成长，2026年拓展AI协同产品线，无销售团队的全球SaaS独角兽样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-toyota-hybrid-global",
+   "desc": "丰田汽车1937年由丰田喜一郎创立，从纺织机厂转战汽车，靠精益生产与普锐斯混动称霸全球，2026年以电动化与氢能转型应对中国车企价格战。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-sony-keizai-reborn",
+   "desc": "索尼1946年井深大、盛田昭夫创立，晶体管收音机与Walkman发家，游戏、影视、CMOS传感器多元帝国，2026年靠游戏与娱乐内容重振消费电子王座。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-nintendo-ip-king",
+   "desc": "任天堂1889年山内房夫郎京都花札起家，1983年红白机开创家用机，马力欧与塞尔达IP长销，2026年凭Switch2与创意玩法延续软硬一体IP变现。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-softbank-vision-fund",
+   "desc": "软银孙正义1981年创立，日本软件流通起家，千亿级押注雅虎与阿里巴巴一战成名，2026年借愿景基金赌Arm与AI芯片，成全球科技风向标。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-rakuten-ecosystem",
+   "desc": "乐天三谷浩史1997年创立，电商红点积分与他敬味起家，扩张电商、金融、旅行生态，2026年赖生态闭环与AI转型，日本互联网拓界样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-uniqlo-spa-quality",
+   "desc": "优衣库/UNIQLO 1984年柳井正在广岛开首店，以基础款+SPA垂直供应链把高性价比做到全球，2026年靠LifeWear理念与海外门店扩张稳居亚洲服饰巨头。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-ajinomoto-msg-bio",
+   "desc": "味之素1908年池田菊苗谷氨酸钠发酵工业诞生，味精起家成全球调料与火腿巨头，2026年借氨基酸与医疗健康食品转型，百年老店长青样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-tsmc-foundry-king",
+   "desc": "台积电1987年张忠谋创立，首创专业晶圆代工模式，代工苹果与英伟达芯片成全球市值之王，2026年扩产先进制程与AI算力，台系半导体脊梁。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-mediatek-soc-ai",
+   "desc": "联发科1998年蔡明介创立，光碟机芯片起家切入手机SoC与天玑旗舰，2026年攻AI手机与边缘算力，台湾IC设计逆袭全球的代表路径。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-foxconn-manufacturing",
+   "desc": "鸿海1974年郭台铭创立，连接器起家凭苹果代工成世界最大电子制造集团，2026年转EV与AI服务器与机器人，全球代工枢纽转型样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-acer-brand-rebirth",
+   "desc": "宏碁施振荣1976年创立，1986年自创品牌开启台湾PC浪潮，2026年赖电竞与多角化经营，面对PC疲软二次转型台系PC老牌样本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-asus-rog-ai",
+   "desc": "华硕1990年童子贤等五位工程师创立，主机板起家成零组厂，ROG电竞与AI PC加值，2026年从代工转品牌再塑台湾PC多元化代表。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-lg-electronics-battery",
+   "desc": "LG1947年乐金创立，化学与日化起家转电子与家电一哥，2026年以OLED面板、EV电池与家电AI物联网多元，韩国财阀制造业转型范本。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-cj-food-hallyu",
+   "desc": "CJ集团1953年从三星化学起家改名食品，称雄韩国食品加工业，2026年以食物生物科技与CJ E&M韩流内容出海，韩国系财阀内容融合龙头。",
+   "kind": "journey"
+  },
+  {
+   "id": "journey-kangshifu-noodles",
+   "desc": "康师傅1992年魏应州乘方便面在天津亮出红烧牛肉面一炮而红，成亚洲方便面厂，2026年攻高端面与茶饮多元，红康遇挑战的中国快消样本。",
+   "kind": "journey"
   }
  ]
 }
