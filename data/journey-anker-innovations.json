@@ -1,0 +1,73 @@
+{
+  "type": "journey",
+  "id": "journey-anker-innovations",
+  "name": "Anker Innovations（安克创新）",
+  "company": "Anker Innovations Co., Ltd.",
+  "founders": "Steven Yang",
+  "industry": "消费电子",
+  "region": "中/中国",
+  "scale": "上市",
+  "channel": "线上",
+  "y2026_hot": "2026年，Anker将通过AI充电解决方案和智能家居生态，成为全球可穿戴充电市场主导者，并将Soundcore音频与eufy家居品牌融合，打造全生活智能链路。",
+  "origin": "2011年，阳萌在深圳创立海翼电商，初步聚焦充电器和手机电池，2015年更名为Anker Innovations，走向海外市场。",
+  "milestones": [
+    {
+      "time": "2011-09-01",
+      "stage": "创业",
+      "outcome": "成立",
+      "detail": "阳萌在深圳创立海翼电商，初期以替换笔记本电池为主，随后扩展至充电器与移动电源。"
+    },
+    {
+      "time": "2015-08-01",
+      "stage": "品牌重塑",
+      "outcome": "突破",
+      "detail": "更名为Anker Innovations，启动USB快速充电技术，进入海外市场。"
+    },
+    {
+      "time": "2020-08-01",
+      "stage": "上市",
+      "outcome": "挂牌",
+      "detail": "在深圳证券交易所创业板上市，市值突破200亿元人民币。"
+    },
+    {
+      "time": "2021-09-01",
+      "stage": "子品牌扩张",
+      "outcome": "成长",
+      "detail": "推出eufy家居品牌，进入智能家居领域；随后因安全漏洞被曝光，迅速修复并重塑信任度。"
+    },
+    {
+      "time": "2023-05-01",
+      "stage": "新产品发布",
+      "outcome": "创新",
+      "detail": "发布Anker SOLIX太阳能充电系统，荣获Red Dot设计奖。"
+    }
+  ],
+  "turning_points": [
+    "2020上市后高速扩张导致资金压力与成本上升，促使公司加快资本运作与成本管控。",
+    "2021年安全漏洞事件引发品牌形象受损，迫使公司优化安全体系并提升用户信任。"
+  ],
+  "failures": [
+    "2021年安全漏洞导致数据泄露，影响约700名用户，是公司首次公开安全事件。"
+  ],
+  "keys": [
+    "多品牌生态化",
+    "本土化研发与技术创新",
+    "高效快速充电技术"
+  ],
+  "lessons": [
+    "技术创新是核心竞争力，需持续投入研发以保持前瞻。",
+    "安全与隐私是智能家居赢得用户信任的关键护城河。"
+  ],
+  "metrics": {
+    "Revenue 2024": "12亿人民币",
+    "Net income 2024": "2.5亿人民币"
+  },
+  "competitors": "Apple, Samsung, Xiaomi, Google, Amazon",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anker_Innovations",
+    "https://en.wikipedia.org/wiki/Anker",
+    "https://www.forbes.com/sites/bensin/2018/08/01/best-known-for-portable-chargers-anker-has-ambitious-expansion-plans/",
+    "https://www.ithome.com/0/670/431.htm",
+    "https://en.wikipedia.org/wiki/Eufy"
+  ]
+}
