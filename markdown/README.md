@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **299** 篇（model 238 / journey 49 / scam 12）
+共 **300** 篇（model 238 / journey 50 / scam 12）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（49）
+## 🛤 发家路径（50）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -259,6 +259,7 @@
 - [Replika – The AI Companion](journey-ai-companion.md) · Artificial Intelligence, Mental Health · United States
 - [Airbnb：从气垫床加奥巴马麦片到900亿市值，2026年靠世界杯与AI守擂](journey-airbnb.md) · 旅游 · 美
 - [Anker Innovations（安克创新）](journey-anker-innovations.md) · 消费电子 · 中/中国
+- [Canva——设计工具到 AI 生态](journey-canva.md) · Graphic Design, Software, AI · Australia
 - [Casper 泡沫破裂：美 DTC 床垫独角兽从上市到被并购](journey-casper-sleep.md) · 电商/零售 · 美
 - [霸王茶姬：张俊杰从流浪少年到美股茶饮第一股，国风鲜奶茶如何杀出茶颜悦色阴影](journey-chagee-tea-global.md) · 餐饮/新茶饮 · 中
 - [Coinbase：从数字支付到加密资产的演进](journey-coinbase.md) · 金融科技 · 美
@@ -291,7 +292,7 @@
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
 - [Zomato与Blinkit的2026成长之路](journey-zomato-blinkit.md) · 在线餐饮·即时配送 · 印度
-- [Zoom Video Communications](journey-zoom.md) · Video communications · 美
+- [Zoom Communications](journey-zoom.md) · 通信与视频会议 · 美国
 - [珞博智能 Fuzzo：AI陪伴玩具转型家庭机器人](luobo-ai-robot.md) · AI/大模型 · 跨地区
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [来也科技：从私人助理到RPA+大模型智能自动化的中国版走向](rpa-llm-automation-laiye.md) · 其他 · 中
