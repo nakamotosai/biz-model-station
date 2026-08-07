@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **295** 篇（model 238 / journey 46 / scam 11）
+共 **299** 篇（model 238 / journey 49 / scam 12）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（46）
+## 🛤 发家路径（49）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -269,7 +269,9 @@
 - [ElevenLabs](journey-elevenlabs.md) · AI/大模型 · UK·US
 - [Figma从浏览器编辑器逆袭Adobe被禁购](journey-figma.md) · AI/大模型 · 美
 - [基因科技：Ginkgo Bioworks 的骤飞之路](journey-ginkgo-bioworks.md) · 生物技术 · 美国
+- [Grab从叫车小工到东南亚超级应用](journey-grab.md) · 本地生活 · 东南亚
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
+- [星野度假村：百年温泉旅馆的第四代翻身](journey-hoshino-resorts.md) · 旅游 · 日
 - [HYBE 方时赫从濒死小作坊到K-pop帝国，BTS退役回归再赌2026](journey-hybe-bts.md) · 内容/创作者经济 · 韩
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
 - [Netflix: Streaming Giant (Founded 1998) – Global Video Wall](journey-netflix.md) · 内容/创作者经济 · 美
@@ -288,6 +290,7 @@
 - [Uber：从800美元黑车到Robotaxi帝国，13年烧百亿后盈利的共享出行活化石](journey-uber.md) · 本地生活 · 美
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
+- [Zomato与Blinkit的2026成长之路](journey-zomato-blinkit.md) · 在线餐饮·即时配送 · 印度
 - [Zoom Video Communications](journey-zoom.md) · Video communications · 美
 - [珞博智能 Fuzzo：AI陪伴玩具转型家庭机器人](luobo-ai-robot.md) · AI/大模型 · 跨地区
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
@@ -295,8 +298,9 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（11）
+## ⚠️ 避坑指南（12）
 
+- [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
