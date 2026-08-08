@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **378** 篇（model 238 / journey 120 / scam 20）
+共 **380** 篇（model 238 / journey 121 / scam 21）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（120）
+## 🛤 发家路径（121）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -345,6 +345,7 @@
 - [Starlink：全球卫星互联网](journey-starlink.md) · 云计算 · 全球
 - [Stripe](journey-stripe.md) · 金融科技 · 全球
 - [塔斯汀：从冷清披萨到中式汉堡万店狂奔](journey-tastine-burger.md) · 餐饮/茶饮 · 中
+- [三只松鼠：章燎原从街头混到百亿国民零食第一股，上市后跌去七成再翻身](journey-three-squirrels.md) · 消费品/食品 · 中
 - [丰田汽车：从纺织机厂到全球混动霸主，召回危机与电动化掉队的百年长押注](journey-toyota-hybrid-global.md) · 其他 · 日
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
 - [茑屋书店：增田宗昭从枚方唱片租赁店造出文化提案帝国，MBO退市后再遭图书馆争议与点数业务失守](journey-tsutaya-ccc.md) · 内容/创作者经济 · 日
@@ -369,7 +370,7 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（20）
+## ⚠️ 避坑指南（21）
 
 - [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
@@ -386,6 +387,7 @@
 - [AI 中转站骗局：超低价 Token 背后的跑路、降智与数据倒卖](ai-relay-station-scam.md) · AI/大模型 · 中
 - [AI培训月入过万骗局·9.9元体验课引流后诱导贷款购数千至数万元套餐](ai-training-monetization-scam.md) · 教育/知识付费 · 全国
 - [仿冒AI应用诈骗：借知名大模型热点套壳收取高价永久会员费](fake-ai-app-subscription-scam.md) · AI/大模型 · 全国/跨境
+- [假AI证书资质代办骗局：打着包过免考旗号贩卖山寨证书](fake-ai-certificate-agency-scam.md) · 教育/知识付费 · 中国大陆
 - [假人工智能证书/资质/评奖代办骗局：以官方认证为名收取高额费用，证书无法通过人社部等正规渠道核验。](fake-ai-certificate-rating-agency-scam.md) · AI/大模型 · 全国
 - [伪AI加密量化理财骗局：借ChatGPT与高息智能合约掏空本金](fake-ai-crypto-quant-fund-scam.md) · 金融科技 · 全国及跨境
 - [假AI代币空气币骗局：套牌知名AI公司发币搞传销，崩盘后散户血本无归](fake-ai-token-aircoin-pyramid-scam.md) · 其他 · 全国蔓延，部分溯源至境外操盘团伙
