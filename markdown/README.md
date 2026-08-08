@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **376** 篇（model 238 / journey 118 / scam 20）
+共 **377** 篇（model 238 / journey 119 / scam 20）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（118）
+## 🛤 发家路径（119）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -353,6 +353,7 @@
 - [维他奶：维他奶国际品牌传奇](journey-vitasoy.md) · 餐饮/茶饮 · 港台
 - [旺旺：蔡衍明19岁接班屡败屡战，靠仙贝米果做成两岸零食巨头](journey-want-want.md) · 餐饮/茶饮 · 港台
 - [卫龙辣条：从五六寸的垃圾食品到港股第一股](journey-weilong-latiao.md) · 餐饮/茶饮 · 中
+- [Wiz：四人军中密友从微软出走，5年做到320亿被谷歌吞下的云安全独角兽](journey-wiz.md) · SaaS/企业软件 · 跨地区
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
 - [Zerodha：卡马斯兄弟从20卢比佣金做到印度最大券商](journey-zerodha.md) · 金融科技 · 印度
 - [Zoho：零融资做到62亿美元的印度SaaS图腾](journey-zoho.md) · SaaS/企业软件 · 新
