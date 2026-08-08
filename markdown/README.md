@@ -329,7 +329,7 @@
 - [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
 - [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
 - [Reddit：「互联网首页」从贱卖到回收再到 AI 数据石油 IPO](journey-reddit.md) · 内容/创作者经济 · 美
-- [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
+- [Robinhood：两个移民后代用零佣金颠覆华尔街，GameStop一役险崩盘](journey-robinhood.md) · 金融科技 · 美
 - [Roblox - 从兄弟创立到AI生成内容](journey-roblox.md) · 游戏/娱乐 · 美国
 - [莎莎国际：从铜锣湾地铺到全港最大美妆连锁的起伏重生](journey-sa-sa.md) · 电商/零售 · 港台
 - [三养辣鸡面：工业油丑闻濒死的老牌泡面厂，靠核弹辣度翻盘成全球网红](journey-samyang-buldak.md) · 餐饮/茶饮 · 韩
