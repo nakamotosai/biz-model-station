@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **375** 篇（model 238 / journey 117 / scam 20）
+共 **376** 篇（model 238 / journey 118 / scam 20）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（117）
+## 🛤 发家路径（118）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -311,6 +311,7 @@
 - [Manner Coffee：韩玉龙从2平米档口到2000店精品咖啡独角兽，半自动机器扛规模化之痛](journey-manner-coffee.md) · 餐饮/茶饮 · 中
 - [Meesho：从 FAISHNEAR 时尚物流败笔到印度社交电商独角兽](journey-meesho.md) · 电商/零售 · 印度
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
+- [Mistral AI：三人从谷歌Meta出走，靠开源权重做成欧洲140亿AI旗手](journey-mistral.md) · AI/大模型 · 欧
 - [Musinsa：赵满浩从高中球鞋论坛到韩国时尚电商独角兽的25年](journey-musinsa.md) · 电商/零售 · 韩
 - [奈雪的茶 IPO 与翻车成长](journey-nayuki-tea-ipo.md) · 茶饮 · 中国大陆（深圳）
 - [Netflix: Streaming Giant (Founded 1998) – Global Video Wall](journey-netflix.md) · 内容/创作者经济 · 美
