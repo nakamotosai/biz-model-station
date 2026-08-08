@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **329** 篇（model 238 / journey 76 / scam 15）
+共 **331** 篇（model 238 / journey 77 / scam 16）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（76）
+## 🛤 发家路径（77）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -305,6 +305,7 @@
 - [Patreon从音乐人tip jar到创作者经济基础设施](journey-patreon.md) · 内容/创作者经济 · 美
 - [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
 - [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
+- [Reddit：「互联网首页」从贱卖到回收再到 AI 数据石油 IPO](journey-reddit.md) · 内容/创作者经济 · 美
 - [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
 - [三养辣鸡面：工业油丑闻濒死的老牌泡面厂，靠核弹辣度翻盘成全球网红](journey-samyang-buldak.md) · 餐饮/茶饮 · 韩
 - [三丽鸥：辻信太郎从丝袜店造出Hello Kitty角色经济帝国，50周年再迎第二春](journey-sanrio.md) · 内容/创作者经济 · 日
@@ -325,7 +326,7 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（15）
+## ⚠️ 避坑指南（16）
 
 - [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
@@ -334,6 +335,7 @@
 - [AI换脸声音克隆冒充领导熟人转账诈骗：用虚假视频语音骗你打款](ai-deepfake-impersonation-transfer-scam.md) · 其他 · 全国
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
 - [AI挂机搬砖佣金骗局：以AI算力/代理名义包装的零撸分红资金盘](ai-idle-farming-commission-pyramid-scam.md) · AI/大模型 · 中国大陆及东南亚跨境
+- [AI荐股量化跟单理财骗局：号称AI量化选股月赚150%，实则资金从不下场、后台改数字锁仓](ai-quant-stock-copy-trading-scam.md) · 其他 · 中国大陆（深圳为重点作案地）
 - [AI兼职招转培骗局：以高薪AI岗位为诱饵骗取培训费与押金](ai-recruitment-training-fee-scam.md) · 教育/知识付费 · 全国
 - [AI 中转站骗局：超低价 Token 背后的跑路、降智与数据倒卖](ai-relay-station-scam.md) · AI/大模型 · 中
 - [AI培训月入过万骗局·9.9元体验课引流后诱导贷款购数千至数万元套餐](ai-training-monetization-scam.md) · 教育/知识付费 · 全国
