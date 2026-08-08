@@ -1,0 +1,69 @@
+{
+  "type": "journey",
+  "id": "journey-foxconn-manufacturing",
+  "name": "鴻海精密：AI 與電動車的 2026 成長之路",
+  "company": "Foxconn",
+  "founders": "Terry Gou",
+  "industry": "半導體/電子製造",
+  "region": "台",
+  "scale": "巨頭/上市",
+  "channel": "線下、電商、雲服務",
+  "y2026_hot": "AI 伺服器需求飆升、電動車零件投資擴張、工廠自動化加速，成為 2026 重要商業熱點。",
+  "origin": "1974 年以電機元件起家、後以製造服務成長，2012 完成全球工廠擴張，2024 帶來 AI 伺服器收入顯著，2026 正式進入電動車零件與智能工廠領域。",
+  "milestones": [
+    {
+      "time": "2001",
+      "stage": "母板",
+      "outcome": "增长",
+      "detail": "Intel 以 Foxconn 代工其母板，開啟高端 PC 製造之門。"
+    },
+    {
+      "time": "2012",
+      "stage": "工廠擴張",
+      "outcome": "增长",
+      "detail": "在巴西開設 5 家新工廠，創造 10000 個就業機會。"
+    },
+    {
+      "time": "2024",
+      "stage": "AI 伺服器",
+      "outcome": "增长",
+      "detail": "AI 伺服器需求大幅提升，Q4 將收入提升 20%。"
+    },
+    {
+      "time": "2026",
+      "stage": "工廠自動化",
+      "outcome": "拐點",
+      "detail": "機器人代替 50% 人力，進入電動車零件製造，並加速智能工廠轉型。"
+    }
+  ],
+  "turning_points": [
+    "2016 年收購 Sharp 份額，實現製造與電池業務多元化。",
+    "2024 年 AI 伺服器需求飆升，成為收入新高位。",
+    "2026 年工廠自動化與電動車零件製造加速，邁向新商業模式。"
+  ],
+  "failures": [
+    "2011 年工廠工作條件爭議，對內部聲譽造成沖擊。",
+    "2022 年 COVID-19 導致工廠停產，顯露供應鏈敏感性。"
+  ],
+  "keys": [
+    "高效製造流程",
+    "大規模自動化",
+    "全球供應鏈管理",
+    "AI 伺服器解決方案",
+    "電動車零件製造入場"
+  ],
+  "lessons": [
+    "擴張需配合技術升級，避免過度依賴單一產品線。",
+    "員工福祉直接影響品牌形象與生產效率。",
+    "多元化投資能分散市場風險，但需要完善管理結構。"
+  ],
+  "metrics": {
+    "revenue": "259.22B USD (2025)",
+    "employees": "770,000 (2023)"
+  },
+  "competitors": "Apple, Samsung, TSMC, Sharp, Nvidia",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Foxconn",
+    "https://web.archive.org/web/20240814064638/https://www.wsj.com/tech/foxconns-second-quarter-profit-rose-on-record-revenue-7f70bd92"
+  ]
+}
