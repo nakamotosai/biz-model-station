@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **351** 篇（model 238 / journey 96 / scam 17）
+共 **352** 篇（model 238 / journey 97 / scam 17）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（96）
+## 🛤 发家路径（97）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -339,6 +339,7 @@
 - [Zoom Communications](journey-zoom.md) · 通信与视频会议 · 美国
 - [珞博智能 Fuzzo：AI陪伴玩具转型家庭机器人](luobo-ai-robot.md) · AI/大模型 · 跨地区
 - [名创优品叶国富：十元店借IP联名反向出海的万店神话](miniso-ip-lifestyle-global-retail.md) · 电商/零售 · 跨地区
+- [云鲸智能：首创自清洁基站，靠单品爆款杀出扫地机重围](narwal-self-cleaning-robot-vacuum-journey.md) · 其他 · 中
 - [胖东来：把河南小超市做成中国零售界顶流文化IP的善意商业样本](pangdonglai-henan-retail-culture-ip.md) · 电商/零售 · 中
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [来也科技：从私人助理到RPA+大模型智能自动化的中国版走向](rpa-llm-automation-laiye.md) · 其他 · 中
