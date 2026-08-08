@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **372** 篇（model 238 / journey 114 / scam 20）
+共 **374** 篇（model 238 / journey 116 / scam 20）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（114）
+## 🛤 发家路径（116）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -294,6 +294,7 @@
 - [Figma从浏览器编辑器逆袭Adobe被禁购](journey-figma.md) · AI/大模型 · 美
 - [Flipkart：两Bansal从宿舍卖书到被沃尔玛160亿买走的印度电商拓荒史](journey-flipkart.md) · 电商/零售 · 其他
 - [鴻海精密：AI 與電動車的 2026 成長之路](journey-foxconn-manufacturing.md) · 半導體/電子製造 · 台
+- [捷安特：从纺织机皇到全球最大的自行车制造厂](journey-giant-bicycles.md) · 其他 · 中
 - [基因科技：Ginkgo Bioworks 的骤飞之路](journey-ginkgo-bioworks.md) · 生物技术 · 美国
 - [Grab从叫车小工到东南亚超级应用](journey-grab.md) · 本地生活 · 东南亚
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
@@ -349,6 +350,7 @@
 - [VinFast：越南首富范日旺从乌克兰方便面到造电动车的百亿泡沫](journey-vinfast.md) · 出行/汽车 · 越南
 - [维他奶：维他奶国际品牌传奇](journey-vitasoy.md) · 餐饮/茶饮 · 港台
 - [旺旺：蔡衍明19岁接班屡败屡战，靠仙贝米果做成两岸零食巨头](journey-want-want.md) · 餐饮/茶饮 · 港台
+- [卫龙辣条：从五六寸的垃圾食品到港股第一股](journey-weilong-latiao.md) · 餐饮/茶饮 · 中
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
 - [Zerodha：卡马斯兄弟从20卢比佣金做到印度最大券商](journey-zerodha.md) · 金融科技 · 印度
 - [Zoho：零融资做到62亿美元的印度SaaS图腾](journey-zoho.md) · SaaS/企业软件 · 新
