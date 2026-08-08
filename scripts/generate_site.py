@@ -551,7 +551,7 @@ def li(items) -> str:
     return "".join(f"<li>{esc(x)}</li>" for x in items)
 
 
-def render_model_page(m: dict) -> None:
+def render_model_page(m: dict, related: list[dict] | None = None) -> None:
     dims = {"industry": m["industry"], "region": m["region"],
             "scale": m["scale"], "channel": m["channel"]}
     # 图高随泳道数变化：viewBox 高=52+L×104+(L−1)×20+124；统一 720 宽 → aspect-ratio 720/高
@@ -629,6 +629,15 @@ h1 {{ font-size:30px; margin:4px 0 10px; }}
   border:1px solid color-mix(in srgb,var(--fg) 22%,transparent); border-radius:8px;
   color:var(--fg); text-decoration:none; font-size:15px; }}
 .back:hover {{ border-color:var(--acc); color:var(--acc); }}
+.related {{ margin-top:34px; }}
+.related h2 {{ font-size:18px; color:var(--acc); margin:0 0 12px; }}
+.rgrid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px; }}
+.rcard {{ display:block; background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);
+  border-radius:10px; padding:12px 16px; color:var(--fg); text-decoration:none;
+  transition:transform .12s ease, border-color .12s ease; }}
+.rcard:hover {{ transform:translateY(-2px); border-color:var(--acc); }}
+.rname {{ display:block; font-size:15px; line-height:1.45; margin-bottom:8px; }}
+.rtags {{ display:flex; flex-wrap:wrap; gap:6px; }}
 {FONT_STYLE}
 </style></head><body><div class="wrap">
 <div class="bread"><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:22px;height:22px;vertical-align:-5px;margin-right:6px;;" aria-hidden="true"><rect x="2" y="2" width="44" height="44" rx="11" fill="#1d2021"/><rect x="2" y="2" width="44" height="44" rx="11" stroke="#ebdbb2" stroke-opacity="0.25" stroke-width="1.4"/><path d="M24 11v8M37 24h-8M24 37v-8M11 24h8" stroke="#ebdbb2" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="9.5" r="4.2" fill="#b8bb26"/><circle cx="38.5" cy="24" r="4.2" fill="#83a598"/><circle cx="24" cy="38.5" r="4.2" fill="#8ec07c"/><circle cx="9.5" cy="24" r="4.2" fill="#d3869b"/><circle cx="24" cy="24" r="6" fill="#fabd2f"/><path d="M24 20.5v7M20.5 24h7" stroke="#1d2021" stroke-width="2.2" stroke-linecap="round"/></svg><a href="index.html">← 返回商业模式情报站</a></div>
@@ -658,6 +667,7 @@ document.addEventListener('keydown',e=>{{if(e.key==='Escape')z.classList.remove(
   <div class="swot-grid">{swot_html}</div>
 </div>
 <div class="src"><strong>来源</strong><ul>{"".join(srcs)}</ul></div>
+{_related_html(related)}
 <a class="back" href="index.html">← 返回索引</a>
 </div></body></html>"""
     (SITE / f"{m['id']}.html").write_text(page, encoding="utf-8")
@@ -751,7 +761,7 @@ def build_journey_timeline(m: dict) -> dict:
     }
 
 
-def render_journey_page(m: dict) -> None:
+def render_journey_page(m: dict, related: list[dict] | None = None) -> None:
     ir = build_journey_timeline(m)
     tmp = ROOT / "scripts" / f".tmp-{m['id']}.json"
     tmp.write_text(json.dumps(ir, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -795,6 +805,11 @@ h1 {{ font-size:30px;margin:4px 0 10px; }} .chips {{ margin:6px 0 18px;display:f
 .kw ul {{ margin:0;padding-left:18px; }} .kw li {{ font-size:14px;line-height:1.7;margin:4px 0; }}
 .src {{ color:var(--dim);font-size:14px; }} .src ul {{ margin:6px 0 0;padding-left:22px; }} .src li {{ margin:4px 0;word-break:break-all; }}
 .back {{ display:inline-block;margin-top:26px;padding:8px 18px;background:var(--bg0);border:1px solid color-mix(in srgb,var(--fg) 22%,transparent);border-radius:8px;color:var(--fg);text-decoration:none;font-size:15px; }}
+.related {{ margin-top:34px; }} .related h2 {{ font-size:18px;color:var(--acc);margin:0 0 12px; }}
+.rgrid {{ display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px; }}
+.rcard {{ display:block;background:var(--bg0);border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);border-radius:10px;padding:12px 16px;color:var(--fg);text-decoration:none;transition:transform .12s ease,border-color .12s ease; }}
+.rcard:hover {{ transform:translateY(-2px);border-color:var(--acc); }} .rname {{ display:block;font-size:15px;line-height:1.45;margin-bottom:8px; }}
+.rtags {{ display:flex;flex-wrap:wrap;gap:6px; }}
 {FONT_STYLE}
 </style></head><body><div class="wrap">
 <div class="bread"><a href="index.html">← 返回商业模式情报站</a></div>
@@ -811,6 +826,7 @@ h1 {{ font-size:30px;margin:4px 0 10px; }} .chips {{ margin:6px 0 18px;display:f
 <div class="section"><h2>核心数据</h2><ul>{metrics_html}</ul></div>
 <div class="section"><h2>竞争对手 / 同行</h2><p>{esc(m.get('competitors',''))}</p></div>
 <div class="src"><strong>来源</strong><ul>{"".join(srcs)}</ul></div>
+{_related_html(related)}
 <a class="back" href="index.html">← 返回索引</a>
 </div></body></html>"""
     (SITE / f"{m['id']}.html").write_text(page, encoding="utf-8")
@@ -869,7 +885,7 @@ def build_scam_flow(m: dict) -> dict:
     }
 
 
-def render_scam_page(m: dict) -> None:
+def render_scam_page(m: dict, related: list[dict] | None = None) -> None:
     ir = build_scam_flow(m)
     tmp = ROOT / "scripts" / f".tmp-{m['id']}.json"
     tmp.write_text(json.dumps(ir, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -909,6 +925,11 @@ h1 {{ font-size:30px;margin:4px 0 10px; }} .chips {{ margin:6px 0 18px;display:f
 .legal {{ background:var(--bg0);border:1px dashed var(--dim);border-radius:8px;padding:12px 16px;margin:0 0 22px;font-size:14px;color:var(--dim); }}
 .src {{ color:var(--dim);font-size:14px; }} .src ul {{ margin:6px 0 0;padding-left:22px; }} .src li {{ margin:4px 0;word-break:break-all; }}
 .back {{ display:inline-block;margin-top:26px;padding:8px 18px;background:var(--bg0);border:1px solid color-mix(in srgb,var(--fg) 22%,transparent);border-radius:8px;color:var(--fg);text-decoration:none;font-size:15px; }}
+.related {{ margin-top:34px; }} .related h2 {{ font-size:18px;color:var(--acc);margin:0 0 12px; }}
+.rgrid {{ display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px; }}
+.rcard {{ display:block;background:var(--bg0);border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);border-radius:10px;padding:12px 16px;color:var(--fg);text-decoration:none;transition:transform .12s ease,border-color .12s ease; }}
+.rcard:hover {{ transform:translateY(-2px);border-color:var(--acc); }} .rname {{ display:block;font-size:15px;line-height:1.45;margin-bottom:8px; }}
+.rtags {{ display:flex;flex-wrap:wrap;gap:6px; }}
 {FONT_STYLE}
 </style></head><body><div class="wrap">
 <div class="bread"><a href="index.html">← 返回商业模式情报站</a></div>
@@ -924,33 +945,139 @@ h1 {{ font-size:30px;margin:4px 0 10px; }} .chips {{ margin:6px 0 18px;display:f
 <div class="section"><h2>怎么防护</h2><ul>{prot_html}</ul></div>
 <div class="legal">⚖️ {esc(m.get('legal_note',''))}</div>
 <div class="src"><strong>来源</strong><ul>{"".join(srcs)}</ul></div>
+{_related_html(related)}
 <a class="back" href="index.html">← 返回索引</a>
 </div></body></html>"""
     (SITE / f"{m['id']}.html").write_text(page, encoding="utf-8")
+
+
+def _region_group(v: str) -> str:
+    """region 31 个离散值折叠为 6 组（chips 用；卡片仍显示原值）。"""
+    v = str(v)
+    if not v:
+        return "其他"
+    if "全球" in v:
+        return "全球"
+    if "中" in v or "全国" in v or "内地" in v:
+        return "中国"
+    if "美" in v or "USA" in v or "United" in v:
+        return "美国"
+    if "日" in v:
+        return "日本"
+    if "跨" in v or "跨境" in v:
+        return "跨地区"
+    return "其他"
+
+
+def _scale_group(v: str) -> str:
+    """scale 15 个离散值折叠为 4 组（chips 用）。"""
+    v = str(v)
+    if not v:
+        return "其他"
+    if "灰产" in v:
+        return "灰产"
+    if any(x in v for x in ("巨头", "巨頭", "上市", "独角兽", "IPO")):
+        return "巨头"
+    if any(x in v for x in ("中型", "成长", "Million")):
+        return "中型"
+    if any(x in v for x in ("小企", "个人", "私有")):
+        return "小企"
+    return "其他"
+
+
+def _hot_score(m: dict) -> int:
+    """热度启发式：y2026_hot 文本中趋势词加权 + 大数字出现次数，clamp 0-100。"""
+    t = str(m.get("y2026_hot", ""))
+    s = 0
+    for kw in ("热潮", "爆发", "风口", "爆火", "火热", "疯狂", "抢", "井喷", "元年"):
+        s += t.count(kw) * 3
+    for kw in ("增长", "破", "突破", "亿", "万亿", "千万", "月活", "用户"):
+        s += t.count(kw)
+    return min(100, s)
+
+
+def _rev_label(m: dict) -> str:
+    """变现标签：从 revenue 文本关键词归出一句话标签（model 卡提权用）。"""
+    r = str(m.get("revenue", ""))
+    rules = (
+        ("抽佣/撮合", "抽佣|佣金|抽成|撮合|交易手续费|按成交|分润"),
+        ("订阅/会员", "订阅|会员|月费|年费|经常性|ARR|席位|SaaS"),
+        ("广告/流量", "广告|流量变现|CPM|竞价|信息流"),
+        ("卖货/零售", "卖货|销售|批发|供货|零售|加盟|门店|连锁"),
+        ("服务/项目费", "服务费|项目费|按单|外包|咨询|顾问|代运营"),
+        ("硬件/设备", "硬件|设备|GPU|机器|仪器"),
+        ("授权/许可", "授权|许可|牌照|加盟费"),
+    )
+    for label, pat in rules:
+        if re.search(pat, r):
+            return label
+    return "变现"
+
+
+def _related(m: dict, pool: list[dict], k: int = 4) -> list[dict]:
+    """详情页相关推荐：同行业 → 同规模 → 同地区，去重取前 k，排除自身。"""
+    out = []
+    for key in ("industry", "scale", "region"):
+        for x in pool:
+            if x["id"] == m["id"] or x in out:
+                continue
+            if x.get(key) and x.get(key) == m.get(key):
+                out.append(x)
+                if len(out) >= k:
+                    return out
+    return out
+
+
+def _related_html(related: list[dict] | None) -> str:
+    """详情页相关推荐区 HTML（同族 4 条小卡）。"""
+    if not related:
+        return ""
+    cards = []
+    for x in related:
+        tags = "".join(
+            f'<span class="t">{esc(x.get(k, ""))}</span>'
+            for k in ("industry", "region") if x.get(k))
+        cards.append(
+            f'<a class="rcard" href="{esc(x["id"])}.html"><span class="rname">{esc(x["name"])}</span>'
+            f'<span class="rtags">{tags}</span></a>')
+    return (f'<div class="related"><h2>📎 相关条目</h2><div class="rgrid">{"".join(cards)}</div></div>')
 
 
 def build_index(models: list[dict]) -> None:
     by_type = {'model': [], 'journey': [], 'scam': []}
     for m in models:
         by_type.setdefault(m.get('type', 'model'), []).append(m)
-    # 过滤器维度仅对 model 有意义（journey/scam 维度过窄）
-    options = {}
-    for dim in DIMENSIONS:
-        options[dim] = sorted({mm.get(dim, '') for mm in by_type['model'] if mm.get(dim)})
-    opt_html = ""
-    for dim, label in DIMENSIONS.items():
-        opts = "".join(f'<option value="{esc(o)}">{esc(o)}</option>' for o in options[dim])
-        opt_html += (f'<select id="f-{dim}" data-dim="{dim}"><option value="">{label}：全部</option>{opts}</select>')
+    # 三组多选 chips：industry 原值、region/scale 折叠组；channel 值太脏不进 chips 只进搜索文本
+    ind_opts = sorted({mm.get("industry", "") for mm in by_type["model"] if mm.get("industry")})
+    reg_opts = ["中国", "美国", "日本", "全球", "跨地区", "其他"]
+    sca_opts = ["巨头", "中型", "小企", "灰产"]
+    chip_html = ""
+    for dim, label, opts in (("industry", "行业", ind_opts),
+                             ("gregion", "地区", reg_opts),
+                             ("gscale", "规模", sca_opts)):
+        chips = "".join(
+            f'<button class="chip" data-dim="{dim}" data-val="{esc(o)}">{esc(o)}</button>' for o in opts)
+        chip_html += f'<div class="chip-row" data-dim="{dim}"><span class="chip-label">{label}</span>{chips}</div>'
     model_cards = []
     for m in by_type['model']:
         dims = {"industry": m.get('industry',''), "region": m.get('region',''),
                 "scale": m.get('scale',''), "channel": m.get('channel','')}
         data_attr = " ".join(f'data-{k}="{esc(v)}"' for k, v in dims.items())
-        model_cards.append(f"""<article class="card" {data_attr}>
+        data_attr += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
+        search_txt = " ".join([m.get('name',''), m.get('industry',''), m.get('region',''),
+                               m.get('scale',''), str(m.get('channel','')),
+                               str(m.get('revenue','')), str(m.get('target',''))])
+        rev = str(m.get('revenue',''))
+        first_sentence = rev.split('；')[0].split('。')[0]
+        if len(first_sentence) > 90:
+            first_sentence = first_sentence[:90] + "…"
+        summary = first_sentence or "（模式要点见详情）"
+        model_cards.append(f"""<article class="card" {data_attr}
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}">
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>{esc(m['name'])}</h3><span class="arrow">→</span></div>
-    <p class="card-how">{esc(str(m.get('revenue',''))[:100])}</p>
-    <div class="tags">{''.join(f'<span class="t">{esc(dims[k])}</span>' for k in DIMENSIONS)}</div>
+    <p class="card-how">{esc(summary)}</p>
+    <div class="tags">{''.join(f'<span class="t">{esc(dims[k])}</span>' for k in DIMENSIONS)}<span class="t rev">{esc(_rev_label(m))}</span></div>
   </a>
 </article>""")
     journey_cards = []
@@ -959,10 +1086,25 @@ def build_index(models: list[dict]) -> None:
         n_fail = sum(1 for x in ms if x.get('outcome') == '失败')
         tags = {'industry': m.get('industry',''), 'region': m.get('region',''), 'scale': m.get('scale','')}
         tag_html = "".join(f'<span class="t">{esc(tags[k])}</span>' for k in ('industry','region','scale') if tags[k])
-        journey_cards.append(f"""<article class="card journey-card">
+        # 现状一句话：metrics 里挑 ARR/估值/市值/用户 类键
+        met = m.get('metrics', {}) or {}
+        met_str = ""
+        for k in ('最新估值', '估值', 'ARR', '年营收', '市值', '年收入', '月活用户', 'DAU'):
+            if k in met and met[k]:
+                met_str = f" · {esc(k)}：{esc(str(met[k]))[:40]}"
+                break
+        search_txt = " ".join([m.get('name',''), m.get('company',''), m.get('industry',''),
+                               m.get('region',''), str(m.get('origin','')),
+                               str(m.get('lessons',''))])
+        jdims = {"industry": m.get('industry',''), "region": m.get('region',''),
+                 "scale": m.get('scale',''), "channel": m.get('channel','')}
+        jdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in jdims.items())
+        jdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
+        journey_cards.append(f"""<article class="card journey-card"
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" {jdata}>
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>🛤 {esc(m['name'])}</h3><span class="arrow">→</span></div>
-    <p class="card-how">创办：{esc(m.get('founders',''))} · {len(ms)} 阶段 · {n_fail} 次失败踩坑</p>
+    <p class="card-how">创办：{esc(m.get('founders',''))} · {len(ms)} 阶段 · {n_fail} 次失败踩坑{met_str}</p>
     <div class="tags">{tag_html}</div>
   </a>
 </article>""")
@@ -970,10 +1112,22 @@ def build_index(models: list[dict]) -> None:
     for m in by_type['scam']:
         tags = {'industry': m.get('industry',''), 'region': m.get('region',''), 'scale': m.get('scale','')}
         tag_html = "".join(f'<span class="t">{esc(tags[k])}</span>' for k in ('industry','region','scale') if tags[k])
-        scam_cards.append(f"""<article class="card scam-card">
+        how = m.get('how_it_works', [])
+        how_first = how[0] if how else str(m.get('victims',''))
+        if len(how_first) > 90:
+            how_first = how_first[:90] + "…"
+        search_txt = " ".join([m.get('name',''), m.get('industry',''), m.get('region',''),
+                               str(m.get('victims','')), str(m.get('how_it_works','')),
+                               str(m.get('red_flags',''))])
+        sdims = {"industry": m.get('industry',''), "region": m.get('region',''),
+                 "scale": m.get('scale',''), "channel": m.get('channel','')}
+        sdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in sdims.items())
+        sdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
+        scam_cards.append(f"""<article class="card scam-card"
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" {sdata}>
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>⚠️ {esc(m['name'])}</h3><span class="arrow">→</span></div>
-    <p class="card-how">受骗人群：{esc(str(m.get('victims',''))[:80])}</p>
+    <p class="card-how">手法：{esc(how_first)}</p>
     <div class="tags">{tag_html}</div>
   </a>
 </article>""")
@@ -1006,12 +1160,31 @@ h1 .acc {{ color:var(--acc); }}
 .tab:hover {{ color:var(--fg); }}
 .tab .n {{ font-size:13px; color:var(--dim); margin-left:6px; }}
 .tab.active .n {{ color:var(--acc); }}
-.filters {{ display:flex; flex-wrap:wrap; gap:10px; margin-bottom:24px; }}
-.filters.hide {{ display:none; }}
-.filters select {{ background:var(--bg0); color:var(--fg); border:1px solid color-mix(in srgb,var(--fg) 24%,transparent);
-  border-radius:8px; padding:7px 12px; font-size:14px; font-family:inherit; }}
-.filters select:focus {{ outline:none; border-color:var(--acc); }}
-.count {{ color:var(--dim); font-size:14px; margin-bottom:14px; }}
+.scenes {{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }}
+.scene {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--acc) 40%,transparent); color:var(--fg);
+  border-radius:999px; padding:7px 16px; font-size:14px; cursor:pointer; font-family:inherit; }}
+.scene:hover {{ border-color:var(--acc); }}
+.scene.ghost {{ border-color:color-mix(in srgb,var(--fg) 24%,transparent); color:var(--dim); }}
+.scene.ghost:hover {{ color:var(--fg); }}
+.searchbar {{ margin-bottom:16px; }}
+.searchbar input {{ width:100%; max-width:640px; background:var(--bg0); color:var(--fg);
+  border:1px solid color-mix(in srgb,var(--fg) 24%,transparent); border-radius:10px;
+  padding:11px 16px; font-size:15px; font-family:inherit; }}
+.searchbar input:focus {{ outline:none; border-color:var(--acc); }}
+.searchbar input::placeholder {{ color:var(--dim); opacity:.7; }}
+.filters {{ display:flex; flex-direction:column; gap:8px; margin-bottom:14px; }}
+.chip-row {{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; }}
+.chip-label {{ color:var(--dim); font-size:13px; margin-right:4px; flex:none; }}
+.chip {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 22%,transparent);
+  color:var(--dim); border-radius:999px; padding:4px 12px; font-size:13px; cursor:pointer; font-family:inherit; }}
+.chip:hover {{ color:var(--fg); border-color:var(--acc); }}
+.chip.on {{ background:color-mix(in srgb,var(--acc) 22%,transparent); border-color:var(--acc); color:var(--fg); }}
+.toolbar {{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:16px; }}
+.count {{ color:var(--dim); font-size:14px; }}
+.sortlab {{ color:var(--dim); font-size:13px; display:flex; align-items:center; gap:8px; }}
+.sortlab select {{ background:var(--bg0); color:var(--fg); border:1px solid color-mix(in srgb,var(--fg) 24%,transparent);
+  border-radius:8px; padding:6px 10px; font-size:14px; font-family:inherit; }}
+.sortlab select:focus {{ outline:none; border-color:var(--acc); }}
 .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; }}
 .card {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);
   border-radius:10px; overflow:hidden; transition:transform .12s ease, border-color .12s ease; }}
@@ -1025,7 +1198,9 @@ h1 .acc {{ color:var(--acc); }}
 .tags {{ display:flex; flex-wrap:wrap; gap:6px; }}
 .t {{ font-size:12px; color:var(--aqua); background:color-mix(in srgb,var(--aqua) 12%,transparent);
   padding:2px 10px; border-radius:999px; }}
-.empty {{ color:var(--dim); font-size:16px; display:none; }}
+.t.rev {{ color:var(--acc); background:color-mix(in srgb,var(--acc) 14%,transparent); }}
+.empty {{ color:var(--dim); font-size:16px; display:none; padding:40px 0; text-align:center; }}
+.empty.show {{ display:block; }}
 footer {{ margin-top:40px; color:var(--dim); font-size:13px; }}
 {FONT_STYLE}
 </style></head><body><div class="wrap">
@@ -1051,8 +1226,26 @@ footer {{ margin-top:40px; color:var(--dim); font-size:13px; }}
   <button class="tab" data-tab="journey">🛤 发家路径 <span class="n">{len(by_type['journey'])}</span></button>
   <button class="tab" data-tab="scam">⚠️ 避坑指南 <span class="n">{len(by_type['scam'])}</span></button>
 </div>
-<div class="filters" id="filters">{opt_html}</div>
-<div class="count" id="count">共 {len(by_type['model'])} 条</div>
+<div class="scenes" id="scenes">
+  <button class="scene" data-preset="lowcost">🚀 想低成本起步</button>
+  <button class="scene" data-preset="ai">🤖 想蹭 AI 热潮</button>
+  <button class="scene" data-preset="scam">⚠️ 想避坑</button>
+  <button class="scene ghost" id="btn-clear">✕ 清除筛选</button>
+  <button class="scene ghost" id="btn-random">🎲 随便看看</button>
+</div>
+<div class="searchbar"><input id="q" type="search" placeholder="🔍 搜名称 / 公司 / 行业 / 模式关键词，如「AI」「加盟」「订阅」…" autocomplete="off"></div>
+<div class="filters" id="filters">{chip_html}</div>
+<div class="toolbar">
+  <div class="count" id="count">共 {len(by_type['model'])} 条</div>
+  <label class="sortlab">排序
+    <select id="sort">
+      <option value="">默认</option>
+      <option value="name">名称 A→Z</option>
+      <option value="scale">规模 大→小</option>
+      <option value="hot">热度 高→低</option>
+    </select>
+  </label>
+</div>
 <div class="grid" id="grid-model">{''.join(model_cards)}</div>
 <div class="grid" id="grid-journey" style="display:none">{''.join(journey_cards)}</div>
 <div class="grid" id="grid-scam" style="display:none">{''.join(scam_cards)}</div>
@@ -1064,38 +1257,82 @@ const tabs = document.querySelectorAll('.tab');
 const filters = document.getElementById('filters');
 const count = document.getElementById('count');
 const empty = document.getElementById('empty');
+const q = document.getElementById('q');
+const sortSel = document.getElementById('sort');
 const grids = {{ model: document.getElementById('grid-model'),
                  journey: document.getElementById('grid-journey'),
                  scam: document.getElementById('grid-scam') }};
 let active = 'model';
+const sel = {{}};  // dim -> Set(values)
+filters.querySelectorAll('.chip[data-dim]').forEach(ch => {{
+  const d = ch.dataset.dim;
+  if (!sel[d]) sel[d] = new Set();
+  ch.addEventListener('click', () => {{
+    const v = ch.dataset.val;
+    if (sel[d].has(v)) {{ sel[d].delete(v); ch.classList.remove('on'); }}
+    else {{ sel[d].add(v); ch.classList.add('on'); }}
+    apply();
+  }});
+}});
+const SCALE_W = {{'个人':0,'小企':1,'中型':2,'巨头':3,'灰产':0,'其他':1,'':1}};
+function scaleRank(c) {{ return SCALE_W[c.dataset.gscale] ?? 1 }}
 function apply() {{
   const grid = grids[active];
-  const cards = grid.querySelectorAll('.card');
-  const selects = filters.querySelectorAll('select');
+  const cards = [...grid.querySelectorAll('.card')];
+  const kw = q.value.trim().toLowerCase();
   let n = 0;
-  cards.forEach(c => {{
+  cards.forEach(c => {{ c.classList.remove('hide'); }});
+  const visible = cards.filter(c => {{
     let ok = true;
-    if (active === 'model') {{
-      selects.forEach(s => {{
-        const v = s.value;
-        if (v && c.dataset[s.dataset.dim] !== v) ok = false;
-      }});
+    if (kw && !(c.dataset.search||'').toLowerCase().includes(kw)) ok = false;
+    for (const [d,setv] of Object.entries(sel)) {{
+      if (setv.size && !setv.has(c.dataset[d])) {{ ok = false; break; }}
     }}
-    c.style.display = ok ? '' : 'none';
-    if (ok) n++;
+    return ok;
   }});
-  count.textContent = '共 ' + n + ' 条';
+  const sortv = sortSel.value;
+  if (sortv === 'name') visible.sort((a,b) => (a.querySelector('h3').textContent).localeCompare(b.querySelector('h3').textContent,'zh'));
+  else if (sortv === 'scale') visible.sort((a,b) => scaleRank(b) - scaleRank(a));
+  else if (sortv === 'hot') visible.sort((a,b) => (+b.dataset.hot||0) - (+a.dataset.hot||0));
+  cards.forEach(c => {{ if (visible.includes(c)) {{ c.style.display=''; c.classList.add('show'); }} else {{ c.style.display='none'; c.classList.remove('show'); }} }});
+  // 保持可见顺序（重排 DOM）
+  const ref = grid.firstChild;
+  visible.forEach(c => grid.appendChild(c));
+  n = visible.length;
+  count.textContent = '共 ' + n + ' 条（总 ' + grid.querySelectorAll('.card').length + '）';
   empty.style.display = n ? 'none' : 'block';
   grid.style.display = n ? '' : 'none';
 }}
 tabs.forEach(t => t.addEventListener('click', () => {{
   tabs.forEach(x => x.classList.toggle('active', x === t));
   active = t.dataset.tab;
-  filters.classList.toggle('hide', active !== 'model');
   Object.entries(grids).forEach(([k,g]) => g.style.display = (k === active) ? '' : 'none');
   apply();
 }}));
-filters.querySelectorAll('select').forEach(s => s.addEventListener('change', apply));
+q.addEventListener('input', apply);
+sortSel.addEventListener('change', apply);
+document.getElementById('btn-clear').addEventListener('click', () => {{
+  q.value = ''; sortSel.value = '';
+  for (const [d, idsv] of Object.entries(sel)) {{ idsv.clear(); }}
+  filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+  apply();
+}});
+document.getElementById('btn-random').addEventListener('click', () => {{
+  const grid = grids[active];
+  const vis = [...grid.querySelectorAll('.card.show')].filter(c => c.style.display !== 'none');
+  if (vis.length) {{ const c = vis[Math.floor(Math.random()*vis.length)]; location.href = c.querySelector('a').href; }}
+}});
+const PRESETS = {{
+  lowcost: () => {{ active='model'; q.value=''; for (const d of Object.keys(sel)) sel[d].clear();
+    sel['gscale'].add('小企'); filters.querySelectorAll('.chip').forEach(c => {{ c.classList.toggle('on', c.dataset.dim==='gscale' && c.dataset.val==='小企'); }});
+    tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='model')); apply(); }},
+  ai: () => {{ active='model'; q.value='ai'; for (const d of Object.keys(sel)) {{ sel[d].clear(); }} filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+    tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='model')); apply(); }},
+  scam: () => {{ active='scam'; q.value=''; for (const d of Object.keys(sel)) {{ sel[d].clear(); }} filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+    tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='scam')); apply(); }},
+}};
+document.querySelectorAll('.scene[data-preset]').forEach(b => b.addEventListener('click', () => PRESETS[b.dataset.preset]()));
+Object.entries(grids).forEach(([k,g]) => g.style.display = (k === active) ? '' : 'none');
 </script>
 </body></html>"""
     (SITE / "index.html").write_text(index, encoding="utf-8")
@@ -1171,13 +1408,15 @@ def main() -> int:
             raise SystemExit(f"无此 id: {args.only}")
     for m in models:
         mtype = m.get("type", "model")
+        pool = [x for x in models if x.get("type", "model") == mtype]
+        related = _related(m, pool, k=4)
         if mtype == "journey":
-            render_journey_page(m)
+            render_journey_page(m, related)
         elif mtype == "scam":
-            render_scam_page(m)
+            render_scam_page(m, related)
         else:
             render_workflow(m)
-            render_model_page(m)
+            render_model_page(m, related)
         print(f"[ok] {m['id']} ({mtype}) — {m['name']}")
     if not args.only:
         build_index(models)

@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **345** 篇（model 238 / journey 91 / scam 16）
+共 **347** 篇（model 238 / journey 92 / scam 17）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（91）
+## 🛤 发家路径（92）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -328,6 +328,7 @@
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
 - [Uber：从800美元黑车到Robotaxi帝国，13年烧百亿后盈利的共享出行活化石](journey-uber.md) · 本地生活 · 美
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
+- [维他奶：维他奶国际品牌传奇](journey-vitasoy.md) · 餐饮/茶饮 · 港台
 - [元气森林：唐彬森从游戏出海老兵到无糖气泡水网红，2022 跌停后再冲港股](journey-yuanqi-senlin-beverage.md) · 餐饮/茶饮 · 中
 - [Zerodha：卡马斯兄弟从20卢比佣金做到印度最大券商](journey-zerodha.md) · 金融科技 · 印度
 - [Zomato与Blinkit的2026成长之路](journey-zomato-blinkit.md) · 在线餐饮·即时配送 · 印度
@@ -340,10 +341,11 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（16）
+## ⚠️ 避坑指南（17）
 
 - [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
+- [AI恋人杀猪盘：用AI生成形象与话术伪装网恋伴侣，建立信任后诱导投资或转账](ai-companion-romance-pig-butchering-scam.md) · 其他 · 中国大陆及港澳台
 - [AI量化理财与DeFi套牌资金盘：伪AI理财骗局](ai-crypto-defi-fake-ai-wealth-scam.md) · 金融科技 · 中国大陆、港澳台、东南亚
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸声音克隆冒充领导熟人转账诈骗：用虚假视频语音骗你打款](ai-deepfake-impersonation-transfer-scam.md) · 其他 · 全国
