@@ -1,0 +1,94 @@
+{
+  "type": "journey",
+  "id": "journey-epic-games-fortnite",
+  "name": "Epic Games：从车库弹弓到Fortnite帝国与平台诉讼",
+  "company": "Epic Games, Inc.",
+  "founders": "Tim Sweeney（创始人兼CEO，1991年创办）、Mark Rein（副总裁，1992年加入）",
+  "industry": "内容/创作者经济",
+  "region": "美",
+  "scale": "巨头",
+  "channel": "线上",
+  "y2026_hot": "2026年 Epic 在经历15亿美元 Disney 投资后，因 Fortnite 活跃下滑再度裁撤超过1000人并关闭多个低黏性模式，成长叙事进入退潮期。以 Unreal Engine 5 为核心的元宇宙与游戏到底是新引擎还是新泡沫，这一轮值得重新审视。",
+  "origin": "1991年，20岁的 Tim Sweeney 在马里兰州 Potomac 父母家地下室用 QBasic 写了 ZZT——一款带内嵌编程语言的迷宫解谜游戏，通过 BBS 以邮购发售，累计卖出数千份。父亲 Paul Sweeney 负责打包所有订单，最后一盘直到 2013 年才寄完。ZZT 的玩家社区极其活跃，大量 Mod 自发涌现，让 Sweeney 意识到「游戏本身会说话」，而可扩展性才是公司该做的事。他放弃机械工程学位，1991年以 Potomac Computer Systems 为名在车库创业，1992年更名为 Epic MegaGames，并把 Mega 加进名字是为了「听起来像个大公司」，尽管当时全公司只有他一个人。",
+  "milestones": [
+    {
+      "time": "1991-1992",
+      "stage": "白手创立",
+      "outcome": "拐点",
+      "detail": "ZZT 的成功把 Sweeney 从大学宿舍推向邮购版的独立开发者。1992年初，他把 Potomac Computer Systems 改名为 Epic MegaGames，并在多伦多找到曾在 id Software 做商务的 Mark Rein，负责销售和发行。团队很快扩到数十人，1993年推出 Jazz Jackrabbit 、1994年 Epic Pinball 等 shareware 作品，靠零售发行在北美 PC 市场站稳脚跟。1997年公司已有 50 名员工。第一批游戏归纳总结了一套打法：用 shrink-wrap 零售 +\n廉价的 DOS/Windows 平台把成本压到最低。"
+    },
+    {
+      "time": "1998-2006",
+      "stage": "引擎崛起",
+      "outcome": "PMF",
+      "detail": "1998年，Epic 与 Digital Extremes 合作推出 3D FPS 大作 Unreal ，其画面和物理效果堪称当时 PC 游戏天花板。更重要的是，Sweeney 决定把引擎源码授权给第三方，Unreal Engine 正式诞生。次年团队迁至北卡罗来纳州 Cary，1999 年更名 Epic Games。2006年推出 Gears of War（Xbox 360 独占），以 1200 万美元预算获得约 1 亿美元收入，证明主机游戏才是更大市场。这一时期 Epic 从「发行商」变成「引擎商」:它第一次不再只靠卖游戏赚钱，而是靠引擎授权费和游戏销售两条腿走路。"
+    },
+    {
+      "time": "2012-2013",
+      "stage": "腾讯入股",
+      "outcome": "拐点",
+      "detail": "2012年6月，腾讯以 3.3 亿美元收购 Epic ~40% 股权，换取帮助 Epic 转型「游戏即服务」（GaaS）。Sweeney 称之为「Epic 4.0」。但代价是人才大量流失:设计总监 Cliff Bleszinski 不满腾讯介入，2012 年 10 月辞职，Mike Capps（总裁）12 月退出，Rod Fergusson（ Gears 系列主程）8 月出走微软，最终把 Gears 版权整体卖给了微软。两年内，Epic 失去了近一半核心管理层。不过腾讯的资金让 Epic 得以把 Unreal Engine 4 从 2015 年起免费开放给所有开发者，仅收取 5% 分成，以此换取 UE 生态的绝对统治。"
+    },
+    {
+      "time": "2016-2018",
+      "stage": "Paragon关闭",
+      "outcome": "失败",
+      "detail": "为验证多人服务模型，Epic 2016 年推出 MOBA 新作 Paragon ，UE4 加持但买断制改免费后仍留不住玩家。同期，Fortnite 原定 2017 年付费推出，但 Epic 管理层意识到「生存建造+刷宝」赛道已堵，决定押注大逃杀(BR)。2017 年 9 月，Fortnite Battle Royale 仅用 7 周从零到上线，免费登陆全平台。两周突破 1000 万玩家，6 个月注册超 1.25 亿，Epic 估值从 8.25 亿美元跳升至 45 亿美元。Paragon 则于 2018 年 1 月宣布停服，成为 Epic 第一次大规模杀死的产品。Fortnite BR 的意外爆红，本质上是公司用 MOBA 实验的钱和时间，栽出了一棵更大的树。"
+    },
+    {
+      "time": "2020-2021",
+      "stage": "立案诉讼",
+      "outcome": "拐点",
+      "detail": "2020年8月13日，Tim Sweeney 亲自策划了史上最大胆的应用商店挑战:Epic 更新 Fortnite ，在 iOS/Android 上提供直接在 Epic 官网购买 V-Bucks 的选项，折扣 20%，以此绕过苹果和谷歌 30% 的严格扣款。数小时内，App Store 和 Google Play 双双下架 Fortnite 。Epic 随即在加州联邦法院起诉两家平台反垄断，并于 9 月联合 13 家公司发起「应用商店公平联盟」。2021 年 9 月，联邦法官 Rogers 裁定苹果在反导流条款上败诉，永久禁令要求苹果允许开发者引导用户到外部购买渠道；判决在上诉中被维持。2025 年 4 月 Rogers 再次裁定苹果整改不力，Epic 一周后把 Epic Games Store 带回欧洲 App Store。这场诉讼没有推翻 App Store 本身，但第一次在事实上给玩家和开发者撕开了第三方支付的缝隙。"
+    },
+    {
+      "time": "2022-2026",
+      "stage": "处罚裁员",
+      "outcome": "失败",
+      "detail": "2022 年 1 月 FTC 以五项罪名罚款 Epic 5.2 亿美元，包括违反儿童隐私法和用「暗黑设计」诱导未成年人购买 V-Bucks，是游戏史上最大执法之一。2023 年 9 月，Fortnite 热度见顶后 Epic 裁员 870 人，把 Bandcamp 卖给 Songtradr、把 SuperAwesome 分拆。2024 年 2 月，迪士尼以 15 亿美元购入 9% 股权，承诺联合开发 Disney 宇宙内容，但依然没止住 Fortnite 自 2025 年起的活跃流失。2026 年 3 月，Epic 再一次性裁员超 1000 人，关闭 Rocket Racing、Fortnite Ballistic 和 Fortnite Festival Battle Stage 等低黏性新模式。公司 2026 年仍超 4000 名员工，但增长叙事从「一夜爆红」变成了「如何把失败的实验一件件收回来」。"
+    }
+  ],
+  "turning_points": [
+    "2017年9月 Fortnite Battle Royale 7周上线并爆红，把Epic估值从8.25亿美元拉到45亿美元，是公司历史上最大单次跃升",
+    "2021年9月 Epic在苹果诉讼中虽输掉九项，但赢了关键第十项——反导流限制禁令，迫使苹果允许第三方支付渠道，重新建立行业定价边界",
+    "2024年2月迪士尼15亿美元战略投资和9%股权，把Epic从「游戏公司」重贴为「娱乐元宇宙基础设施」，获得IP和收益双重背书"
+  ],
+  "failures": [
+    "Paragon MOBA（2016-2018）两年内从投入到关服，未能在LOL和Dota2夹击中留住任何玩家群体，Riot和Valve的版图让它几乎没法生存",
+    "Unreal Tournament 2014重启版最终以开发组解散、游戏取消收场，未能复刻老IP价值，直接抽调资源给Fortnite让路",
+    "FTC 5.2亿美元天价罚款（2022年）:公司在Fortnite高峰房间里放大了儿童隐私保护和诱氪问题， cracks暴露监管高压",
+    "快速并购消化不良:2019-2021年连续收购11个工作室(Mediatonic、Psyonix、Harmonix、Quixel、Sketchfab等),但缺乏统一整合,多数后转为关停或分拆",
+    "2023-2026连续两场裁员累计1700+人,并在2024年强行关闭迪士尼人气Star Wars活动和Houseparty社交应用,品牌多元化是一次经历过山车"
+  ],
+  "keys": [
+    "Unreal Engine是 Epic 最大的隐形资产:看似Upfront免费,实则通过第三方游戏5%分成和Fab资产商店抽成实现长尾收入,Fab(2024年起)、ArtStation、Sketchfab、Quixel 合成引擎+内容两层漏斗",
+    "Sweeney的独裁式产品决策:拒掉Steam看不上「30%税率」,自建 EGS 用12%;对抗 Apple 直接越狱式操作。这种「敢在巨头脖子上动刀」的风格让 Epic 成为行业定价规则的挑战者",
+    "7周改写出Fortnite BR的产品速度:把内部团队的游戏设计文化(迭代速度最快)从引擎与内容环节搬到多人游戏改编,内部敢关停进行中的项目给刀锋让路",
+    "迪士尼+索尼+腾讯+Kirkbi 四位一体的资本联盟:多元股东做背书,既引入 IP 资源(迪士尼),也引入日本市场和文化(索尼、乐高),把单一游戏公司升级成文化平台"
+  ],
+  "lessons": [
+    "\\\"失败副产物\\\"往往比主线更有价值:Fates Forever语音成了Discord灵感,Paragon的失败技术直接给了Fortnite BR,Fortnite原生存模式的大地图成了BR跳板。创业中途别急着把失败项目一锅端",
+    "真痛点永远在巨头懒得做的地方:Steam 30%税率维持了十年,苹果App Store的30%苟延残喘到2020年——Epic在Fortnite这个消费力最强的渠道上反叛,本质是玩家和开发者两边的沉默成本一起炸了",
+    " billions级别的收购≠整合速度:Mediatonic收购后(2021) Fall Guys 热度快速下坡,2023年Mediatonic大规模裁员。买IP容易，把工作室变成自己引擎里的稳定发电机组很难",
+    "反垄断诉讼是慢性药不是强效药:Epic赢了Apple的第十条禁令,但从2021到2025年花了四年才让苹果真正落实第三方支付,而且苹果的整改仍被Rogers法官认为不够。这条路必须走,但不能指望改变格局"
+  ],
+  "metrics": {
+    "1991年创立": "Potomac Computer Systems在马里兰州父母车库成立",
+    "1998年Unreal发售": "3D FPS标杆，启动Unreal Engine授权",
+    "2012年腾讯入股": "3.3亿美元购入~40%股权，估值约8.25亿美元",
+    "2017年9月Fortnite BR上线": "两周1000万玩家，三个月超1.25亿注册",
+    "2018年6月估值": "约45亿美元(较2012年腾讯入股时增长54倍)",
+    "2020年底累计收入": "Fortnite超越90亿美元",
+    "2022年全年营收": "约60亿美元(大部分来自Fortnite抽成和V-Bucks)",
+    "2022年FTC罚款": "5.2亿美元（儿童隐私保护+暗黑付费模式）",
+    "2024年初Disney投资": "15亿美元购入9%股权，押注迪士尼宇宙与Fortnite联动",
+    "2026年3月裁员": "一次性裁员超过1000人，关闭多个低黏性模式，公司仍超4000名员工"
+  },
+  "competitors": "Epic Games在多条线作战。游戏核心层方面，Unity在移动和独立游戏领域长期争夺开发者，但Unreal引擎凭借高保真画面和MetaHuman等技术，在3A游戏中保持绝对优势。分发渠道方面，Valve的Steam仍然掌握全球PC游戏分发的绝对份额;主机平台任天堂、索尼的第一方商店也分别在各自生态中筑起围墙。内容消费层面，Roblox、Minecraft以创作者工具和UGC不断吸引青少年用户。云游戏赛道,NVIDIA GeForce Now和Microsoft xCloud正在与Epic的全平台(PC主机移动)游戏生态展开长期竞争。Epic的优势是把引擎、内容、商店、运营四条链路垂直打通，但这条护城河远比想象中消费大众而非开发者的反垄断政策更脆弱。",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Epic_Games",
+    "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+    "https://en.wikipedia.org/wiki/Epic_Games_v._Apple",
+    "https://en.wikipedia.org/wiki/Paragon_(video_game)"
+  ]
+}
