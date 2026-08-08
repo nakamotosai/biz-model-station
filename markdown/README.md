@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **314** 篇（model 238 / journey 63 / scam 13）
+共 **315** 篇（model 238 / journey 63 / scam 14）
 
 ## 💰 赚钱模式（238）
 
@@ -312,10 +312,11 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（13）
+## ⚠️ 避坑指南（14）
 
 - [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
+- [AI量化理财与DeFi套牌资金盘：伪AI理财骗局](ai-crypto-defi-fake-ai-wealth-scam.md) · 金融科技 · 中国大陆、港澳台、东南亚
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
 - [AI挂机搬砖佣金骗局：以AI算力/代理名义包装的零撸分红资金盘](ai-idle-farming-commission-pyramid-scam.md) · AI/大模型 · 中国大陆及东南亚跨境
