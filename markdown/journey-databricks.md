@@ -1,0 +1,107 @@
+# Databricks：七位伯克利学者从最烂路演 deck 做到 1880 亿数据加 AI 平台
+
+> 🛤 发家路径 | **云计算** · 美 · 独角兽 · ToB
+
+## 🚀 起步缘由
+
+故事从一场输掉 100 万美元的比赛开始。2006 年 Netflix 悬赏 100 万美元征集能把推荐算法精度提升 10% 的方案，伯克利博士生 Lester Mackey 组队挑战却被海量数据工具难住；同实验室的 Matei Zaharia 2009 年写出仅 600 行代码的 Spark 引擎帮他迭代，结果团队虽追平精度却因提交晚 20 分钟痛失奖金。Zaharia 在帮 Facebook、Yahoo 调 Hadoop 时发现 MapReduce 跑机器学习的迭代计算一塌糊涂，认定 MapReduce 架构错了，于是拉上同实验室的六人继续打磨 Spark，把存储和计算分离、让迭代更快，2010 年开源，2013 年把项目捐给 Apache 基金会后七人在旧金山成立 Databricks 下海把自己造的开源引擎商业化
+
+**创办人**：Ali Ghodsi（CEO，2016 起任），Ion Stoica（首任 CEO，伯克利 AMPLab 联合主任），Matei Zaharia（CTO，Spark 创造者），Andy Konwinski，Patrick Wendell，Reynold Xin，Arsalan Tavakoli-Shiraji · **公司**：Databricks, Inc.
+
+## 📈 发家里程碑
+
+- **2013 年 9 月** 最烂路演（启动）
+  - 七位创始人大多是伯克利教授和博士生，从没开过公司，找 a16z 的 Ben Horowitz 路演时交出的 deck 被 Horowitz 直呼图形糟糕、想法在居高临下和发疯之间，是见过最不专业的 deck 之一。Ghodsi 后来自己都笑称第一次路演烂透了。但 AMPLab 同事 Scott Shenker 提前跟 Horowitz 夸 Zaharia 是近十年最优秀的分布式系统学者，Horowitz 靠人对人判断透过烂 deck 领投了 1390 万美元 A 轮，Databricks 这才起家
+- **2013 至 2016 年** 开源反噬（失败）
+  - 七位学者以为把 Spark 开源、社区跑起来就有人付钱，现实却是企业只想要免费社区版不肯升级付费，连 Cloudera、Hortonworks 都被传曾拒绝接 Spark 授权，Databricks 只能自己下场商业化。更早还传出过 sliding door 时刻：Spark 团队曾想授权给 Hortonworks 但被拒，于是 Databricks 被迫从一家想做开源社区运营的公司变成一家必须卖云托管 Spark 的 SaaS 公司。前三年商业化爬坡极慢，学术团队不懂销售不懂定价，靠社区人头撑场子，账上却迟迟回不过血
+- **2016 年** 换帅CEO（拐点）
+  - 首任 CEO Ion Stoica 是伯克利资深教授、AMPLab 联合主任，但他自认商业化非所长，主动把 CEO 让给原 VP Engineering and Product 的 Ali Ghodsi。Ghodsi 从小用 Commodore 64 敲代码，五岁随家人 24 小时内逃离伊朗革命，是七人里最敢做产品决策也最敢跟资本对接的人。换帅后 Databricks 把战略彻底收拢到云托管 Spark 这条单一路径，停止做开源社区公益的幻想，开始按计算资源用量收费而不是订阅费
+- **2017 年 11 月** Azure挂载（转折）
+  - 微软把 Databricks 做成 Azure 上的第一方服务 Azure Databricks，名字里直接带 Databricks 却由 Databricks 自己运营，这在当时的大厂和开源创业公司合作里几乎闻所未闻。Ben Horowitz 2016 年给 Satya Nadella 发邮件推荐，Nadella 抓到数据要和处理软件在同一处这一关键，微软工程师进场把 Spark 适配 Azure 并培训销售去卖。靠 Azure 销售大军 Databricks 客户数从公司成立起的几千快速上量，这是真正撬动规模的一击
+- **2019 年 2 月** 微软入资（增长）
+  - 微软参与 Databricks 2.5 亿美元 E 轮估值 27.5 亿美元，Horowitz 说 90 年代微软对创业公司是恐惧和鄙视的对象，Nadella 彻底改写这种关系，让微软从威胁变成杰出伙伴。这一轮也确立了 AWS、Google Cloud、Microsoft、Salesforce 四大云在 Databricks 里都持股的奇景，是后来跨云中立的护城河的资本底座
+- **2019 至 2020 年** 炮打仓库（拐点）
+  - 2019 年 4 月开源 Delta Lake 把 ACID 事务和 schema 强约束带进数据湖，2020 年 11 月推 Databricks SQL（前 SQL Analytics）正式切数据仓库场景，并喊出 Lakehouse 概念把数据湖的灵活与数仓的治理合二为一。这是 Databricks 跟 Snowflake 从间接相邻赛道正面改成同一赛道的拐点：原来 ML 工程师用 Databricks 跑训练，BI 分析师用 Snowflake 跑查询，从此两边要抢同一份企业数据预算
+- **2021 年 11 月** 基准战（转折）
+  - Databricks 发基准报告声称 Lakehouse 比 Snowflake 快 2.7 倍、性价比好 12 倍，暗示数仓方案随数据量上升会贵到用不起。Snowflake 反击掀起两周日更的基准嘴仗，并很快上 Apache Iceberg 替代 Delta Lake、推 Snowpark 把数据科学家拉进自己生态。两边从此不再只是产品并行而是互抢客户和心智，Databricks SQL 跑到 2025 年单产品年度毛收入破 10 亿美元量级
+- **2023 年 6 月** 并购Mosaic（PMF）
+  - 以 13 亿美元收购成立仅两年、60 余人团队的生成式 AI 初创 MosaicML，按人头算是 2100 万美元一名员工，被街头评为天价。但这是把生成式 AI 拽进数据平台的关键一步：之前 Databricks 只管训练用的数据湖，收购后补齐了微调、训练和企业自有大模型部署整条链，让企业不用把敏感数据外发就能在自家数据上训自己的 LLM。同月即把旗舰 AI 产品接到平台里，从此 Databricks 的卖点从节省 ML 算力升级成企业 AI 基建
+- **2024 年 12 月** 百亿融资（增长）
+  - Thrive Capital 领投 100 亿美元 J 轮估值跳到 620 亿美元，是近年最大的 VC 单笔之一。NYT 评其为史上规模数得着的风投交易。估值叙事从大数据 SaaS 重写为 AI 基建，投资人宁可把 Databricks 押成 AI 时代的数据底座也不愿赌一个纯生成 AI 的故事，把一家数据公司估出云计算巨头级别
+- **2025 年 6 月** Agents基建（PMF）
+  - Data 加 AI Summit 上一次性发布 Agent Bricks（AI Agent 开发工作台）、Lakebase（面向 AI Agent 的 OLTP 数据库）、Databricks One（无代码 BI）。补齐 AI Agent 运行所需的操作型数据库层，把数据平台重新定位成 AI Agent 基建。同月与 Anthropic 签 1 亿美元五年合作把 Claude 接进平台，9 月再与 OpenAI 签 1 亿美元把 GPT 接进来，让客户在 Databricks 安全边界内调用外部模型，数据不必出域就能跑 Agent
+- **2025 年 12 月** L轮1340亿（增长）
+  - Insight Partners、Fidelity、J.P. Morgan 领投 40 亿美元 L 轮估值 1340 亿美元，艾塔 12 个月内第三轮大型融资。同期披露 ARR 冲破 48 亿美元同比增长超 55%、AI 单项收入破 10 亿美元运行率、自由现金流首次转正，一家开源出身的数据公司正式进入云计算巨头收入梯队
+- **2026 年 6 至 7 月** 1880亿估值（转折）
+  - 6 月 Data 加 AI Summit 连发开源 Omnigent Agent harness 控制面、Lakehouse RT 实时引擎、LTAP 单价新据事务分析架构、Genie One 代理同事、Genie ZeroOps 自愈运维，并宣布收购 AI 安全运营平台 Panther Labs。ARR 同比增长 80% 到 69 亿美元。7 月 Coatue 领投 30 亿美元估值推到 1880 亿美元，已是 Pre-IPO 软件公司估值最高锚，市场开始把 Databricks 当明后两年必然上市的最大软件 IPO 窗口锚
+
+## 🔀 转折点
+
+- 2016 年 Ion Stoica 让位给 Ali Ghodsi 任 CEO 后战略从运营开源社区转为卖云托管 Spark，是七位学者从开放源码姿态切换到商业化肌肉的第一道分水岭
+- 2017 年微软把 Databricks 做成 Azure 第一方服务，借微软全球销售大军把客户数从几千拉到上万家，是大公司加开源创业极少见的深度捆绑模式，一举奠定跨云中立护城河的资本与渠道底
+- 2020 年推出 Delta Lake 与 Databricks SQL 后炮制 Lakehouse 概念，把战场从 ML 工程师赛道正面平移进 Snowflake 的数仓主场，从间接相邻改成直接抢同一份预算
+- 2023 年 13 亿美元收购成立仅两年的 MosaicML 把生成式 AI 接进数据平台，一次把卖点从省 ML 算力升级成企业自有大模型基建，敲开 AI 时代的再定价窗口
+- 2024 年底 100 亿美元 J 轮估值 620 亿美元把估值叙事从大数据 SaaS 改写为 AI 基建，资本宁可押数据底座也不赌纯生成 AI，Databricks 从此进入云计算巨头收入梯队
+
+## 🕳️ 失败与踩坑
+
+- 开源反噬商业化：前三年以为把 Spark 开源、社区跑起来就有人付钱，现实是企业只想要免费社区版不肯升级，商业化爬坡极慢，学术团队缺销售经验，账上迟迟回不过血，被迫从一家想做开源社区运营的公司变成一家必须卖云托管 SaaS 的公司
+- 最烂路演 deck：七位伯克利学者从没开过公司，找 a16z 的 Ben Horowitz 路演交出的 deck 被直呼图形糟糕、想法在居高临下和发疯之间，是见过最不专业的 deck 之一，Ghodsi 自己都笑称第一次路演烂透了
+- sliding door 时：Spark 团队曾想授权给 Hortonworks 但被拒，Databricks 被迫自己下场商业化，如果 Hortonworks 当初接了授权，Databricks 的角色可能永远只是开源社区运营方而非云托管 SaaS 巨头
+- 2017 年 Delta Lake 推出前后 Databricks 仍被困在数据科学家和 ML 工程师这一小众人群，BI 分析师预算大头仍流向数仓厂商，Lakehouse 概念喊出之前好几年公司都没能拿到企业数据总预算里最大的那块
+- MosaicML 收购后完整的生成式 AI 能力虽补齐，但 Dolly 与 DBRX 自研模型在公开基准上甩不开 Llama 2 和 Mixtral，自研模型线很难讲成前沿 AI 故事，Databricks 最终靠平台出路而非模型性能挣钱
+
+## 🔑 关键成功要素
+
+- 七位创始人都是 Spark 的原创作者，开源社区已先于商业化成为大数据事实标准，Databricks 一成立就是该生态的天然商业出口，开源先把竞品挡在门外再回头变现
+- Delta Lake、MLflow、Unity Catalog 等关键组件持续开源，把数据目录、ML 生命周期、治理这些花钱项全部商品化，让焦点收拢到 Databricks 按计算用量收费的主收入上，是经典的补全品降价的平台手法
+- 数据留在客户自有云、算力按需按量收费、再加入 AWS、Azure、GCP 三大云销售渠道，既绕开传统数据仓库厂商锁定又无惧单一云商的市场排他，跨云中立既是技术架构也是治理与资本结构
+- 2023 年 13 亿美元收购 MosaicML 后把生成式 AI 完整补进平台，加上 2025 年与 Anthropic、OpenAI 两个 1 亿美元合作把外部大模型接进自家安全边界，让企业不必把私有数据外发到 OpenAI 就能在 Databricks 里跑 Agent，是 AI 时代最有粘性的数据护城河
+- 借微软 Azure 第一方服务和 2019 年微软入资打开大客户渠道，AWS、Google Cloud、Microsoft、Salesforce 四大云同为股东兼渠道，Databricks 同时被多家云销售大军推向企业客户，是开源创业公司极少能拿到的大厂共持结构
+
+## 📚 经验教训
+
+- 开源不一定直接变现，常常要先喂社区再回头做托管 SaaS，Databricks 前三年的失败证明开源项目跑起来和商业回血完全是两件事，团队必须有人敢主动把战略从公益切换到商业化，换帅 CEO 是这种初创开源团队的关键拐点
+- 学术团队下海第一份路演 deck 几乎一定烂，靠伯克利教授 Scott Shenker 提前一句 Zaharia 是近十年最优秀分布式系统学者才让 Horowitz 透过烂 deck 押人，早期投资里人对人的信用背书可以覆盖任何 deck
+- 技术好不等于商业模式对：Databricks 在数据湖和 ML 上闷头跑多年，真正起飞是把产品平移到 Snowflake 主场数仓赛道、并把战略从省 ML 算力重写为企业 AI 基建，每次平移赛道都是再定价的关键时机
+- 平台型公司把 MLflow、Unity Catalog 这些花钱项开源让补全品降价，把焦点逼回主收入计算用量收费，是软件平台对计算类收入护城河的经典手法，Databricks 一路用脚走路让所有治理和生命周期工具免费恰恰是把商品化的成本丢给竞争对手
+- AI 时代企业最敏感的是把私有数据外发给模型方，把 Anthropic Claude、OpenAI GPT、Google Gemini 都接到 Databricks 安全边界内运行让数据不出域，是数据平台比纯模型公司更适合当企业 AI 基建的根本，估值叙事也因此从大数据 SaaS 重写为 AI 基建
+
+## 📊 核心数据
+
+- **成立时间**：2013 年
+- **创始人数量**：7 位（Ali Ghodsi、Ion Stoica、Matei Zaharia、Andy Konwinski、Patrick Wendell、Reynold Xin、Arsalan Tavakoli-Shiraji）
+- **A 轮 2013.09**：1390 万美元，a16z 领投
+- **E 轮 2019.02**：2.5 亿美元，估值 27.5 亿美元
+- **G 轮 2021.02**：10 亿美元，估值 280 亿美元，ARR 约 4.25 亿美元
+- **H 轮 2021.08**：16 亿美元，估值 380 亿美元，ARR 超 6 亿美元
+- **I 轮 2023.09**：5 亿美元，估值 430 亿美元（Nvidia 参投）
+- **2023 财年营收**：16 亿美元
+- **MosaicML 收购 2023.06**：13 亿美元，按人头约 2100 万美元一名员工
+- **Tabular 收购 2024.06**：超 10 亿美元
+- **J 轮 2024.12**：100 亿美元，估值 620 亿美元（Thrive Capital 领投）
+- **K 轮 2025.08**：10 亿美元，估值超 1000 亿美元，ARR 40 亿美元（AI 收入破 10 亿美元运行率）
+- **Neon 收购 2025.05**：约 10 亿美元
+- **L 轮 2025.12**：40 亿美元，估值 1340 亿美元
+- **ARR 2026.02**：54 亿美元，同比增长超 65%，自由现金流首次转正
+- **ARR 2026.06**：69 亿美元，同比增长 80%
+- **M 轮（Coatue）2026.07**：30 亿美元，估值 1880 亿美元
+- **员工数 2026**：约 10000 人
+
+## ⚔️ 竞争对手 / 同行
+
+直接对手是 Snowflake，两家分别从数据湖（Databricks）和数据仓库（Snowflake）出发在 Lakehouse 概念上正面撞头，2021 年的基准战和 Snowflake 上 Apache Iceberg 对抗 Delta Lake 把赛道彻底合并，一路在抢企业数据总预算；AWS、Google Cloud、Microsoft Azure 既是 Databricks 的股东和销售渠道又是潜在竞品，三家各自推托管 Spark 或类似 ML 平台；生成式 AI 基建路线上同时面临 OpenAI、Anthropic、Google 的直接竞争，但 Databricks 选择把它们的模型接进自家安全边界把对手变伙伴，这条又同时挡住不带数据平台出身的纯模型公司；开源 Lakehouse 格式上还跟 Apache Iceberg 阵营间接竞争，2024 年以超 10 亿美元收购 Tabular（Iceberg 创始人项目）部分把这场格式战收平
+
+## 🔗 来源
+
+- [https://en.wikipedia.org/wiki/Databricks](https://en.wikipedia.org/wiki/Databricks)
+- [https://www.turingpost.com/p/databricks](https://www.turingpost.com/p/databricks)
+- [https://newsletter.tidalwaveresearch.com/p/databricks-pre-ipo-primer-and-a-requiem](https://newsletter.tidalwaveresearch.com/p/databricks-pre-ipo-primer-and-a-requiem)
+- [https://www.stacksync.com/blog/seven-academics-who-had-never-run-a-company-the-origin-story-of-databricks](https://www.stacksync.com/blog/seven-academics-who-had-never-run-a-company-the-origin-story-of-databricks)
+- [https://www.cnbc.com/2019/02/04/microsoft-invests-in-databricks-funding-at-2point7-billion-valuation.html](https://www.cnbc.com/2019/02/04/microsoft-invests-in-databricks-funding-at-2point7-billion-valuation.html)
+- [https://www.cnbc.com/2026/06/16/databricks-revenue-growth-tops-80percent-to-6point9-billion-annualized.html](https://www.cnbc.com/2026/06/16/databricks-revenue-growth-tops-80percent-to-6point9-billion-annualized.html)
+- [https://exploreinsights.net/databricks-secures-landmark-funding-round-reaching-staggering-188-billion-valuation-amidst-ai-transformation/](https://exploreinsights.net/databricks-secures-landmark-funding-round-reaching-staggering-188-billion-valuation-amidst-ai-transformation/)
+- [https://www.sfgate.com/tech/article/databricks-mosaicml-ghodsi-sf-tech-18171502.php](https://www.sfgate.com/tech/article/databricks-mosaicml-ghodsi-sf-tech-18171502.php)
+
+---
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*
