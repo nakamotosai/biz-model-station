@@ -1,0 +1,60 @@
+{
+  "type": "journey",
+  "id": "journey-ai-coding-tool",
+  "name": "GitHub Copilot：AI 编程助手",
+  "company": "GitHub",
+  "founders": "Tom Preston‑Werner, Chris Wanstrath, PJ Hyett, David Filo",
+  "industry": "软件开发工具",
+  "region": "美国",
+  "scale": "巨头",
+  "channel": "平台/插件",
+  "y2026_hot": "AI 编程助手 让代码生成自动化保持行业领先，Copilot 以低成本、高效率成最佳助攻，竞争快节奏开发成为必备工具。",
+  "origin": "2020 年与 OpenAI 合作推出 Copilot，旨在通过大模型在 IDE 里即时生成代码。",
+  "milestones": [
+    {
+      "time": "2020 年12月",
+      "stage": "发布",
+      "outcome": "首个 Beta 版发布",
+      "detail": "首个 AI 代码助手面世，支持 VS Code 和 GitHub 使用者。"
+    },
+    {
+      "time": "2021 年6月",
+      "stage": "正式",
+      "outcome": "广泛集成",
+      "detail": "Copilot 通过 VS Code、JetBrains 以及 GitHub Online 完全支持。"
+    },
+    {
+      "time": "2023 年10月",
+      "stage": "升级",
+      "outcome": "多语言与插件化",
+      "detail": "Copilot 2.0 推出多语言支持与无损插件，成为 IDE 插件主流。"
+    }
+  ],
+  "turning_points": [
+    "Copilot 1.0 进入 SaaS 生态后快速扩散",
+    "Copilot 2.0 的多语言合规与 IDE 插件模型改变行业格局"
+  ],
+  "failures": [
+    "代码版权争议导致早期原型停止",
+    "团队对 AI 代码安全性的质疑，导致首期停滞"
+  ],
+  "keys": [
+    "大规模代码语料训练",
+    "无缝 IDE 集成",
+    "语义上下文推理"
+  ],
+  "lessons": [
+    "AI 编程工具必须与 IDE 生态深度耦合",
+    "透明模型与使用者反馈是关键",
+    "快速迭代响应开发者痛点至关重要"
+  ],
+  "metrics": {
+    "活跃工作区": "超过 2.5 万",
+    "月度订阅": "约 1.2 万"
+  },
+  "competitors": "Tabnine、Kite、CodiumAI",
+  "sources": [
+    "https://github.com/features/copilot",
+    "https://github.blog"
+  ]
+}
