@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **355** 篇（model 238 / journey 100 / scam 17）
+共 **356** 篇（model 238 / journey 100 / scam 18）
 
 ## 💰 赚钱模式（238）
 
@@ -349,7 +349,7 @@
 - [闪电说：三次转型踩坑后押中语音输入](shandianshuo.md) · AI/大模型 · 中
 - [元气森林：从游戏引擎到无糖饮料的拐点之旅](yuanqi-forest-journey.md) · 其他 · 中
 
-## ⚠️ 避坑指南（17）
+## ⚠️ 避坑指南（18）
 
 - [AI 代理篡改：伪造 AI 技能注入恶意代码](ai-agent-supply-chain-poisoning.md) · 其他 · 中
 - [AI外呼骚扰与声纹克隆诈骗：批量拨号冒充熟人或客服骗取钱财](ai-batch-voice-call-harassment-scam.md) · 其他 · 中国大陆
@@ -358,6 +358,7 @@
 - [AI数据标注兼职骗局：以高薪兼职为名收取押金与培训费的陷阱](ai-data-annotation-part-time-scam.md) · 教育/知识付费 · 中国大陆
 - [AI换脸声音克隆冒充领导熟人转账诈骗：用虚假视频语音骗你打款](ai-deepfake-impersonation-transfer-scam.md) · 其他 · 全国
 - [AI换脸伪装军人杀猪盘：以网恋为名诱导虚假投资](ai-deepfake-romance-scam.md) · 其他 · 全国
+- [AI假客服电话骗局——冒充平台客服用AI语音外呼诱导转账](ai-fake-customer-service-call-scam.md) · 金融科技 · 全国
 - [AI挂机搬砖佣金骗局：以AI算力/代理名义包装的零撸分红资金盘](ai-idle-farming-commission-pyramid-scam.md) · AI/大模型 · 中国大陆及东南亚跨境
 - [AI荐股量化跟单理财骗局：号称AI量化选股月赚150%，实则资金从不下场、后台改数字锁仓](ai-quant-stock-copy-trading-scam.md) · 其他 · 中国大陆（深圳为重点作案地）
 - [AI兼职招转培骗局：以高薪AI岗位为诱饵骗取培训费与押金](ai-recruitment-training-fee-scam.md) · 教育/知识付费 · 全国
