@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **324** 篇（model 238 / journey 71 / scam 15）
+共 **325** 篇（model 238 / journey 72 / scam 15）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（71）
+## 🛤 发家路径（72）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -286,6 +286,7 @@
 - [Grab从叫车小工到东南亚超级应用](journey-grab.md) · 本地生活 · 东南亚
 - [海底捞：张勇从四张桌子到千亿火锅帝国，极致服务如何穿越扩张周期](journey-haidilao-hotpot.md) · 餐饮/零售 · 中
 - [星野度假村：百年温泉旅馆的第四代翻身](journey-hoshino-resorts.md) · 旅游 · 日
+- [宏达电 HTC：从安卓之王到 VR 转型的兴衰样本](journey-htc.md) · 其他 · 台
 - [HYBE 方时赫从濒死小作坊到K-pop帝国，BTS退役回归再赌2026](journey-hybe-bts.md) · 内容/创作者经济 · 韩
 - [Kopi Kenangan: 1,351 outlets](journey-kopi-kenangan.md) · Retail (Coffee & Beverage) · Indonesia
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
