@@ -1058,6 +1058,29 @@ def build_index(models: list[dict]) -> None:
         chips = "".join(
             f'<button class="chip" data-dim="{dim}" data-val="{esc(o)}">{esc(o)}</button>' for o in opts)
         chip_html += f'<div class="chip-row" data-dim="{dim}"><span class="chip-label">{label}</span>{chips}</div>'
+
+    IND_EMOJI = {
+        "AI/大模型": "🤖", "SaaS/企业软件": "💻", "云计算": "☁️", "其他": "🧩",
+        "内容/创作者经济": "🎬", "医疗/养老": "🩺", "宠物": "🐾", "教育/知识付费": "📚",
+        "旅游": "✈️", "本地生活": "🏪", "电商/零售": "🛒", "营销/广告": "📣",
+        "金融科技": "💳", "餐饮/茶饮": "🍜",
+    }
+    SCALE_CLS = {"巨头": "g-x", "中型": "g-m", "小企": "g-s", "灰产": "g-b"}
+
+    def card_meta(m: dict, dims: dict) -> str:
+        """卡片底行：行业 emoji + 行业 + 地区 · 规模点 + 变现标签"""
+        emoji = IND_EMOJI.get(dims.get("industry", ""), "🧩")
+        scl = _scale_group(m.get("scale", ""))
+        sc = SCALE_CLS.get(scl, "g-x")
+        rev = _rev_label(m) if m.get("type", "model") == "model" else ""
+        parts = [f'<span class="e">{emoji}</span>', f'<span class="ind">{esc(dims.get("industry",""))}</span>']
+        if dims.get("region"):
+            parts.append(f'<span class="reg">{esc(dims["region"])}</span>')
+        parts.append(f'<span class="dot {sc}"></span><span class="sname">{esc(scl)}</span>')
+        if rev:
+            parts.append(f'<span class="t rev">{esc(rev)}</span>')
+        return '<div class="meta">' + "".join(parts) + '</div>'
+
     model_cards = []
     for m in by_type['model']:
         dims = {"industry": m.get('industry',''), "region": m.get('region',''),
@@ -1072,21 +1095,24 @@ def build_index(models: list[dict]) -> None:
         if len(first_sentence) > 90:
             first_sentence = first_sentence[:90] + "…"
         summary = first_sentence or "（模式要点见详情）"
+        meta = card_meta(m, dims)
         model_cards.append(f"""<article class="card" {data_attr}
-  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}">
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" data-type="model">
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>{esc(m['name'])}</h3><span class="arrow">→</span></div>
     <p class="card-how">{esc(summary)}</p>
-    <div class="tags">{''.join(f'<span class="t">{esc(dims[k])}</span>' for k in DIMENSIONS)}<span class="t rev">{esc(_rev_label(m))}</span></div>
+    {meta}
   </a>
 </article>""")
+
     journey_cards = []
     for m in by_type['journey']:
         ms = m.get('milestones', [])
         n_fail = sum(1 for x in ms if x.get('outcome') == '失败')
-        tags = {'industry': m.get('industry',''), 'region': m.get('region',''), 'scale': m.get('scale','')}
-        tag_html = "".join(f'<span class="t">{esc(tags[k])}</span>' for k in ('industry','region','scale') if tags[k])
-        # 现状一句话：metrics 里挑 ARR/估值/市值/用户 类键
+        dims = {"industry": m.get('industry',''), "region": m.get('region',''),
+                "scale": m.get('scale',''), "channel": m.get('channel','')}
+        jdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in dims.items())
+        jdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
         met = m.get('metrics', {}) or {}
         met_str = ""
         for k in ('最新估值', '估值', 'ARR', '年营收', '市值', '年收入', '月活用户', 'DAU'):
@@ -1096,22 +1122,22 @@ def build_index(models: list[dict]) -> None:
         search_txt = " ".join([m.get('name',''), m.get('company',''), m.get('industry',''),
                                m.get('region',''), str(m.get('origin','')),
                                str(m.get('lessons',''))])
-        jdims = {"industry": m.get('industry',''), "region": m.get('region',''),
-                 "scale": m.get('scale',''), "channel": m.get('channel','')}
-        jdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in jdims.items())
-        jdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
+        meta = card_meta(m, dims)
         journey_cards.append(f"""<article class="card journey-card"
-  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" {jdata}>
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" data-type="journey" {jdata}>
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>🛤 {esc(m['name'])}</h3><span class="arrow">→</span></div>
     <p class="card-how">创办：{esc(m.get('founders',''))} · {len(ms)} 阶段 · {n_fail} 次失败踩坑{met_str}</p>
-    <div class="tags">{tag_html}</div>
+    {meta}
   </a>
 </article>""")
+
     scam_cards = []
     for m in by_type['scam']:
-        tags = {'industry': m.get('industry',''), 'region': m.get('region',''), 'scale': m.get('scale','')}
-        tag_html = "".join(f'<span class="t">{esc(tags[k])}</span>' for k in ('industry','region','scale') if tags[k])
+        dims = {"industry": m.get('industry',''), "region": m.get('region',''),
+                "scale": m.get('scale',''), "channel": m.get('channel','')}
+        sdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in dims.items())
+        sdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
         how = m.get('how_it_works', [])
         how_first = how[0] if how else str(m.get('victims',''))
         if len(how_first) > 90:
@@ -1119,18 +1145,18 @@ def build_index(models: list[dict]) -> None:
         search_txt = " ".join([m.get('name',''), m.get('industry',''), m.get('region',''),
                                str(m.get('victims','')), str(m.get('how_it_works','')),
                                str(m.get('red_flags',''))])
-        sdims = {"industry": m.get('industry',''), "region": m.get('region',''),
-                 "scale": m.get('scale',''), "channel": m.get('channel','')}
-        sdata = " ".join(f'data-{k}="{esc(v)}"' for k, v in sdims.items())
-        sdata += f' data-gregion="{esc(_region_group(m.get("region","")))}" data-gscale="{esc(_scale_group(m.get("scale","")))}"'
+        meta = card_meta(m, dims)
         scam_cards.append(f"""<article class="card scam-card"
-  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" {sdata}>
+  data-search="{esc(search_txt)}" data-hot="{_hot_score(m)}" data-type="scam" {sdata}>
   <a class="card-link" href="{esc(m['id'])}.html">
     <div class="card-head"><h3>⚠️ {esc(m['name'])}</h3><span class="arrow">→</span></div>
     <p class="card-how">手法：{esc(how_first)}</p>
-    <div class="tags">{tag_html}</div>
+    {meta}
   </a>
 </article>""")
+
+    n_model, n_journey, n_scam = len(by_type['model']), len(by_type['journey']), len(by_type['scam'])
+
     index = f"""<!DOCTYPE html>
 <html lang="zh"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1145,63 +1171,86 @@ html,body {{ margin:0; padding:0; background:var(--bg); color:var(--fg);
 * {{ scrollbar-width:thin; scrollbar-color:color-mix(in srgb,var(--fg) 28%,transparent) transparent; }}
 *::-webkit-scrollbar {{ width:8px; height:8px; }}
 *::-webkit-scrollbar-thumb {{ background:color-mix(in srgb,var(--fg) 22%,transparent); border-radius:999px; }}
-body {{ padding:40px 20px 100px; }}
-.wrap {{ max-width:1200px; margin:0 auto; }}
-header {{ margin-bottom:22px; }}
-.brand {{ display:flex; align-items:center; gap:16px; }}
-.brand svg {{ flex:none; width:52px; height:52px; }}
-h1 {{ font-size:34px; margin:0 0 6px; }}
-h1 .acc {{ color:var(--acc); }}
-.sub {{ color:var(--dim); font-size:15px; margin:0 0 18px; }}
-.tabs {{ display:flex; gap:4px; margin:0 0 22px; border-bottom:1px solid color-mix(in srgb,var(--fg) 18%,transparent); flex-wrap:wrap; }}
-.tab {{ background:none; border:none; color:var(--dim); font-size:18px; padding:10px 22px; cursor:pointer;
+body {{ padding:28px 20px 100px; }}
+.wrap {{ max-width:1160px; margin:0 auto; }}
+header {{ margin-bottom:10px; }}
+.brand {{ display:flex; align-items:center; gap:14px; }}
+.brand svg {{ flex:none; width:40px; height:40px; }}
+.brand .bt {{ font-size:15px; color:var(--fg); }}
+.brand .bt .acc {{ color:var(--acc); }}
+.hero {{ padding:26px 0 20px; text-align:center; }}
+.hero h1 {{ font-size:42px; margin:0 0 8px; letter-spacing:.5px; }}
+.hero .sub {{ color:var(--dim); font-size:16px; margin:0 0 26px; }}
+.stats {{ display:flex; justify-content:center; gap:14px; flex-wrap:wrap; margin-bottom:22px; }}
+.stat {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);
+  border-radius:14px; padding:10px 20px; display:flex; align-items:center; gap:10px; }}
+.stat b {{ font-size:24px; color:var(--acc); }}
+.stat span {{ font-size:13px; color:var(--dim); }}
+.searchbar {{ max-width:620px; margin:0 auto 18px; }}
+.searchbar input {{ width:100%; background:var(--bg0); color:var(--fg);
+  border:1px solid color-mix(in srgb,var(--fg) 26%,transparent); border-radius:999px;
+  padding:13px 24px; font-size:16px; font-family:inherit; text-align:center; }}
+.searchbar input:focus {{ outline:none; border-color:var(--acc); }}
+.searchbar input::placeholder {{ color:var(--dim); opacity:.75; }}
+.quicknav {{ display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:8px; }}
+.scene {{ background:none; border:1px solid color-mix(in srgb,var(--fg) 22%,transparent); color:var(--dim);
+  border-radius:999px; padding:5px 14px; font-size:13px; cursor:pointer; font-family:inherit; }}
+.scene:hover {{ color:var(--fg); border-color:var(--acc); }}
+.scene.ghost {{ opacity:.85; }}
+.tabs {{ display:flex; gap:4px; margin:22px 0 16px; border-bottom:1px solid color-mix(in srgb,var(--fg) 18%,transparent); flex-wrap:wrap; }}
+.tab {{ background:none; border:none; color:var(--dim); font-size:17px; padding:9px 20px; cursor:pointer;
   font-family:inherit; border-bottom:2px solid transparent; margin-bottom:-1px; }}
 .tab.active {{ color:var(--fg); border-bottom-color:var(--acc); }}
 .tab:hover {{ color:var(--fg); }}
 .tab .n {{ font-size:13px; color:var(--dim); margin-left:6px; }}
 .tab.active .n {{ color:var(--acc); }}
-.scenes {{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }}
-.scene {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--acc) 40%,transparent); color:var(--fg);
-  border-radius:999px; padding:7px 16px; font-size:14px; cursor:pointer; font-family:inherit; }}
-.scene:hover {{ border-color:var(--acc); }}
-.scene.ghost {{ border-color:color-mix(in srgb,var(--fg) 24%,transparent); color:var(--dim); }}
-.scene.ghost:hover {{ color:var(--fg); }}
-.searchbar {{ margin-bottom:16px; }}
-.searchbar input {{ width:100%; max-width:640px; background:var(--bg0); color:var(--fg);
-  border:1px solid color-mix(in srgb,var(--fg) 24%,transparent); border-radius:10px;
-  padding:11px 16px; font-size:15px; font-family:inherit; }}
-.searchbar input:focus {{ outline:none; border-color:var(--acc); }}
-.searchbar input::placeholder {{ color:var(--dim); opacity:.7; }}
-.filters {{ display:flex; flex-direction:column; gap:8px; margin-bottom:14px; }}
-.chip-row {{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; }}
-.chip-label {{ color:var(--dim); font-size:13px; margin-right:4px; flex:none; }}
-.chip {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 22%,transparent);
-  color:var(--dim); border-radius:999px; padding:4px 12px; font-size:13px; cursor:pointer; font-family:inherit; }}
-.chip:hover {{ color:var(--fg); border-color:var(--acc); }}
-.chip.on {{ background:color-mix(in srgb,var(--acc) 22%,transparent); border-color:var(--acc); color:var(--fg); }}
-.toolbar {{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-bottom:16px; }}
-.count {{ color:var(--dim); font-size:14px; }}
+.controlbar {{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:16px; }}
+.btn-filter {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 24%,transparent);
+  color:var(--dim); border-radius:999px; padding:7px 16px; font-size:14px; cursor:pointer; font-family:inherit; }}
+.btn-filter:hover {{ color:var(--fg); border-color:var(--acc); }}
+.btn-filter.on {{ border-color:var(--acc); color:var(--acc); }}
+.count {{ color:var(--dim); font-size:14px; flex:1; }}
 .sortlab {{ color:var(--dim); font-size:13px; display:flex; align-items:center; gap:8px; }}
 .sortlab select {{ background:var(--bg0); color:var(--fg); border:1px solid color-mix(in srgb,var(--fg) 24%,transparent);
   border-radius:8px; padding:6px 10px; font-size:14px; font-family:inherit; }}
 .sortlab select:focus {{ outline:none; border-color:var(--acc); }}
-.grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; }}
+.filters {{ display:none; flex-direction:column; gap:8px; padding:14px 16px; margin-bottom:18px;
+  background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 16%,transparent); border-radius:14px; }}
+.filters.open {{ display:flex; }}
+.chip-row {{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; }}
+.chip-label {{ color:var(--dim); font-size:13px; margin-right:4px; flex:none; }}
+.chip {{ background:var(--bg); border:1px solid color-mix(in srgb,var(--fg) 22%,transparent);
+  color:var(--dim); border-radius:999px; padding:4px 12px; font-size:13px; cursor:pointer; font-family:inherit; }}
+.chip:hover {{ color:var(--fg); border-color:var(--acc); }}
+.chip.on {{ background:color-mix(in srgb,var(--acc) 22%,transparent); border-color:var(--acc); color:var(--fg); }}
+.clearbar {{ margin-top:4px; }}
+.btn-clear {{ background:none; border:none; color:var(--dim); font-size:13px; cursor:pointer; padding:4px 2px; font-family:inherit; }}
+.btn-clear:hover {{ color:var(--acc); }}
+.featured-head {{ display:flex; align-items:baseline; gap:10px; margin:4px 0 14px; }}
+.featured-head h2 {{ margin:0; font-size:20px; }}
+.featured-head .hint {{ color:var(--dim); font-size:13px; }}
+.grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }}
 .card {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);
-  border-radius:10px; overflow:hidden; transition:transform .12s ease, border-color .12s ease; }}
-.card:hover {{ transform:translateY(-2px); border-color:var(--acc); }}
-.card-link {{ display:block; padding:18px 18px 14px; color:var(--fg); text-decoration:none; }}
+  border-radius:14px; overflow:hidden; transition:transform .14s ease, border-color .14s ease; }}
+.card:hover {{ transform:translateY(-3px); border-color:var(--acc); }}
+.card-link {{ display:block; padding:16px 18px 14px; color:var(--fg); text-decoration:none; }}
 .card-head {{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; }}
-.card-head h3 {{ margin:0; font-size:18px; line-height:1.4; }}
-.arrow {{ color:var(--dim); font-size:20px; transition:color .12s; }}
+.card-head h3 {{ margin:0; font-size:17px; line-height:1.45; }}
+.arrow {{ color:var(--dim); font-size:18px; transition:color .14s; }}
 .card:hover .arrow {{ color:var(--acc); }}
-.card-how {{ color:var(--dim); font-size:14px; line-height:1.6; margin:10px 0 12px; }}
-.tags {{ display:flex; flex-wrap:wrap; gap:6px; }}
+.card-how {{ color:var(--dim); font-size:14px; line-height:1.6; margin:8px 0 10px; }}
+.meta {{ display:flex; align-items:center; gap:7px; flex-wrap:wrap; font-size:12.5px; color:var(--dim); }}
+.meta .e {{ font-size:15px; }}
+.meta .ind {{ color:var(--aqua); }}
+.meta .reg {{ color:var(--dim); }}
+.dot {{ width:7px; height:7px; border-radius:50%; display:inline-block; }}
+.dot.g {{ background:var(--acc); }} .dot.m {{ background:var(--blue); }} .dot.s {{ background:var(--green); }} .dot.b {{ background:var(--red); }}
+.sname {{ color:var(--dim); }}
 .t {{ font-size:12px; color:var(--aqua); background:color-mix(in srgb,var(--aqua) 12%,transparent);
   padding:2px 10px; border-radius:999px; }}
 .t.rev {{ color:var(--acc); background:color-mix(in srgb,var(--acc) 14%,transparent); }}
 .empty {{ color:var(--dim); font-size:16px; display:none; padding:40px 0; text-align:center; }}
-.empty.show {{ display:block; }}
-footer {{ margin-top:40px; color:var(--dim); font-size:13px; }}
+footer {{ margin-top:44px; color:var(--dim); font-size:13px; text-align:center; }}
 {FONT_STYLE}
 </style></head><body><div class="wrap">
 <header>
@@ -1216,41 +1265,52 @@ footer {{ margin-top:40px; color:var(--dim); font-size:13px; }}
   <circle cx="24" cy="24" r="6" fill="#fabd2f"/>
   <path d="M24 20.5v7M20.5 24h7" stroke="#1d2021" stroke-width="2.2" stroke-linecap="round"/>
   </svg>
-  <div>
-  <h1>商业模式情报站 <span class="acc">· biz.saaaai.com</span></h1>
-  <p class="sub">三大板块：💰 赚钱模式（怎么赚钱）· 🛤 发家路径（公司怎么走过来）· ⚠️ 避坑指南（怎么不被骗）。数据由 AI 持续自动采集。</p>
-  </div></div>
+  <span class="bt">商业模式情报站 <span class="acc">· biz.saaaai.com</span></span>
+  </div>
 </header>
+<div class="hero">
+  <h1>2026 各行业盈利模式图鉴</h1>
+  <p class="sub">💰 怎么赚钱 · 🛤 公司怎么走过来 · ⚠️ 怎么不被骗 —— 数据由 AI 持续自动采集</p>
+  <div class="stats">
+    <div class="stat"><b>{n_model}</b><span>赚钱模式</span></div>
+    <div class="stat"><b>{n_journey}</b><span>发家路径</span></div>
+    <div class="stat"><b>{n_scam}</b><span>避坑指南</span></div>
+  </div>
+  <div class="searchbar"><input id="q" type="search" placeholder="🔍 搜模式 / 公司 / 行业关键词，如「AI」「加盟」「订阅」…" autocomplete="off"></div>
+  <div class="quicknav">
+    <button class="scene" data-preset="lowcost">🚀 低成本起步</button>
+    <button class="scene" data-preset="ai">🤖 AI 热潮</button>
+    <button class="scene" data-preset="scam">⚠️ 先避坑</button>
+    <button class="scene ghost" id="btn-random">🎲 随便看看</button>
+  </div>
+</div>
 <div class="tabs">
-  <button class="tab active" data-tab="model">💰 赚钱模式 <span class="n">{len(by_type['model'])}</span></button>
-  <button class="tab" data-tab="journey">🛤 发家路径 <span class="n">{len(by_type['journey'])}</span></button>
-  <button class="tab" data-tab="scam">⚠️ 避坑指南 <span class="n">{len(by_type['scam'])}</span></button>
+  <button class="tab active" data-tab="model">💰 赚钱模式 <span class="n">{{len(by_type['model'])}}</span></button>
+  <button class="tab" data-tab="journey">🛤 发家路径 <span class="n">{{len(by_type['journey'])}}</span></button>
+  <button class="tab" data-tab="scam">⚠️ 避坑指南 <span class="n">{{len(by_type['scam'])}}</span></button>
 </div>
-<div class="scenes" id="scenes">
-  <button class="scene" data-preset="lowcost">🚀 想低成本起步</button>
-  <button class="scene" data-preset="ai">🤖 想蹭 AI 热潮</button>
-  <button class="scene" data-preset="scam">⚠️ 想避坑</button>
-  <button class="scene ghost" id="btn-clear">✕ 清除筛选</button>
-  <button class="scene ghost" id="btn-random">🎲 随便看看</button>
-</div>
-<div class="searchbar"><input id="q" type="search" placeholder="🔍 搜名称 / 公司 / 行业 / 模式关键词，如「AI」「加盟」「订阅」…" autocomplete="off"></div>
-<div class="filters" id="filters">{chip_html}</div>
-<div class="toolbar">
+<div class="controlbar">
+  <button class="btn-filter" id="btn-filter">🎛 筛选</button>
   <div class="count" id="count">共 {len(by_type['model'])} 条</div>
   <label class="sortlab">排序
     <select id="sort">
       <option value="">默认</option>
-      <option value="name">名称 A→Z</option>
-      <option value="scale">规模 大→小</option>
-      <option value="hot">热度 高→低</option>
+      <option value="name">名称</option>
+      <option value="scale">规模</option>
+      <option value="hot">热度</option>
     </select>
   </label>
 </div>
+<div class="filters" id="filters">
+  {chip_html}
+  <div class="clearedbar"><button class="btn-clear" id="btn-clear">✕ 清除全部筛选</button></div>
+</div>
+<div class="featured-head" id="featured-head"><h2>📌 编辑精选</h2><span class="hint">本周热度较高的模式，从这儿开始看</span></div>
 <div class="grid" id="grid-model">{''.join(model_cards)}</div>
 <div class="grid" id="grid-journey" style="display:none">{''.join(journey_cards)}</div>
 <div class="grid" id="grid-scam" style="display:none">{''.join(scam_cards)}</div>
 <div class="empty" id="empty">没有匹配的条目，换一组筛选试试。</div>
-<footer>· 生成时间 {datetime.now().strftime('%Y-%m-%d %H:%M')} · 全自动采集框架运行中 ·</footer>
+<footer>· 生成时间 {datetime.now().strftime('%Y-%m-%d %H:%M')} · 全自动采集 · 商业模式情报站 ·</footer>
 </div>
 <script>
 const tabs = document.querySelectorAll('.tab');
@@ -1280,8 +1340,6 @@ function apply() {{
   const grid = grids[active];
   const cards = [...grid.querySelectorAll('.card')];
   const kw = q.value.trim().toLowerCase();
-  let n = 0;
-  cards.forEach(c => {{ c.classList.remove('hide'); }});
   const visible = cards.filter(c => {{
     let ok = true;
     if (kw && !(c.dataset.search||'').toLowerCase().includes(kw)) ok = false;
@@ -1294,14 +1352,15 @@ function apply() {{
   if (sortv === 'name') visible.sort((a,b) => (a.querySelector('h3').textContent).localeCompare(b.querySelector('h3').textContent,'zh'));
   else if (sortv === 'scale') visible.sort((a,b) => scaleRank(b) - scaleRank(a));
   else if (sortv === 'hot') visible.sort((a,b) => (+b.dataset.hot||0) - (+a.dataset.hot||0));
-  cards.forEach(c => {{ if (visible.includes(c)) {{ c.style.display=''; c.classList.add('show'); }} else {{ c.style.display='none'; c.classList.remove('show'); }} }});
-  // 保持可见顺序（重排 DOM）
-  const ref = grid.firstChild;
+  cards.forEach(c => {{ if (visible.includes(c)) {{ c.style.display=''; }} else {{ c.style.display='none'; }} }});
   visible.forEach(c => grid.appendChild(c));
-  n = visible.length;
-  count.textContent = '共 ' + n + ' 条（总 ' + grid.querySelectorAll('.card').length + '）';
+  const n = visible.length;
+  count.textContent = '共 ' + n + ' 条（总 ' + cards.length + '）';
   empty.style.display = n ? 'none' : 'block';
   grid.style.display = n ? '' : 'none';
+  const filtering = kw || Object.values(sel).some(s => s.size) || sortv || active !== 'model';
+  const fh = document.getElementById('featured-head');
+  if (fh) fh.style.display = filtering ? 'none' : '';
 }}
 tabs.forEach(t => t.addEventListener('click', () => {{
   tabs.forEach(x => x.classList.toggle('active', x === t));
@@ -1311,24 +1370,32 @@ tabs.forEach(t => t.addEventListener('click', () => {{
 }}));
 q.addEventListener('input', apply);
 sortSel.addEventListener('change', apply);
+document.getElementById('btn-filter').addEventListener('click', () => {{
+  filters.classList.toggle('open');
+  document.getElementById('btn-filter').classList.toggle('on', filters.classList.contains('open'));
+}});
 document.getElementById('btn-clear').addEventListener('click', () => {{
   q.value = ''; sortSel.value = '';
-  for (const [d, idsv] of Object.entries(sel)) {{ idsv.clear(); }}
+  for (const d of Object.keys(sel)) sel[d].clear();
   filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
   apply();
 }});
 document.getElementById('btn-random').addEventListener('click', () => {{
   const grid = grids[active];
-  const vis = [...grid.querySelectorAll('.card.show')].filter(c => c.style.display !== 'none');
+  const vis = [...grid.querySelectorAll('.card')].filter(c => c.style.display !== 'none');
   if (vis.length) {{ const c = vis[Math.floor(Math.random()*vis.length)]; location.href = c.querySelector('a').href; }}
 }});
 const PRESETS = {{
-  lowcost: () => {{ active='model'; q.value=''; for (const d of Object.keys(sel)) sel[d].clear();
-    sel['gscale'].add('小企'); filters.querySelectorAll('.chip').forEach(c => {{ c.classList.toggle('on', c.dataset.dim==='gscale' && c.dataset.val==='小企'); }});
+  lowcost: () => {{ active='model'; q.value=''; for (const k of Object.keys(sel)) sel[k].clear();
+    filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+    sel['gscale'].add('小企'); filters.querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c.dataset.dim==='gscale' && c.dataset.val==='小企'));
+    filters.classList.add('open'); document.getElementById('btn-filter').classList.add('on');
     tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='model')); apply(); }},
-  ai: () => {{ active='model'; q.value='ai'; for (const d of Object.keys(sel)) {{ sel[d].clear(); }} filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+  ai: () => {{ active='model'; q.value='ai'; for (const k of Object.keys(sel)) sel[k].clear();
+    filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
     tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='model')); apply(); }},
-  scam: () => {{ active='scam'; q.value=''; for (const d of Object.keys(sel)) {{ sel[d].clear(); }} filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
+  scam: () => {{ active='scam'; q.value=''; for (const k of Object.keys(sel)) sel[k].clear();
+    filters.querySelectorAll('.chip.on').forEach(c => c.classList.remove('on'));
     tabs.forEach(x => x.classList.toggle('active', x.dataset.tab==='scam')); apply(); }},
 }};
 document.querySelectorAll('.scene[data-preset]').forEach(b => b.addEventListener('click', () => PRESETS[b.dataset.preset]()));
@@ -1336,6 +1403,7 @@ Object.entries(grids).forEach(([k,g]) => g.style.display = (k === active) ? '' :
 </script>
 </body></html>"""
     (SITE / "index.html").write_text(index, encoding="utf-8")
+
 
 
 def write_favicon() -> None:
