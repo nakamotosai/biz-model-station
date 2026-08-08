@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **363** 篇（model 238 / journey 106 / scam 19）
+共 **365** 篇（model 238 / journey 108 / scam 19）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（106）
+## 🛤 发家路径（108）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -268,6 +268,7 @@
 - [Speechmatics Ltd – AI Voice Input & Interaction Platform](journey-ai-voice.md) · Speech Recognition / AI · UK
 - [Airbnb：从气垫床加奥巴马麦片到900亿市值，2026年靠世界杯与AI守擂](journey-airbnb.md) · 旅游 · 美
 - [Anker Innovations（安克创新）](journey-anker-innovations.md) · 消费电子 · 中/中国
+- [Anthropic: 从 OpenAI 出路创下安全 AI 的业务](journey-anthropic.md) · AI/大模型 · 美
 - [波司登：高德康从缝纫机组到羽绒服大王再到高端化翻盘](journey-bosideng-transition.md) · 电商/零售 · 中
 - [Bumble：从Tinder出走到女性先发交友App，IPO高光后暴跌再回归](journey-bumble.md) · 社交/交友 · 美国
 - [ByteDance: From Mobile News to Global Video Giant](journey-byte-dance.md) · 内容/创作者经济 · 中
@@ -306,6 +307,7 @@
 - [李锦记：李锦裳意外熬出蚝油，四代家法续命138年的全球酱料王](journey-lee-kum-kee.md) · 餐饮/茶饮 · 港台
 - [Manner Coffee：韩玉龙从2平米档口到2000店精品咖啡独角兽，半自动机器扛规模化之痛](journey-manner-coffee.md) · 餐饮/茶饮 · 中
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
+- [Musinsa：赵满浩从高中球鞋论坛到韩国时尚电商独角兽的25年](journey-musinsa.md) · 电商/零售 · 韩
 - [奈雪的茶 IPO 与翻车成长](journey-nayuki-tea-ipo.md) · 茶饮 · 中国大陆（深圳）
 - [Netflix: Streaming Giant (Founded 1998) – Global Video Wall](journey-netflix.md) · 内容/创作者经济 · 美
 - [任天堂：从学仙贝到 IP 帝国，百年花札铺如何统治游戏界](journey-nintendo-ip-king.md) · 游戏/娱乐 · 日
