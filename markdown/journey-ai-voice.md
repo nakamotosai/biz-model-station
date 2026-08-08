@@ -61,4 +61,4 @@ Google Cloud Speech, Amazon Transcribe, Microsoft Azure Speech
 - [https://en.wikipedia.org/wiki/Speechmatics](https://en.wikipedia.org/wiki/Speechmatics)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

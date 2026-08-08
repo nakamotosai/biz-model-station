@@ -60,4 +60,4 @@ Swiggy, Uber Eats（已退出印度市场）
 - [https://en.wikipedia.org/wiki/Blinkit](https://en.wikipedia.org/wiki/Blinkit)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

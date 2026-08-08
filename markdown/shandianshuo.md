@@ -74,4 +74,4 @@ Wispr Flow（对标，主打免费）、SenseVoice（阿里开源识别方案，
 - [https://m.36kr.com/p/3606264618402825](https://m.36kr.com/p/3606264618402825)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

@@ -55,4 +55,4 @@ Yvon Chouinard 于 1973 年在加州创立，起初为攀岩工具制造商，�
 - [https://www.investopedia.com/articles/technology/120724/why-patagonia-gets-focus-latest-trends.asp](https://www.investopedia.com/articles/technology/120724/why-patagonia-gets-focus-latest-trends.asp)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

@@ -71,4 +71,4 @@ AI Agent底座及业务场景重架构的研发成本
 - [https://www.163.com/dy/article/L07H548R05119MAU.html](https://www.163.com/dy/article/L07H548R05119MAU.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

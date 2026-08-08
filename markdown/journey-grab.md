@@ -82,4 +82,4 @@
 - [https://www.forbes.com/sites/zennonkapron/2024/06/26/there-are-still-many-questions-about-grabs-fintech-business/](https://www.forbes.com/sites/zennonkapron/2024/06/26/there-are-still-many-questions-about-grabs-fintech-business/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

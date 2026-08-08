@@ -60,4 +60,4 @@ Adobe Express、AnnieApp、Figma、Adobe Spark 等
 - [https://en.wikipedia.org/wiki/Canva#cite_note-50-0](https://en.wikipedia.org/wiki/Canva#cite_note-50-0)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

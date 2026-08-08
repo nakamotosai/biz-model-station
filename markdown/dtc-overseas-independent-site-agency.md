@@ -70,4 +70,4 @@
 - [https://www.tuoputech.com/case-studies/brand-d-case-study-in-one-year-c00032c1.html](https://www.tuoputech.com/case-studies/brand-d-case-study-in-one-year-c00032c1.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

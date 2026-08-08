@@ -52,4 +52,4 @@ Sensely、Babylon Health、iAsk、Infermedica 等同类 AI 聊天机器人。
 - [https://ada-health.com](https://ada-health.com)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

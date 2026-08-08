@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **356** 篇（model 238 / journey 100 / scam 18）
+共 **361** 篇（model 238 / journey 105 / scam 18）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（100）
+## 🛤 发家路径（105）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -255,6 +255,7 @@
 - [Anysphere：AI原生IDE颠覆者Cursor的爆火之路](ai-native-cursor-ide.md) · AI/大模型 · 美
 - [波形智能蛙蛙写作：锁定网文作者群体，做高人均时长AI辅助](ai-novel-writing-wuxia-platform.md) · AI/大模型 · 中
 - [ChatCut：金马导演转型AI视频剪辑工具出海创业者](ai-video-editing-tool-indie-founder-chatcut.md) · AI/大模型 · 跨地区
+- [安克创新：从亚马逊充电宝代工到全球消费电子品牌溢价化出海](anker-innovation-amazon-oem-to-global-brand.md) · 电商/零售 · 跨地区
 - [破壳剑–以情感陪伴为先的家庭机器人](broken-shell-robot.md) · 其他 · 中
 - [茶百道：成都夫妇的加盟标准化万店茶饮帝国](cha-bai-dao-franchise-standardization-hkex.md) · 餐饮/茶饮 · 中
 - [霸王茶姬：用工业化标准把东方原叶茶做到全球化的新茶饮品牌](chagee-oriental-tea-globalization.md) · 电商/零售 · 跨地区
@@ -282,6 +283,7 @@
 - [Discord：从被收购的游戏社交失败品到两亿月活的社区帝国，2026 年冲刺 IPO](journey-discord.md) · SaaS/企业软件 · 美
 - [大疆：汪滔从宿舍飞控到霸占全球七成市场](journey-dji-drone.md) · AI/大模型 · 中
 - [唐吉诃德：安田隆夫从赌徒待业到深夜折扣杂货王，放火死人后扛责再出海](journey-don-quijote.md) · 电商/零售 · 日
+- [东鹏特饮：从濒临倒闭的国企到千亿能量饮料王](journey-dongpeng-tonic-drink.md) · 食品饮料 · 中国
 - [DoorDash](journey-doordash.md) · 在线食品订餐 · 美
 - [多彩语 ⚡️ Duolingo 1.3B / 月, AI先行, 2026 股价](journey-duolingo.md) · 教育科技/在线教育 · 美国/欧盟
 - [ElevenLabs](journey-elevenlabs.md) · AI/大模型 · UK·US
@@ -297,7 +299,9 @@
 - [宏达电 HTC：从安卓之王到 VR 转型的兴衰样本](journey-htc.md) · 其他 · 台
 - [HYBE 方时赫从濒死小作坊到K-pop帝国，BTS退役回归再赌2026](journey-hybe-bts.md) · 内容/创作者经济 · 韩
 - [快乐蜂Jollibee：陈觉中从冰淇淋店做到菲律宾第一快餐巨头的逆袭之路](journey-jollibee.md) · 餐饮/茶饮 · 东南亚
+- [Kakao：从游戏门户到韩国超级App的垄断之路](journey-kakao.md) · 其他 · 韩
 - [Kopi Kenangan: 1,351 outlets](journey-kopi-kenangan.md) · Retail (Coffee & Beverage) · Indonesia
+- [Lalamove（货拉拉）：周胜馥从香港叫货车痛点做到全球400城同城货运独角兽](journey-lalamove.md) · 本地生活 · 跨地区
 - [老乡鸡——从肥西田间 到全国中式快餐](journey-laoxiangji-chicken.md) · 快餐/中式快餐 · 中国
 - [李锦记：李锦裳意外熬出蚝油，四代家法续命138年的全球酱料王](journey-lee-kum-kee.md) · 餐饮/茶饮 · 港台
 - [Manner Coffee：韩玉龙从2平米档口到2000店精品咖啡独角兽，半自动机器扛规模化之痛](journey-manner-coffee.md) · 餐饮/茶饮 · 中
@@ -331,6 +335,7 @@
 - [Stripe](journey-stripe.md) · 金融科技 · 全球
 - [塔斯汀：从冷清披萨到中式汉堡万店狂奔](journey-tastine-burger.md) · 餐饮/茶饮 · 中
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
+- [茑屋书店：增田宗昭从枚方唱片租赁店造出文化提案帝国，MBO退市后再遭图书馆争议与点数业务失守](journey-tsutaya-ccc.md) · 内容/创作者经济 · 日
 - [Uber：从800美元黑车到Robotaxi帝国，13年烧百亿后盈利的共享出行活化石](journey-uber.md) · 本地生活 · 美
 - [优衣库：柳井正从一胜九败到全球 SPA 快时尚平价之王](journey-uniqlo-spa-quality.md) · 零售/服装 · 日
 - [维他奶：维他奶国际品牌传奇](journey-vitasoy.md) · 餐饮/茶饮 · 港台

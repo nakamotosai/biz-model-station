@@ -79,4 +79,4 @@ AI转录与摘要服务的月度或年度订阅费
 - [https://www.digitimes.com/news/a20260708PD204/revenue-demand-hardware-software-sales.html](https://www.digitimes.com/news/a20260708PD204/revenue-demand-hardware-software-sales.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

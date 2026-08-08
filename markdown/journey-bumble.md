@@ -77,4 +77,4 @@ Wolfe 2012年22岁加入Tinder创始团队担任市场副总裁，命名了Tinde
 - [https://fortune.com/2025/01/17/bumble-ceo-lidiane-jones-resignation-whitney-wolfe-herd/](https://fortune.com/2025/01/17/bumble-ceo-lidiane-jones-resignation-whitney-wolfe-herd/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

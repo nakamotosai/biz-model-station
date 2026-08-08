@@ -71,4 +71,4 @@ Ritesh Agarwal 1993 年出生，17 岁时辞去大学，创办 Oravel Stays，�
 - [https://economictimes.indiatimes.com/topic/oyo-rooms](https://economictimes.indiatimes.com/topic/oyo-rooms)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

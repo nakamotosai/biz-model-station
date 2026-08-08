@@ -73,4 +73,4 @@
 - [https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401365_c.pdf](https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401365_c.pdf)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

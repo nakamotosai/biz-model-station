@@ -57,4 +57,4 @@ Kitchen United, Local Kitchens, Uber Eats Pantry, V3 Food, Olo
 - [https://www.businessinsider.com/travis-kalanick-cloudkitchens-startup-cuts-jobs-2023-11?op=1](https://www.businessinsider.com/travis-kalanick-cloudkitchens-startup-cuts-jobs-2023-11?op=1)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

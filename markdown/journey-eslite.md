@@ -94,4 +94,4 @@
 - [https://web.archive.org/web/20160331184108/http://www.cna.com.tw/news/firstnews/201508050010-1.aspx](https://web.archive.org/web/20160331184108/http://www.cna.com.tw/news/firstnews/201508050010-1.aspx)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

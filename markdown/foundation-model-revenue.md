@@ -66,4 +66,4 @@ AI原生融资在2025年达到约1360亿美元，同比增长146%，资本加速
 - [https://nerdleveltech.com/anthropic-overtakes-openai-revenue-30-billion-arr](https://nerdleveltech.com/anthropic-overtakes-openai-revenue-30-billion-arr)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

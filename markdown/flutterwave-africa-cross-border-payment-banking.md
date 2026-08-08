@@ -78,4 +78,4 @@
 - [https://www.billionaires.africa/2026/08/01/nigerian-tech-entrepreneur-olugbenga-agboolas-flutterwave-is-acquiring-an-east-african-bank/](https://www.billionaires.africa/2026/08/01/nigerian-tech-entrepreneur-olugbenga-agboolas-flutterwave-is-acquiring-an-east-african-bank/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

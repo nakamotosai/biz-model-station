@@ -68,4 +68,4 @@ SaaS订阅费：提供BIM协同、工程管理和智慧工地等模块的账号�
 - [https://www.nbd.com.cn/articles/2026-03-24/4306377.html](https://www.nbd.com.cn/articles/2026-03-24/4306377.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

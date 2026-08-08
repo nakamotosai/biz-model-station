@@ -72,4 +72,4 @@ Substack 与 Beehiiv 等平台在 2026 年进入成熟期，从单一订阅转�
 - [https://digitenzy.com/newsletter-monetization-beehiiv-substack-2026](https://digitenzy.com/newsletter-monetization-beehiiv-substack-2026)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

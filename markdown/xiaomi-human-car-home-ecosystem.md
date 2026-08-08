@@ -71,4 +71,4 @@ AI大模型与底层芯片研发投入；汽车与硬件供应链及制造成本
 - [https://news.qq.com/rain/a/20260326A0628P00](https://news.qq.com/rain/a/20260326A0628P00)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

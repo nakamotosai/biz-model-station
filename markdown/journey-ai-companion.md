@@ -55,4 +55,4 @@ ChatGPT, Character.ai, Mira, Mimo
 - [https://en.wikipedia.org/wiki/Replika](https://en.wikipedia.org/wiki/Replika)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

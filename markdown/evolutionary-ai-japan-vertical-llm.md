@@ -72,4 +72,4 @@ GPU算力基础设施支出、研发团队薪资、行业数据采集与合规�
 - [https://www.japantimes.co.jp/business/2025/11/17/companies/sakana-ai-valuation/](https://www.japantimes.co.jp/business/2025/11/17/companies/sakana-ai-valuation/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

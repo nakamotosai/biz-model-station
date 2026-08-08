@@ -87,4 +87,4 @@ Zerodha崛起前印度券商格局由ICICI Securities、HDFC Securities、Sharek
 - [https://entrackr.com/fintrackr/zerodha-cash-reserve-stands-at-rs-22679-cr-in-fy25-10799921](https://entrackr.com/fintrackr/zerodha-cash-reserve-stands-at-rs-22679-cr-in-fy25-10799921)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

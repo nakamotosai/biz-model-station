@@ -53,4 +53,4 @@ Kuaishou、抖音国内竞争对手、Meta 及 Instagram Reels 等平台。
 - [https://www.bytedance.com](https://www.bytedance.com)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

@@ -66,4 +66,4 @@ CCER项目开发服务费与交易佣金（按吨或成交额比例）; 碳资�
 - [http://www.icci-ndrc.com/?m=home&c=View&a=index&aid=719](http://www.icci-ndrc.com/?m=home&c=View&a=index&aid=719)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

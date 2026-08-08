@@ -93,4 +93,4 @@ Flipkart 在印度电商的核心对手是亚马逊印度，两大巨头在电�
 - [https://www.moneycontrol.com/news/business/walmart-to-acquire-77-stake-in-flipkart-for-16-billion-2935171.html](https://www.moneycontrol.com/news/business/walmart-to-acquire-77-stake-in-flipkart-for-16-billion-2935171.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

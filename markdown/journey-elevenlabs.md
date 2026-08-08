@@ -59,4 +59,4 @@ Descript、Respeecher、Google Cloud Text‑to‑Speech 仅是局部对手，Ele
 - [https://tech.eu/2025/01/30/elevenlabs-triples-valuation-to-3-3bn-after-confirming-180m-funding-round/](https://tech.eu/2025/01/30/elevenlabs-triples-valuation-to-3-3bn-after-confirming-180m-funding-round/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

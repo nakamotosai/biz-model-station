@@ -86,4 +86,4 @@
 - [https://www.zaobao.com.sg/realtime/china/story20250307-5980457](https://www.zaobao.com.sg/realtime/china/story20250307-5980457)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

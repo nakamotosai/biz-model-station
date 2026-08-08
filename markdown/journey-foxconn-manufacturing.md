@@ -59,4 +59,4 @@ Apple, Samsung, TSMC, Sharp, Nvidia
 - [https://web.archive.org/web/20240814064638/https://www.wsj.com/tech/foxconns-second-quarter-profit-rose-on-record-revenue-7f70bd92](https://web.archive.org/web/20240814064638/https://www.wsj.com/tech/foxconns-second-quarter-profit-rose-on-record-revenue-7f70bd92)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

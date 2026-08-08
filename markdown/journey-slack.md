@@ -99,4 +99,4 @@ Stewart Butterfield 1973年生于加拿大BC省偏远社区的木屋，12岁前�
 - [https://techcrunch.com/2008/06/17/flickr-co-founders-join-mass-exodus-from-yahoo/](https://techcrunch.com/2008/06/17/flickr-co-founders-join-mass-exodus-from-yahoo/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

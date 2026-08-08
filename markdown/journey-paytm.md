@@ -93,4 +93,4 @@ VSS 1978 年生于北方邦 Aligarh 小镇，父亲是小学教师，15 岁考�
 - [https://economictimes.indiatimes.com/small-biz/money/paytm-raises-1-4-billion-from-softbank-valuation-jumps-to-over-8-billion/articleshow/58733667.cms](https://economictimes.indiatimes.com/small-biz/money/paytm-raises-1-4-billion-from-softbank-valuation-jumps-to-over-8-billion/articleshow/58733667.cms)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

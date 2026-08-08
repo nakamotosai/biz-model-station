@@ -71,4 +71,4 @@ Casper 的直接竞争对手包括 Tuft 和 Needle（后并入 Serta Simmons）�
 - [https://casper.com](https://casper.com)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

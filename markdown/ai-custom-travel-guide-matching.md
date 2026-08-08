@@ -75,4 +75,4 @@ AI模型调用与微调成本、当地向导招募审核与供应链管理人力
 - [http://www.dpshk.com/news/3609354/](http://www.dpshk.com/news/3609354/)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

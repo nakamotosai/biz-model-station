@@ -76,4 +76,4 @@ C端患者/慢病患者（付费问诊+药品+会员订阅）；B端医院/医�
 - [https://www.163.com/dy/article/L30JLEHM0538OZC2.html](https://www.163.com/dy/article/L30JLEHM0538OZC2.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

@@ -69,4 +69,4 @@
 - [https://valueaddvc.com/blog/openai-revenue-2026-25b-arr-a-20-9b-leaked-loss-and-why-anthropic-just-passed-it](https://valueaddvc.com/blog/openai-revenue-2026-25b-arr-a-20-9b-leaked-loss-and-why-anthropic-just-passed-it)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*

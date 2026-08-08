@@ -75,4 +75,4 @@ GPU算力与推理成本、模型训练数据采购与标注成本、版权合�
 - [https://www.tmtpost.com/7826560.html](https://www.tmtpost.com/7826560.html)
 
 ---
-*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-09*
