@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **365** 篇（model 238 / journey 108 / scam 19）
+共 **367** 篇（model 238 / journey 110 / scam 19）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（108）
+## 🛤 发家路径（110）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -259,6 +259,7 @@
 - [破壳剑–以情感陪伴为先的家庭机器人](broken-shell-robot.md) · 其他 · 中
 - [茶百道：成都夫妇的加盟标准化万店茶饮帝国](cha-bai-dao-franchise-standardization-hkex.md) · 餐饮/茶饮 · 中
 - [霸王茶姬：用工业化标准把东方原叶茶做到全球化的新茶饮品牌](chagee-oriental-tea-globalization.md) · 电商/零售 · 跨地区
+- [大疆创新汪滔：从香港学生宿舍到全球无人机霸主](dji-wang-tao-drone-hardware-global-leader.md) · 其他 · 跨地区
 - [追觅科技：从10万块做高速马达起家，靠扫地机器人出海做全球第一](dreame-high-speed-motor-clean-robot-overseas.md) · 其他 · 跨地区
 - [古茗：从温岭县城走出的中端茶饮供应链隐形冠军并冲刺港交所](guming-county-tea-cold-chain-ipo.md) · 餐饮/茶饮 · 我国南北方下沉市场为主
 - [Ada Health： AI 良医](journey-ada-health.md) · AI/大模型 · 全球
@@ -306,6 +307,7 @@
 - [老乡鸡——从肥西田间 到全国中式快餐](journey-laoxiangji-chicken.md) · 快餐/中式快餐 · 中国
 - [李锦记：李锦裳意外熬出蚝油，四代家法续命138年的全球酱料王](journey-lee-kum-kee.md) · 餐饮/茶饮 · 港台
 - [Manner Coffee：韩玉龙从2平米档口到2000店精品咖啡独角兽，半自动机器扛规模化之痛](journey-manner-coffee.md) · 餐饮/茶饮 · 中
+- [Meesho：从 FAISHNEAR 时尚物流败笔到印度社交电商独角兽](journey-meesho.md) · 电商/零售 · 印度
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
 - [Musinsa：赵满浩从高中球鞋论坛到韩国时尚电商独角兽的25年](journey-musinsa.md) · 电商/零售 · 韩
 - [奈雪的茶 IPO 与翻车成长](journey-nayuki-tea-ipo.md) · 茶饮 · 中国大陆（深圳）
