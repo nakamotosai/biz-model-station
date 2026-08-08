@@ -1285,13 +1285,13 @@ footer {{ margin-top:44px; color:var(--dim); font-size:13px; text-align:center; 
   </div>
 </div>
 <div class="tabs">
-  <button class="tab active" data-tab="model">💰 赚钱模式 <span class="n">{{len(by_type['model'])}}</span></button>
-  <button class="tab" data-tab="journey">🛤 发家路径 <span class="n">{{len(by_type['journey'])}}</span></button>
-  <button class="tab" data-tab="scam">⚠️ 避坑指南 <span class="n">{{len(by_type['scam'])}}</span></button>
+  <button class="tab active" data-tab="model">💰 赚钱模式 <span class="n">{n_model}</span></button>
+  <button class="tab" data-tab="journey">🛤 发家路径 <span class="n">{n_journey}</span></button>
+  <button class="tab" data-tab="scam">⚠️ 避坑指南 <span class="n">{n_scam}</span></button>
 </div>
 <div class="controlbar">
   <button class="btn-filter" id="btn-filter">🎛 筛选</button>
-  <div class="count" id="count">共 {len(by_type['model'])} 条</div>
+  <div class="count" id="count">共 {n_model} 条</div>
   <label class="sortlab">排序
     <select id="sort">
       <option value="">默认</option>
