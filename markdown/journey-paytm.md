@@ -1,0 +1,96 @@
+# Paytm：从废钞令起飞到 RBI 吊照，印度支付先驱的巅峰跌落与重生
+
+> 🛤 发家路径 | **金融科技** · 其他 · 上市 · 线上
+
+## 🚀 起步缘由
+
+VSS 1978 年生于北方邦 Aligarh 小镇，父亲是小学教师，15 岁考入德里工程学院 19 岁毕业。1997 年在校做了 indiasite.net 两年后以 100 万美元卖出，2000 年创立 One97 Communications 做手机增值服务——新闻、板球比分、铃声、笑话、考试成绩查询，靠短信分成为生。到 2010 年智能手机开始普及，VSS 自掏 200 万美元在 Noida 创立 Paytm（Pay Through Mobile），最初只是预付费手机和 DTH 充值平台。一个小镇做题家从做短信内容到赌上全部身家做移动支付，起点不是什么宏大金融普惠愿景，而是看到手机能用来充话费这件小事
+
+**创办人**：Vijay Shekhar Sharma（维杰·谢卡尔·夏尔玛，创始人兼 CEO） · **公司**：One97 Communications Ltd.（品牌 Paytm）
+
+## 📈 发家里程碑
+
+- **2000-2010** 短信求生（拐点）
+  - 2000 年 VSS 创立 One97 做移动增值服务，靠向运营商提供新闻铃声笑话板球比分等内容赚短信分成。这个阶段公司活得很苦，融资困难，VSS 一度借高利贷发工资，个人负债累累。One97 曾在 2010 年计划 IPO 但因市场波动临阵撤回。十年赚的辛苦钱和踩过的融资坑，反而成了后来 Paytm 能熬住冷启动的底子——他知道没钱的时候怎么活下去。2010 年 8 月 VSS 自掏 200 万美元在 One97 旗下启动 Paytm，最初只做预付费手机充值和 DTH 卫星电视充值
+- **2011-2015** 钱包扩张（增长）
+  - 2011 年 10 月 Sapphire Ventures 投 1000 万美元。2013 年加入借记卡、后付费手机、固话账单支付。2014 年 1 月推出 Paytm Wallet 钱包，印度铁路 IRCTC 和 Uber 先后接入。2015 年扩展教育缴费、地铁充值、水电煤气账单，再上汽车票和旅行预订。同年中国阿里巴巴和蚂蚁金服联合增持到 40% 成最大股东，Ratan Tata 以个人身份投资并任顾问。从充值工具一步步扩张成全能账单钱包，蚂蚁金服的 QR 码支付经验也开始输出到 Paytm
+- **2016年11月** 废钞暴涨（PMF）
+  - 2016 年 11 月 8 日莫迪政府突然宣布废除 500 和 1000 卢比大额纸币，全国 86% 现金一夜变废纸。Paytm 从一个充值 App 瞬间变成全民数字钱包，日交易量在废钞后数周暴涨数倍，平台 GMV 飙升。VSS 本人在社交媒体上高调宣称 Paytm 是废钞的受益者，这一言论后来引发巨大争议——批评者指责 Paytm 与政府合谋推动废钞以自利，VSS 多年后在 2025 年 10 月公开否认，称如果 Paytm 真有塑造废钞叙事的份量就不会落到今天这步田地。不论因果如何，废钞令把 Paytm 从小众工具推上了国民应用的位置，这是真正的 PMF 时刻
+- **2017-2019** 巨头注资（增长）
+  - 2017 年 5 月软银注资 14 亿美元，估值跳到 80 亿美元以上，是当时印度科技圈最大单笔融资。同年推出 Paytm Gold 数字黄金、Paytm Payments Bank 支付银行、Inbox 聊天支付。2018 年巴菲特旗下 Berkshire Hathaway 投资 3.56 亿美元，虽然巴菲特本人并未参与决策。2019 年再融 10 亿美元由 T Rowe Price 领投。蚂蚁金服、软银、巴菲特三大金字招牌加持，Paytm 估值一度推到 160 亿美元，VSS 本人在 2017 年登上 Time 百大影响力人物。从废钞到 2019 的三年是 Paytm 最风光的膨胀期
+- **2021年11月** IPO破发（失败）
+  - 2021 年 7 月 One97 提交招股书，11 月以 1830 亿卢比（约 25 亿美元）完成印度历史上最大 IPO，估值 200 亿美元，认购 1.89 倍。但上市首日开盘 1950 卢比较发行价跌 9.3%，收盘 1560 卢比大跌 27%，创下印度 IPO 史上最大上市首日跌幅。招股书里写满了红旗信号：连续三年亏损且预期继续亏损、外国控股公司身份、兄弟 Ajay Shekhar Sharma 被列为对公司有重大影响的关联人、25 起未决刑事程序和 40 起税务诉讼、Sebi 已就 Paytm Money 的 KYC 上传和投顾业务发出书面警告。投资者用脚投票，上市后市值一路下行，VSS 个人身价也随之缩水。这是从巅峰到低谷最硬的一跤
+- **2022年3月** PPB被罚（失败）
+  - 2022 年 3 月 RBI 以检查发现 Paytm Payments Bank 在客户背景核查和资金来源审查上存在严重缺陷为由，禁止其签约新客户。Bloomberg 报道指出 RBI 发现 PPB 将客户数据泄露给持有其股权的中国关联实体。VSS 不得不在 2024 年辞去 PPB 兼职非执行董事长和董事职务。PPB 是 Paytm 生态里沉淀用户资金和交易数据的核心牌照载体，被禁新增等于生态断血。这是从 IPO 首日破发到监管勒令停业务的连锁打击
+- **2024年1月** RBI停业令（拐点）
+  - 2024 年 1 月 31 日 RBI 下令 PPB 自 2 月 29 日起停止大部分业务活动，后延期至 3 月 15 日。RBI 认定 PPB 在客户准入时未做资金来源的适当背景核查。这一命令直接冲击 Paytm 的钱包充值、快捷支付、转账等核心业务，可能导致约 20% 员工裁减。这是印度金融科技史上央行对单家 fintech 最严厉的监管行动之一，Paytm 股价在消息后再度暴跌。VSS 不得不把公司战略从钱包银行全面转向支付网关和商户服务
+- **2024年8月** 票务甩卖（转折）
+  - 2024 年 8 月 Zomato 以约 204.8 亿卢比（约 2.44 亿美元）收购 Paytm 的娱乐票务业务，包括 Paytm Insider 和 TicketNew 平台，约定 12 个月内逐步迁移至 Zomato 的 District App。VSS 主动卖掉非核心的票务板块回笼现金并收缩战线，把公司聚焦到支付网关、商户收单、金融分销三条主线上。断臂求生的味道很重，但也标志着 Paytm 从什么都做的超级 App 向专注支付基础设施转型
+- **2025-2026** AI出海转型（转折）
+  - 2025 年 1 月 Paytm 扩张到阿联酋、沙特阿拉伯和新加坡，12 月宣布设立印度尼西亚和卢森堡海外子公司，阿联酋通过 Abbar Global Opportunities Holdings 投资的 Paytm Arab Payments LLC 运营。2025 年 2 月与 Perplexity 合作在 App 内集成 AI 搜索。2026 年推出 Paytm AI Router 自学习路由系统智能分配线上支付流量到多网关，以及生物识别 Face ID 和指纹 UPI 支付。FY26 营收增长 24% 至 206.1 亿卢比，2025 年 9 月季度首次连续两季度盈利 21.1 亿卢比。2026 年 4 月 24 日 RBI 正式吊销 PPB 银行牌照。VSS 在 2025 年 10 月公开表态 Paytm 不会放弃 AI 主权给外国玩家，并计划为 AI 产品线重塑品牌。从被监管打到断臂再到出海 AI 转型，2026 是 Paytm 最凶险也最有想象力的一年
+
+## 🔀 转折点
+
+- 2016 年 11 月莫迪废钞令一夜作废 86% 现金，Paytm 从充值工具被推上国民数字钱包位置，这是公司唯一的真正 PMF 时刻，但也埋下了与政府关系过密的争议
+- 2017 年 5 月软银 14 亿美元注资把估值推到 80 亿美元，叠加 2018 年巴菲特入股，三大金字招牌把 Paytm 推上印度 fintech 王座，但高估值也为后来 IPO 破发埋了雷
+- 2021 年 11 月印度史上最大 IPO 首日跌 27% 创历史纪录，招股书自曝的红旗信号被市场用脚投票，从巅峰到谷底只需一个交易日
+- 2024 年 1 月 RBI 停业令直接切断 PPB 核心业务，VSS 被迫从钱包银行全面转向支付网关和商户服务，这是公司战略上最痛的一次断臂
+- 2024 年 8 月把票务卖给 Zomato 回笼 2.44 亿美元，从什么都做的超级 App 收敛到支付基础设施，再叠加 2025 年出海和阿联酋沙特印尼卢森堡扩张，Paytm 在 2026 完成了从印度国民钱包到全球支付技术方案的重新定位
+
+## 🕳️ 失败与踩坑
+
+- 2010 年 One97 计划 IPO 临阵撤回，VSS 早期融资极度困难一度借高利贷发工资，这段穷日子的创伤后来影响了他对资本的态度
+- 2021 年 11 月印度史上最大 IPO 上市首日暴跌 27%，创下印度 IPO 史最大首日跌幅纪录，招股书自曝 25 起刑事程序和 40 起税务诉讼、连续三年亏损、外国控股身份、兄弟被列为重大影响关联人等红旗信号全被市场放大
+- 2022 年 3 月 RBI 禁止 Paytm Payments Bank 签约新客户，Bloomberg 报道指数据泄露给中国关联实体，VSS 不得不辞去 PPB 董事长职务
+- 2024 年 1 月 RBI 命令 PPB 停止大部分业务，可能导致约 20% 员工裁减，股价再度暴跌，印度金融科技史上央行对单家 fintech 最严厉的监管行动之一
+- 2026 年 4 月 RBI 正式吊销 Paytm Payments Bank 银行牌照，Paytm 生态里沉淀资金和数据的牌照载体彻底终结
+- VSS 在 2022 年 2 月因撞警车事件被逮捕后取保候审，个人形象受损，叠加公司监管危机，创始人的个人风险与公司风险共振
+
+## 🔑 关键成功要素
+
+- VSS 的小镇做题家底色——15 岁上大学 19 岁毕业，从 indiasite.net 到 One97 再到 Paytm，每一次都把上一段的现金流和踩坑经验带进下一段，不是空降创业
+- 2016 年废钞令是外部黑天鹅但 Paytm 靠前六年已经铺好的充值钱包基础设施接住了这波天量需求，运气只 favor 有准备的头脑
+- 蚂蚁金服的 QR 码支付经验和支付宝运营方法论从 2015 年起持续输出给 Paytm，这是中国 fintech 经验向印度迁移最成功的一例
+- 2024 年 RBI 停业令后的断臂速度——8 月就把票务卖给 Zomato 回笼现金，而不是抱着超级 App 幻觉死扛，决定了公司能活到 2026 盈利
+- FY26 营收 24% 增长和连续两季盈利说明从钱包银行模式转向支付网关和商户服务后反而找到了可持续收入结构，丢牌照不丢生意
+
+## 📚 经验教训
+
+- 最大的 IPO 往往是最大的陷阱。印度史上最大 IPO 首日跌 27%，招股书自曝的红旗信号被市场用脚投票，说明把问题写在招股书里不等于市场已经消化了这些问题
+- 金融牌照是护城河也是软肋。Paytm Payments Bank 的牌照让 Paytm 从钱包升级成银行生态，但一张牌照被央行勒令停业整个生态就断血，监管单点故障的杀伤力远超商业竞争
+- 废钞令式的政策红利是双刃剑。Paytm 因废钞暴涨也因与废钞的关联被长期审视，VSS 多年后公开否认才能塑造叙事，说明政策驱动的增长会在政治风向转变时变成原罪
+- 超级 App 的诱惑和代价。Paytm 一度同时做钱包、银行、黄金、游戏、票务、商城、信贷、保险、券商，RBI 一纸令下后只能砍到支付网关和商户服务才活过来，什么都做的超级 App 在监管收紧时什么都保不住
+- 2025 到 2026 的出海和 AI 转型说明， fintech 从国民应用降级成支付技术方案后反而能输出——把在印度被监管打出来的支付网关和 AI 路由能力卖给阿联酋沙特印尼卢森堡，从一个市场的监管受害者变成另一个市场的技术供应商
+
+## 📊 核心数据
+
+- **成立年**：2010
+- **创始人出生年**：1978
+- **IPO 规模**：1830 亿卢比（约 25 亿美元）
+- **IPO 估值**：200 亿美元
+- **IPO 首日跌幅**：约 27%
+- **软银注资**：14 亿美元（2017 年 5 月）
+- **巴菲特投资**：3.56 亿美元（2018 年）
+- **VSS 持股**：约 19.42%
+- **FY23 GMV**：13.2 万亿卢比（约 1400 亿美元）
+- **FY26 营收**：206.1 亿卢比（约 2.1 亿美元）
+- **FY26 营收增长**：24%
+- **2025年9月季度利润**：21.1 亿卢比
+- **Zomato 收购票务**：约 204.8 亿卢比（2.44 亿美元）
+- **RBI 吊照日期**：2026 年 4 月 24 日
+
+## ⚔️ 竞争对手 / 同行
+
+印度数字支付赛道里 PhonePe（沃尔玛旗下）和 Google Pay 是 UPI 市场份额前两名，两者合计吃掉 UPI 交易量八成以上，Paytm 在 UPI 里排第三但远落后。商户收单赛道面临 Pine Labs、BharatPe、Razorpay 的竞争。钱包赛道有 Amazon Pay、MobiKwik、Freecharge。Paytm Payments Bank 被吊照后，其银行生态对手 Airtel Payments Bank、India Post Payments Bank、Jio Payments Bank 反而获得身位优势。国际市场上 Paytm 出海对标的是 PayPal、Stripe、Adyen 等全球支付网关方案商，但体量量级完全不同
+
+## 🔗 来源
+
+- [https://en.wikipedia.org/wiki/Paytm](https://en.wikipedia.org/wiki/Paytm)
+- [https://en.wikipedia.org/wiki/Vijay_Shekhar_Sharma](https://en.wikipedia.org/wiki/Vijay_Shekhar_Sharma)
+- [https://en.wikipedia.org/wiki/One97_Communications](https://en.wikipedia.org/wiki/One97_Communications)
+- [https://economictimes.indiatimes.com/tech/startups/paytm-ipo-details-red-herring-red-flags-top-10-takeaways-from-paytms-ipo-filing/articleshow/84473002.cms](https://economictimes.indiatimes.com/tech/startups/paytm-ipo-details-red-herring-red-flags-top-10-takeaways-from-paytms-ipo-filing/articleshow/84473002.cms)
+- [https://www.outlookmoney.com/news/paytms-sharma-denies-demonetisation-link-backs-indias-ai-future](https://www.outlookmoney.com/news/paytms-sharma-denies-demonetisation-link-backs-indias-ai-future)
+- [https://economictimes.indiatimes.com/small-biz/money/paytm-raises-1-4-billion-from-softbank-valuation-jumps-to-over-8-billion/articleshow/58733667.cms](https://economictimes.indiatimes.com/small-biz/money/paytm-raises-1-4-billion-from-softbank-valuation-jumps-to-over-8-billion/articleshow/58733667.cms)
+
+---
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-08*
