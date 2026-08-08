@@ -1,0 +1,49 @@
+{
+  "type": "journey",
+  "id": "journey-cloudkitchens",
+  "name": "CloudKitchens Ghost Kitchen Platform",
+  "company": "CloudKitchens",
+  "founders": "Travis Kalanick",
+  "industry": "SaaS/企业软件",
+  "region": "全球",
+  "scale": "中型",
+  "channel": "线上",
+  "y2026_hot": "2026 Ghost kitchen hype collapsed, yet CloudKitchens remains a key operator to understand digital-to-physical synergy",
+  "origin": "Travis Kalanick founded CloudKitchens in 2016, leveraging delivery expertise to create a platform of kitchen pods for restaurants.",
+  "milestones": [
+    {
+      "time": "2016",
+      "stage": "Foundation",
+      "outcome": "成立",
+      "detail": "Travis Kalanick founded CloudKitchens with a vision to automate delivery by building virtual restaurants on industrial premises."
+    },
+    {
+      "time": "2021",
+      "stage": "融资",
+      "outcome": "扩张",
+      "detail": "Raising 850M in Series D, CloudKitchens expanded to 70+ active locations and positioned itself as a leading ghost kitchen provider."
+    },
+    {
+      "time": "2025-11",
+      "stage": "调整",
+      "outcome": "亏损",
+      "detail": "East Oakland facility shut down and Middle East IPO postponed citing market volatility, exposing fragile unit economics."
+    },
+    {
+      "time": "2026",
+      "stage": "重塑",
+      "outcome": "维持",
+      "detail": "Pivot toward integrated pickup windows and direct-to-consumer ordering, acknowledging pure ghost kitchens no longer yield profitable margins."
+    }
+  ],
+  "turning_points": ["East Oakland shutdown","IPO delay","pivot to pickup"],
+  "failures": ["高佣金和租金压缩利润","平台过度依赖第三方配送","缺乏品牌客户关系"],
+  "keys": ["平台规模与扩容","与配送平台深度整合","低成本租赁与设施共享"],
+  "lessons": ["客户关系必须直接建立","单一渠道易导致破产","盈利模式需要多元化渠道"],
+  "metrics": {"gross_order_value_2024": "$80bn"},
+  "competitors": "Kitchen United, Local Kitchens, Uber Eats Pantry, V3 Food, Olo",
+  "sources": [
+    "https://qsr.pro/articles/ghost-kitchens-2026-what-survived",
+    "https://www.businessinsider.com/travis-kalanick-cloudkitchens-startup-cuts-jobs-2023-11?op=1"
+  ]
+}
