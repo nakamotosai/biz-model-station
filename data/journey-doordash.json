@@ -1,0 +1,47 @@
+{
+  "type": "journey",
+  "id": "journey-doordash",
+  "name": "DoorDash",
+  "company": "DoorDash, Inc.",
+  "founders": "Tony Xu, Andy Fang, Stanley Tang, Evan Moore",
+  "industry": "在线食品订餐",
+  "region": "美",
+  "scale": "上市",
+  "channel": "线上",
+  "y2026_hot": "2025 年与 Klarna 合作，2025 年收购 Deliveroo，2026 年完成上市",
+  "origin": "2013 年由 Stanford 研究生在 Palo Alto 创建，最初为点餐平台",
+  "milestones": [
+    { "time": "2013年", "stage": "创立", "outcome": "启动", "detail": "以 12 万美元种子轮启动" },
+    { "time": "2019年", "stage": "高速成长", "outcome": "超越 Uber Eats", "detail": "成为美国第二大配送平台" },
+    { "time": "2025年", "stage": "合作", "outcome": "Klarna 接入", "detail": "提供支付分期服务" },
+    { "time": "2025年", "stage": "收购", "outcome": "收购 Deliveroo", "detail": "提升国际业务" },
+    { "time": "2026年", "stage": "IPO", "outcome": "上市", "detail": "在纳斯达克上市，估值 71 亿美元" }
+  ],
+  "turning_points": [
+    "司机工会争议",
+    "Klarna 合作导致客户争议"
+  ],
+  "failures": [
+    "2019 年司机小费争议",
+    "2024 年隐私诉讼"
+  ],
+  "keys": [
+    "快速扩张",
+    "高效物流网络",
+    "精准营销"
+  ],
+  "lessons": [
+    "不宜让司机收入过度依赖小费",
+    "加强数据安全与合规监管"
+  ],
+  "metrics": {
+    "revenue_2025": "13.7B USD",
+    "employees": "31,400",
+    "valuation_2026": "71B USD"
+  },
+  "competitors": "Uber Eats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/DoorDash",
+    "https://www.sec.gov/ix?doc=/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm"
+  ]
+}

@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **317** 篇（model 238 / journey 65 / scam 14）
+共 **319** 篇（model 238 / journey 67 / scam 14）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（65）
+## 🛤 发家路径（67）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -276,6 +276,7 @@
 - [Discord：从被收购的游戏社交失败品到两亿月活的社区帝国，2026 年冲刺 IPO](journey-discord.md) · SaaS/企业软件 · 美
 - [大疆：汪滔从宿舍飞控到霸占全球七成市场](journey-dji-drone.md) · AI/大模型 · 中
 - [唐吉诃德：安田隆夫从赌徒待业到深夜折扣杂货王，放火死人后扛责再出海](journey-don-quijote.md) · 电商/零售 · 日
+- [DoorDash](journey-doordash.md) · 在线食品订餐 · 美
 - [多彩语 ⚡️ Duolingo 1.3B / 月, AI先行, 2026 股价](journey-duolingo.md) · 教育科技/在线教育 · 美国/欧盟
 - [ElevenLabs](journey-elevenlabs.md) · AI/大模型 · UK·US
 - [Figma从浏览器编辑器逆袭Adobe被禁购](journey-figma.md) · AI/大模型 · 美
@@ -295,6 +296,7 @@
 - [Palantir Technologies](journey-palantir.md) · AI/大模型 · 美
 - [胖东来：于东来从许昌八平米小店到中国零售课代表](journey-pangdonglai-retail.md) · 电商/零售 · 中
 - [Patagonia, Inc. – 2026 时区看点](journey-patagonia-2026.md) · Apparel / Outdoor · 美
+- [Patreon从音乐人tip jar到创作者经济基础设施](journey-patreon.md) · 内容/创作者经济 · 美
 - [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
 - [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
 - [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
