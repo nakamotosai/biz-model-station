@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **325** 篇（model 238 / journey 72 / scam 15）
+共 **326** 篇（model 238 / journey 73 / scam 15）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（72）
+## 🛤 发家路径（73）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -303,6 +303,7 @@
 - [Peloton：从500亿居家健身之王到三换CEO，2026年靠Spotify合作再求生](journey-peloton.md) · 其他 · 美
 - [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
 - [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
+- [三养辣鸡面：工业油丑闻濒死的老牌泡面厂，靠核弹辣度翻盘成全球网红](journey-samyang-buldak.md) · 餐饮/茶饮 · 韩
 - [三丽鸥：辻信太郎从丝袜店造出Hello Kitty角色经济帝国，50周年再迎第二春](journey-sanrio.md) · 内容/创作者经济 · 日
 - [Shopify：Tobi Lütke 从雪板店到全球电商基建，物流豪赌翻车后靠AI商务再起](journey-shopify-platform.md) · SaaS/企业软件 · 全球
 - [Slack：从两度失败的喜剧式创业到企业消息SaaS之王，被277亿美元收购后在2026年拼AI Agent续命](journey-slack.md) · SaaS/企业软件 · 美
