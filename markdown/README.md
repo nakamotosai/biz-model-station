@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **369** 篇（model 238 / journey 112 / scam 19）
+共 **370** 篇（model 238 / journey 113 / scam 19）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（112）
+## 🛤 发家路径（113）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -336,6 +336,7 @@
 - [Shopify：Tobi Lütke 从雪板店到全球电商基建，物流豪赌翻车后靠AI商务再起](journey-shopify-platform.md) · SaaS/企业软件 · 全球
 - [Slack：从两度失败的喜剧式创业到企业消息SaaS之王，被277亿美元收购后在2026年拼AI Agent续命](journey-slack.md) · SaaS/企业软件 · 美
 - [Snap：斯坦福宿舍的阅后即焚，拒绝300亿后靠AR眼镜再赌2026](journey-snap.md) · 内容/创作者经济 · 美
+- [软银孙正义：从软件流通到千亿愿景基金人生](journey-softbank-vision-fund.md) · 其他 · 日
 - [Starlink：全球卫星互联网](journey-starlink.md) · 云计算 · 全球
 - [Stripe](journey-stripe.md) · 金融科技 · 全球
 - [塔斯汀：从冷清披萨到中式汉堡万店狂奔](journey-tastine-burger.md) · 餐饮/茶饮 · 中
