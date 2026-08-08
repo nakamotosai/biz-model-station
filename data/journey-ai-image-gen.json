@@ -1,0 +1,45 @@
+{
+  "type": "journey",
+  "id": "journey-ai-image-gen",
+  "name": "Stability AI – AI Image Generation",
+  "company": "Stability AI, Inc.",
+  "founders": "Emad Mostaque, Tyler H. Burns",
+  "industry": "人工智能 / 生成式艺术",
+  "region": "USA",
+  "scale": "私有",
+  "channel": "线上 SaaS / API",
+  "y2026_hot": "AI 生成图像已成为内容创作、广告制作与游戏渲染的必备工具，市场规模预计年复合增长率超过30%，具备高价值。",
+  "origin": "由 AI 研究员与云技术工程师创立，旨在以平价方式民主化生成式 AI，开源核心模型。",
+  "milestones": [
+    {"time":"2019","stage":"Seed","outcome":"首次公开发布 Stable Diffusion 模型并开源"},
+    {"time":"2020","stage":"Series A","outcome":"融资 5300 万美元，进一步训练模型"},
+    {"time":"2021","stage":"Public beta","outcome":"上线 Web UI 与 API，日活跃用户突破1万"},
+    {"time":"2023","stage":"Marketplace","outcome":"在合作平台上推出 Midjourney 插件，商业化范围扩大"}
+  ],
+  "turning_points": [
+    "在 2021 年出现版权争议，导致部分内容被投诉",
+    "2022 年监管部门关注 AI 图像合规性，引发行业讨论"
+  ],
+  "failures": [
+    "早期模型生成污点内容导致争议",
+    "缺乏成熟的版权追踪机制"
+  ],
+  "keys": [
+    "开源 Stable Diffusion 模型",
+    "社区驱动的模型改进",
+    "直观友好的 Web UI 与 API"
+  ],
+  "lessons": [
+    "必须重视内容合规与版权问题",
+    "透明度与社区协作是可持续发展的核心"
+  ],
+  "metrics": {
+    "annual_revenue_2025": "8.0e7",
+    "daily_active_users_2024": "1.2e5"
+  },
+  "competitors": "OpenAI DALL·E, Midjourney, Anthropic",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stability_AI",
+    "https://en.wikipedia.org/wiki/Midjourney_(software)"
+  ]
+}
