@@ -1156,6 +1156,25 @@ def build_index(models: list[dict]) -> None:
 </article>""")
 
     n_model, n_journey, n_scam = len(by_type['model']), len(by_type['journey']), len(by_type['scam'])
+    # 编辑精选：model hot top 6 大卡（独立于 grid，不参与 JS 过滤，只在 model tab + 无筛选时显示）
+    _feat_sorted = sorted(by_type['model'], key=_hot_score, reverse=True)
+    featured_cards_html = ""
+    for _i, m in enumerate(_feat_sorted[:6], 1):
+        emoji = IND_EMOJI.get(m.get('industry',''), "🧩")
+        rev = _rev_label(m); scl = _scale_group(m.get('scale',''))
+        first_sentence = str(m.get('revenue','')).split('；')[0].split('。')[0]
+        if len(first_sentence) > 80: first_sentence = first_sentence[:80] + "…"
+        feat_summary = first_sentence or "（模式要点见详情）"
+        _eid = esc(m['id']); _enm = esc(m['name']); _efs = esc(feat_summary)
+        _ei = esc(m.get('industry','')); _es = esc(scl); _er = esc(rev)
+        featured_cards_html += (
+            f'<article class="fcard"><a href="{_eid}.html">'
+            f'<span class="badge">🔥 Top{_i}</span>'
+            f'<h3>{_enm}</h3>'
+            f'<p>{_efs}</p>'
+            f'<div class="fmeta"><span class="e">{emoji}</span><span class="ind">{_ei}</span>'
+            f'<span>{_es}</span>'
+            f'<span class="t">{_er}</span></div></a></article>')
 
     index = f"""<!DOCTYPE html>
 <html lang="zh"><head><meta charset="utf-8">
@@ -1229,6 +1248,24 @@ header {{ margin-bottom:10px; }}
 .featured-head {{ display:flex; align-items:baseline; gap:10px; margin:4px 0 14px; }}
 .featured-head h2 {{ margin:0; font-size:20px; }}
 .featured-head .hint {{ color:var(--dim); font-size:13px; }}
+.featured-section {{ display:none; margin:0 0 28px; }}
+.featured-section.open {{ display:block; }}
+.featured-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }}
+.fcard {{ background:linear-gradient(135deg,var(--bg0),color-mix(in srgb,var(--bg0) 86%,var(--acc) 4%));
+  border:1px solid color-mix(in srgb,var(--acc) 28%,transparent); border-radius:18px; overflow:hidden;
+  transition:transform .16s ease, box-shadow .16s ease; position:relative; }}
+.fcard:hover {{ transform:translateY(-4px); box-shadow:0 8px 28px rgba(0,0,0,.35); border-color:var(--acc); }}
+.fcard a {{ display:block; padding:18px 22px 20px; color:var(--fg); text-decoration:none; }}
+.fcard .badge {{ position:absolute; top:12px; right:16px; font-size:12px; color:var(--acc);
+  background:color-mix(in srgb,var(--acc) 12%,transparent); border-radius:999px; padding:2px 12px; }}
+.fcard h3 {{ margin:0 0 8px; font-size:22px; line-height:1.35; padding-right:52px; }}
+.fcard p {{ margin:4px 0 12px; color:var(--dim); font-size:14px; line-height:1.6; }}
+.fcard .fmeta {{ display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--dim); }}
+.fcard .fmeta .e {{ font-size:16px; }}
+.fcard .fmeta .ind {{ color:var(--aqua); }}
+.fcard .fmeta .t {{ margin-left:auto; color:var(--acc); background:color-mix(in srgb,var(--acc) 14%,transparent); border-radius:999px; padding:2px 12px; }}
+.filters .quicknav {{ padding-bottom:10px; margin-bottom:6px; border-bottom:1px solid color-mix(in srgb,var(--fg) 10%,transparent); }}
+.filters .quicknav .scene {{ font-size:14px; padding:6px 14px; }}
 .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }}
 .card {{ background:var(--bg0); border:1px solid color-mix(in srgb,var(--fg) 14%,transparent);
   border-radius:14px; overflow:hidden; transition:transform .14s ease, border-color .14s ease; }}
@@ -1278,9 +1315,6 @@ footer {{ margin-top:44px; color:var(--dim); font-size:13px; text-align:center; 
   </div>
   <div class="searchbar"><input id="q" type="search" placeholder="🔍 搜模式 / 公司 / 行业关键词，如「AI」「加盟」「订阅」…" autocomplete="off"></div>
   <div class="quicknav">
-    <button class="scene" data-preset="lowcost">🚀 低成本起步</button>
-    <button class="scene" data-preset="ai">🤖 AI 热潮</button>
-    <button class="scene" data-preset="scam">⚠️ 先避坑</button>
     <button class="scene ghost" id="btn-random">🎲 随便看看</button>
   </div>
 </div>
@@ -1302,10 +1336,18 @@ footer {{ margin-top:44px; color:var(--dim); font-size:13px; text-align:center; 
   </label>
 </div>
 <div class="filters" id="filters">
+  <div class="quicknav">
+    <button class="scene" data-preset="lowcost">🚀 低成本起步</button>
+    <button class="scene" data-preset="ai">🤖 AI 热潮</button>
+    <button class="scene" data-preset="scam">⚠️ 先避坑</button>
+  </div>
   {chip_html}
   <div class="clearedbar"><button class="btn-clear" id="btn-clear">✕ 清除全部筛选</button></div>
 </div>
-<div class="featured-head" id="featured-head"><h2>📌 编辑精选</h2><span class="hint">本周热度较高的模式，从这儿开始看</span></div>
+<div class="featured-section open" id="featured-section">
+  <div class="featured-head" id="featured-head"><h2>📌 编辑精选</h2><span class="hint">本周热度较高的模式，从这儿开始看</span></div>
+  <div class="featured-grid" id="featured-grid">{featured_cards_html}</div>
+</div>
 <div class="grid" id="grid-model">{''.join(model_cards)}</div>
 <div class="grid" id="grid-journey" style="display:none">{''.join(journey_cards)}</div>
 <div class="grid" id="grid-scam" style="display:none">{''.join(scam_cards)}</div>
@@ -1357,10 +1399,9 @@ function apply() {{
   const n = visible.length;
   count.textContent = '共 ' + n + ' 条（总 ' + cards.length + '）';
   empty.style.display = n ? 'none' : 'block';
-  grid.style.display = n ? '' : 'none';
   const filtering = kw || Object.values(sel).some(s => s.size) || sortv || active !== 'model';
-  const fh = document.getElementById('featured-head');
-  if (fh) fh.style.display = filtering ? 'none' : '';
+  const fs = document.getElementById('featured-section');
+  if (fs) fs.style.display = filtering ? 'none' : 'block';
 }}
 tabs.forEach(t => t.addEventListener('click', () => {{
   tabs.forEach(x => x.classList.toggle('active', x === t));
