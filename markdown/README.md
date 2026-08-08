@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **368** 篇（model 238 / journey 111 / scam 19）
+共 **369** 篇（model 238 / journey 112 / scam 19）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（111）
+## 🛤 发家路径（112）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -339,6 +339,7 @@
 - [Starlink：全球卫星互联网](journey-starlink.md) · 云计算 · 全球
 - [Stripe](journey-stripe.md) · 金融科技 · 全球
 - [塔斯汀：从冷清披萨到中式汉堡万店狂奔](journey-tastine-burger.md) · 餐饮/茶饮 · 中
+- [丰田汽车：从纺织机厂到全球混动霸主，召回危机与电动化掉队的百年长押注](journey-toyota-hybrid-global.md) · 其他 · 日
 - [台积电：张忠谋 1987 年首创纯晶圆代工模式，如何长成护国神山](journey-tsmc-foundry-king.md) · 半导体/云计算 · 跨地区
 - [茑屋书店：增田宗昭从枚方唱片租赁店造出文化提案帝国，MBO退市后再遭图书馆争议与点数业务失守](journey-tsutaya-ccc.md) · 内容/创作者经济 · 日
 - [Uber：从800美元黑车到Robotaxi帝国，13年烧百亿后盈利的共享出行活化石](journey-uber.md) · 本地生活 · 美
