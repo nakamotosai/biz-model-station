@@ -1,0 +1,64 @@
+{
+  "type": "journey",
+  "id": "journey-roblox",
+  "name": "Roblox - 从兄弟创立到AI生成内容",
+  "company": "Roblox Corporation",
+  "founders": "David Baszucki, Erik Baszucki",
+  "industry": "游戏/娱乐",
+  "region": "美国",
+  "scale": "巨头",
+  "channel": "线上/混合",
+  "y2026_hot": "Roblox 仍以用户生成内容与 AI 创作工具为核心，持续保持 8800 万月活跃用户，成为 AI 驱动的游戏与社交平台疫苗，2026 年进一步拓展新市场与 AI 辅助创作。",
+  "origin": "2004 年，兄弟创立 Roblox 平台，2005 年在美国注册 RobSt。 设立以提供用户创作游戏及共享体验的平台，致力于将游戏制作与社交互动结合。",
+  "milestones": [
+    {
+      "time": "2004",
+      "stage": "创始",
+      "outcome": "突破",
+      "detail": "兄弟提出创建交互式游戏平台概念，启动首个内部测试版。"
+    },
+    {
+      "time": "2006",
+      "stage": "发布",
+      "outcome": "增长",
+      "detail": "正式上线 Beta 版，用户开始使用 Roblox Studio 创作游戏。"
+    },
+    {
+      "time": "2015",
+      "stage": "升级",
+      "outcome": "PMF",
+      "detail": "重构 Roblox Studio，完善开发者工具，为大规模创作与发布奠定基础。"
+    },
+    {
+      "time": "2020",
+      "stage": "疫情",
+      "outcome": "增长",
+      "detail": "COVID-19 期间全球用户数激增，平台流量和内容创作指数飙升。"
+    }
+  ],
+  "turning_points": [
+    "AI 内容生成工具上线",
+    "公募近 IPO 级别融资"
+  ],
+  "failures": [
+    "2018 安全漏洞导致用户数据泄露后，Roblox 强化安全体系。"
+  ],
+  "keys": [
+    "UGC 生态",
+    "AI 生成内容"
+  ],
+  "lessons": [
+    "监管合规挑战（COPPA、GDPR）需要持续投入",
+    "快速迭代和社区驱动是平台生命线"
+  ],
+  "metrics": {
+    "2023 MAU": "88M",
+    "2021 收入": "1.2B",
+    "增长率": "27%"
+  },
+  "competitors": "Epic Games, Unity 等开发者平台、Kahoot、Sims 游戏等。",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Roblox",
+    "https://about.roblox.com/"
+  ]
+}

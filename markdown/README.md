@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **331** 篇（model 238 / journey 77 / scam 16）
+共 **335** 篇（model 238 / journey 81 / scam 16）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（77）
+## 🛤 发家路径（81）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -282,6 +282,7 @@
 - [多彩语 ⚡️ Duolingo 1.3B / 月, AI先行, 2026 股价](journey-duolingo.md) · 教育科技/在线教育 · 美国/欧盟
 - [ElevenLabs](journey-elevenlabs.md) · AI/大模型 · UK·US
 - [Epic Games：从车库弹弓到Fortnite帝国与平台诉讼](journey-epic-games-fortnite.md) · 内容/创作者经济 · 美
+- [诚品书店：吴清友赌上15年第一桶金，把书店做成了华人世界的精神地标](journey-eslite.md) · 其他 · 港台
 - [Figma从浏览器编辑器逆袭Adobe被禁购](journey-figma.md) · AI/大模型 · 美
 - [鴻海精密：AI 與電動車的 2026 成長之路](journey-foxconn-manufacturing.md) · 半導體/電子製造 · 台
 - [基因科技：Ginkgo Bioworks 的骤飞之路](journey-ginkgo-bioworks.md) · 生物技术 · 美国
@@ -291,6 +292,7 @@
 - [宏达电 HTC：从安卓之王到 VR 转型的兴衰样本](journey-htc.md) · 其他 · 台
 - [HYBE 方时赫从濒死小作坊到K-pop帝国，BTS退役回归再赌2026](journey-hybe-bts.md) · 内容/创作者经济 · 韩
 - [Kopi Kenangan: 1,351 outlets](journey-kopi-kenangan.md) · Retail (Coffee & Beverage) · Indonesia
+- [老乡鸡——从肥西田间 到全国中式快餐](journey-laoxiangji-chicken.md) · 快餐/中式快餐 · 中国
 - [Manner Coffee：韩玉龙从2平米档口到2000店精品咖啡独角兽，半自动机器扛规模化之痛](journey-manner-coffee.md) · 餐饮/茶饮 · 中
 - [名创优品：从十元店到全球万店，IP零售帝国的日系伪装与出海翻盘](journey-miniso-global.md) · 内容/创作者经济 · 中
 - [奈雪的茶 IPO 与翻车成长](journey-nayuki-tea-ipo.md) · 茶饮 · 中国大陆（深圳）
@@ -307,6 +309,7 @@
 - [Rakuten生态链演进路径](journey-rakuten-ecosystem.md) · 互联网/电商 · 亚洲/日本
 - [Reddit：「互联网首页」从贱卖到回收再到 AI 数据石油 IPO](journey-reddit.md) · 内容/创作者经济 · 美
 - [罗宾汉零佣金革命：散户券商从GameStop风暴到加密翻盘](journey-robinhood.md) · 金融科技 · 美
+- [Roblox - 从兄弟创立到AI生成内容](journey-roblox.md) · 游戏/娱乐 · 美国
 - [三养辣鸡面：工业油丑闻濒死的老牌泡面厂，靠核弹辣度翻盘成全球网红](journey-samyang-buldak.md) · 餐饮/茶饮 · 韩
 - [三丽鸥：辻信太郎从丝袜店造出Hello Kitty角色经济帝国，50周年再迎第二春](journey-sanrio.md) · 内容/创作者经济 · 日
 - [Shopify：Tobi Lütke 从雪板店到全球电商基建，物流豪赌翻车后靠AI商务再起](journey-shopify-platform.md) · SaaS/企业软件 · 全球
@@ -320,6 +323,7 @@
 - [Zomato与Blinkit的2026成长之路](journey-zomato-blinkit.md) · 在线餐饮·即时配送 · 印度
 - [Zoom Communications](journey-zoom.md) · 通信与视频会议 · 美国
 - [珞博智能 Fuzzo：AI陪伴玩具转型家庭机器人](luobo-ai-robot.md) · AI/大模型 · 跨地区
+- [名创优品叶国富：十元店借IP联名反向出海的万店神话](miniso-ip-lifestyle-global-retail.md) · 电商/零售 · 跨地区
 - [胖东来：把河南小超市做成中国零售界顶流文化IP的善意商业样本](pangdonglai-henan-retail-culture-ip.md) · 电商/零售 · 中
 - [轻轻家教：从 AI 大模型到混合人工辅导的商业蜕变](qingqing-tutoring.md) · 教育/知识付费 · 中
 - [来也科技：从私人助理到RPA+大模型智能自动化的中国版走向](rpa-llm-automation-laiye.md) · 其他 · 中
