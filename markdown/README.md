@@ -3,7 +3,7 @@
 > 2026 各行业盈利模式/发家路径/避坑指南图鉴——每篇 = 一份可读的商业模式拆解。
 > 数据来自 [biz.saaaai.com](http://biz.saaaai.com/)（网页版），本仓库为文档版镜像。
 
-共 **343** 篇（model 238 / journey 89 / scam 16）
+共 **344** 篇（model 238 / journey 90 / scam 16）
 
 ## 💰 赚钱模式（238）
 
@@ -246,7 +246,7 @@
 - [零App私域团购社群经销商网络](zero-app-private-domain-group-buying.md) · 电商/零售 · 中
 - [零抽佣点餐SaaS与商户数字化代运营](zero-commission-ordering-saas-2026.md) · 餐饮/茶饮 · 中
 
-## 🛤 发家路径（89）
+## 🛤 发家路径（90）
 
 - [Perplexity：靠卖答案三年烧出200亿估值的答案引擎](ai-answer-engine-perplexity.md) · AI/大模型 · 美
 - [集思科技：成立2年拿下300+KA品牌，AI数字人直播代运营商](ai-digital-human-live-stream-agency.md) · AI/大模型 · 中
@@ -317,6 +317,7 @@
 - [Roblox - 从兄弟创立到AI生成内容](journey-roblox.md) · 游戏/娱乐 · 美国
 - [三养辣鸡面：工业油丑闻濒死的老牌泡面厂，靠核弹辣度翻盘成全球网红](journey-samyang-buldak.md) · 餐饮/茶饮 · 韩
 - [三丽鸥：辻信太郎从丝袜店造出Hello Kitty角色经济帝国，50周年再迎第二春](journey-sanrio.md) · 内容/创作者经济 · 日
+- [冬海集团：从游戏代理到东南亚电商之王的生死一跃](journey-sea-group.md) · 电商/零售 · 东南亚
 - [Shopify：滑雪板店主自建开店工具长成全球独立站 SaaS 巨头](journey-shopify.md) · 电商/零售 · 跨地区
 - [Shopify：Tobi Lütke 从雪板店到全球电商基建，物流豪赌翻车后靠AI商务再起](journey-shopify-platform.md) · SaaS/企业软件 · 全球
 - [Slack：从两度失败的喜剧式创业到企业消息SaaS之王，被277亿美元收购后在2026年拼AI Agent续命](journey-slack.md) · SaaS/企业软件 · 美
