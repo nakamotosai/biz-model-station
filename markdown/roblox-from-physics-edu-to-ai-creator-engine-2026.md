@@ -1,0 +1,88 @@
+# Roblox：从教育物理课软件到AI生成创作引擎
+
+> 🛤 发家路径 | **内容/创作者经济** · 美 · 巨头 · 应用商店与UGC平台
+
+## 🚀 起步缘由
+
+David Baszucki与Erik Cassel在1990年代凭Knowledge Revolution的Interactive Physics教育软件售予MSC Software获约2000万美元，发现学生把物理课件当玩具玩远超课堂目的；2004年二人立志搭一个让普通青少年也能用积木式工具造3D体验的平台Dynablocks，2005年因发音困难更名Roblox（robots与blocks合成），2006年正式上线，早期资金靠Baszucki自掏腰包走过12年无机构融资。
+
+**创办人**：David Baszucki、Erik Cassel · **公司**：Roblox Corporation
+
+## 📈 发家里程碑
+
+- **2004-2006** 起步（失败）
+  - 2004年David Baszucki与Erik Cassel用此前出售Knowledge Revolution给MSC Software所得约2000万美元创办Dynablocks，2005年因发音困难更名Roblox，2006年正式上线；平台初期DAU不足百人、注册开发者寥寥，公司长达12年无机构外部融资，主要靠Baszucki个人资金硬撑，期间Erik Cassel在2013年因癌症去世，Roblox一度面临创始人团队与资金双重危机。
+- **2012-2013** 移动转型（拐点）
+  - 2012年下半年Roblox才推出移动版客户端，比Minecraft Pocket Edition晚约一年，错失先发红利导致部分移动端玩家流失；2013年公司推出DevEx开发者兑换计划，允许创作者将虚拟Robux按汇率兑换成美元，首批分成比例仅25%-30%，当年头部开发者共获得约100万美元分成，UGC虚拟经济闭环首次成型。
+- **2017** 创作者抗议（失败）
+  - 2017年创作者社区对Roblox实际分成仅25%-30%（扣除渠道费与平台费后）发起集体抗议，部分头部开发者迁移至Discord自建分发渠道施压；Roblox被迫上调Developer Exchange汇率并增设Developer Fund基金，2017年创作者分成总额约3000万美元但环比净亏损进一步扩大，公司首次直面分成模型可持续性的质疑。
+- **2020** 疫情爆发（PMF）
+  - 2020年COVID居家红利使DAU从2019年Q4约1750万激增至2020年Q4约3600万，Bookings同比增长约171%至19亿美元；同年3月完成1.5亿美元G轮融资估值约40亿美元，但经调整EBITDA仍为负，疫情强催化了阶段性PMF而非产品彻底转型，市场随后对其增长可持续性高度怀疑。
+- **2021-03-10** DPO上市（拐点）
+  - 2021年3月10日Roblox以直接挂牌DPO方式登陆纽交所，开盘价64.5美元首日市值约453亿美元，为2020年G轮40亿估值的11倍以上；2021全年营收约19亿美元但净亏损约4.5亿美元，因库存股与开发者分成递延确认的会计处理争议，SEC多次就收入确认方式发函问询。
+- **2022** 增长见顶（失败）
+  - 2022年Q1 Bookings环比下滑，叠加中国双减政策后罗布乐思本地化受阻与疫情红利消退，DAU增速骤降；股价由2021年11月高点约134美元跌至2022年5月约25美元，跌幅超80%；同年在iOS苹果政策压力下，Roblox被迫向头部工作室分成比例由约25%调升至40%以稳住创作者，单季度分成成本骤增。
+- **2024** 盈利拐点（转折）
+  - 2024年全年Bookings约43.5亿美元、营收约36.1亿美元，Q4 DAU约8580万创新高，创作者分成约8.51亿美元同比首次超过公司上市以来累计净亏损；公司首次给出运营杠杆率改善指引，市值回升至约300亿美元区间，但仍未实现GAAP口径净盈利，分析师警示分成向头部集中带来的马太效应。
+- **2026** AI创作工具（转折）
+  - 2026年2月发布Cube基础模型与CubePart开放词汇3D生成器，4月Roblox Studio进入Agentic时代，7月Roblox Build公测上线一句话生成游戏，目标将创作者规模从约1300万扩至数千万并降低门槛；Q1财报显示人均时长增长但ARPU承压，监管警示AI生成低质UGC泛滥将冲击优质分成与平台广告价值。
+
+## 🔀 转折点
+
+- 2005年从Dynablocks更名为Roblox，锁定机器人与积木的青少年UGC创作定位。
+- 2013年推出DevEx开发者兑换计划，将虚拟Robux与美元双向打通，UGC虚拟经济闭环成型。
+- 2020年疫情居家使DAU翻倍至3600万，G轮融资估值跃升至40亿美元。
+- 2021年3月以DPO方式直接挂牌纽交所，市值从40亿跃升至约453亿美元。
+- 2026年7月Roblox Build公测，AI一句话生成游戏正式开放全民创作。
+
+## 🕳️ 失败与踩坑
+
+- 2004至2016长达12年无机构融资，DAU长期不足十万，靠Baszucki个人资金硬撑。
+- 2012年移动版客户端比Minecraft Pocket Edition晚一年上线，错失移动化先发红利。
+- 2017年创作者因实际分成仅25%-30%集体抗议并外迁Discord自建渠道，被迫上调分成。
+- 2022年Q1 Bookings环比下滑且股价从134美元跌至25美元，疫情后增长见顶被做空。
+- 2023年AI生成内容泛滥引发低质UGC与版权纠纷，监管介入并罚款。
+
+## 🔑 关键成功要素
+
+- DevEx双向兑换是UGC虚拟经济闭环的必要前提，没有真实出金创作者不会留下。
+- DPO避免新股发行稀释，但带来上市后流通股估值剧烈波动。
+- 渠道费Apple与Google各30%加平台费压低创作者分成至25%-30%，是开发者出走主因。
+- AI创作工具不解决质量问题，只放大数量级，马太效应可能加剧。
+- Bookings与营收的递延确认差异是分析Roblox财务真实状况的核心。
+
+## 📚 经验教训
+
+- UGC平台早期需要创始人长期硬扛无回报期，12年无融资的耐心是Roblox成立的隐形成本。
+- 分成模型设计要在大平台渠道费下做减法而非加法，否则创作者必然外迁。
+- 疫情催化的DAU增长不是真正的PMF，红利消退后增速回落验证平台真实增长力。
+- AI生成式工具若不配套审核与质量分层，UGC平台会因内容通胀而ARPU下滑。
+
+## 📊 核心数据
+
+- **2024全年营收**：约36.1亿美元
+- **2024全年Bookings**：约43.5亿美元
+- **2024Q4DAU**：约8580万
+- **2024年创作者分成**：约8.51亿美元
+- **2023年创作者分成**：约7.41亿美元
+- **2021年上市首日市值**：约453亿美元
+- **2022年股价最高跌幅**：从约134美元跌至约25美元
+- **2024年团队规模**：约2800人
+- **2024年毛利率**：约77%
+
+## ⚔️ 竞争对手 / 同行
+
+Roblox的同行对标包括微软旗下Minecraft（沙盒创作生态相近但偏单机与教育市场）、Epic Games的Fortnite Creative及UEFN（虚幻编辑器对标创作者经济，2023年起向创作者分成透明度高于Roblox并吸引头部工作室迁移）、Rec Room（跨端社交创作平台DAU约300万）、Manticore Games的Core游戏创作平台（2022年起转型订阅但开发量不足）、以及国内迷你世界与腾讯《罗布乐思》出海合作版。其中Fortnite Creative在引擎性能与分成透明度上对头部工作室吸引力持续增强，被视为Roblox最大威胁。
+
+## 🔗 来源
+
+- [https://about.roblox.com/zh-hans/newsroom/2025/09/roblox-rdc-2025](https://about.roblox.com/zh-hans/newsroom/2025/09/roblox-rdc-2025)
+- [https://about.roblox.com/zh-hans/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model](https://about.roblox.com/zh-hans/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model)
+- [https://about.roblox.com/zh-hans/newsroom/2026/04/roblox-studio-going-agentic](https://about.roblox.com/zh-hans/newsroom/2026/04/roblox-studio-going-agentic)
+- [https://about.roblox.com/zh-hant/newsroom/2024/08/roblox-creators-are-earning-more-and-making-more-items-than-ever](https://about.roblox.com/zh-hant/newsroom/2024/08/roblox-creators-are-earning-more-and-making-more-items-than-ever)
+- [https://www.moomoo.com/news/translate-news/notice/307204431/zh-cn/1](https://www.moomoo.com/news/translate-news/notice/307204431/zh-cn/1)
+- [https://faq.com.tw/zh/developer-tools/2026-07-28-roblox-build-ai-game-creation-public-alpha-zh/](https://faq.com.tw/zh/developer-tools/2026-07-28-roblox-build-ai-game-creation-public-alpha-zh/)
+- [https://trucoteca.com/zh-TW/Roblox%E8%B2%A1%E5%8B%99%E5%8D%B1%E6%A9%9F%E3%80%81%E8%82%A1%E5%B8%82%E5%B4%A9%E7%9B%A4%E5%8F%8A%E5%85%B6%E5%89%B5%E8%BE%A6%E4%BA%BA%E7%9A%84%E6%8C%87%E6%8E%A7/](https://trucoteca.com/zh-TW/Roblox%E8%B2%A1%E5%8B%99%E5%8D%B1%E6%A9%9F%E3%80%81%E8%82%A1%E5%B8%82%E5%B4%A9%E7%9B%A4%E5%8F%8A%E5%85%B6%E5%89%B5%E8%BE%A6%E4%BA%BA%E7%9A%84%E6%8C%87%E6%8E%A7/)
+
+---
+*由 biz.saaaai.com 商业模式情报站自动生成 · 2026-08-17*

@@ -1,0 +1,45 @@
+{
+ "id": "datadog-observability-saas",
+ "name": "Datadog 云原生可观测性平台",
+ "industry": "云计算",
+ "region": "全球",
+ "scale": "巨头",
+ "channel": "线上",
+ "background": "2026年云原生应用大幅增长，企业对全栈监控、日志、链路追踪的需求激增，同时需要压缩Telemetry成本以提升ROI。",
+ "target": "大型企业及云服务提供商的DevOps、SRE团队，按使用量付费的企业用户",
+ "revenue": "基于订阅的SaaS计费，按主机或容器数量计费；提供分层套餐的高级功能；通过专业服务、培训和支持获取增值收入。",
+ "cost": "研发投入、云基础设施费用、销售与市场推广费用、合作伙伴分成等。",
+ "moat": "庞大的监控数据资产、完善的多云集成生态、AI驱动的异常检测算法、行业品牌认知。",
+ "swot": {
+  "s": [
+   "全球领先的监控指标体系和可视化仪表盘",
+   "强大的多云集成和API生态"
+  ],
+  "w": [
+   "对云资源占用成本高，需要持续投入基础设施"
+  ],
+  "o": [
+   "企业对可观测性需求持续增长，AI分析功能带来增值机会"
+  ],
+  "t": [
+   "竞争加剧，云服务商自研监控逐步脱钩"
+  ]
+ },
+ "keys": [
+  "深度集成K8s生态",
+  "AI异常检测模型",
+  "多租户SaaS架构"
+ ],
+ "risks": [
+  "价格竞争导致毛利压缩",
+  "监管对数据隐私要求提升"
+ ],
+ "example": [
+  "Datadog 2026 年第二季度收入增长 36%",
+  "Chronosphere 帮助客户降低 Telemetry 成本"
+ ],
+ "sources": [
+  "https://longbridge.com/zh-HK/news/295104412",
+  "https://flashcat.cloud/blog/chronosphere-ai-sre-rca/"
+ ]
+}

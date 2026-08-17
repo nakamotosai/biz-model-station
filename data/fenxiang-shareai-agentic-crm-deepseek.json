@@ -1,0 +1,45 @@
+{
+ "id": "fenxiang-shareai-agentic-crm-deepseek",
+ "name": "纷享销客 ShareAI Agentic CRM 平台",
+ "industry": "SaaS/企业软件",
+ "region": "中",
+ "scale": "中型",
+ "channel": "线上",
+ "background": "纷享销客在 2026 年推出基于 DeepSeek 与混元双模型的 ShareAI 平台，被多家媒体列为'中国 AI 原生 CRM 推荐产品'。其 Agentic CRM 思路强调以 Agent 替代传统 CRM 中'册填录提交'式作业，重塑制造业与外贸企业的客户经营全链路。",
+ "target": "制造业、高科技、外贸等 B2B 中型企业，主要由销售运营负责人与信息部门采购",
+ "revenue": "1）按席位与模块的年订阅 SaaS 费 2）行业 Agent 预制包与数据接入实施费 3）高级 AI 调用按 Token 量与 Agent 任务数计费",
+ "cost": "双大模型 API 调用与推理成本、连接器与 PaaS 研发、长期实施与客户成功人力、行业模型微算调",
+ "moat": "深耕制造与 B2B 行业的连接型 CRM 数据沉淀、DeepSeek 与混元双模型可切换架构降低单点风险、行业级 Agent 模板的快速复制能力",
+ "swot": {
+  "s": [
+   "已落地制造业场景将单条作业流从 10 分钟压缩到 2 分钟"
+  ],
+  "w": [
+   "模型能力以外采为主，自有模型层壁垒较弱"
+  ],
+  "o": [
+   "外贸企业 24 小时在线 Agent 带订单的实战案例打开增量市场"
+  ],
+  "t": [
+   "销售易、迈富时等同类厂商同步冲击 AI 原生 CRM，价格与功能快速趋同"
+  ]
+ },
+ "keys": [
+  "将制造业、外贸等行业销售作业流抽象为可复用的 Agent 模板",
+  "双模型路由策略平衡成本、合规与效果",
+  "以可量化的作业耗时压缩与转化率提升作为客户成功对话锚点"
+ ],
+ "risks": [
+  "Agent 自主对外贸客户触达涉及的合规与品牌风险",
+  "外采大模型在能力更迭与价格波动上的被动性"
+ ],
+ "example": [
+  "纷享销客 ShareAI 服务制造业客户，将原 10 分钟的 CRM 作业流程压缩至 2 分钟",
+  "外贸企业借助 24 小时在线 Agent 批量获取与承接订单的案例被 36 氪报道"
+ ],
+ "sources": [
+  "https://www.fxiaoke.com/crm/news-93687.html",
+  "https://news.yesky.com/hotnews/10/365510.shtml",
+  "https://www.36kr.com/p/3844402952391177"
+ ]
+}

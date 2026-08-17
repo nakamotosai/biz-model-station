@@ -1,0 +1,9 @@
+data.bak-fix-20260804-1300
+__pycache__/
+*.pyc
+logs/
+.tmp-archive/
+data/*.bak*
+.data/
+data/.collect.lock
+.obsolete-*

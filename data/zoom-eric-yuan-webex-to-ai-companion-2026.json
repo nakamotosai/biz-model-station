@@ -1,0 +1,116 @@
+{
+ "type": "journey",
+ "id": "zoom-eric-yuan-webex-to-ai-companion-2026",
+ "name": "Zoom：袁征从WebEx出走到AI Companion二次增长的视频会议巨头",
+ "company": "Zoom Communications Inc.",
+ "founders": "袁征（Eric Yuan）",
+ "industry": "SaaS/企业软件",
+ "region": "美",
+ "scale": "巨头",
+ "channel": "SaaS订阅",
+ "y2026_hot": "2026年Zoom推出AI Companion 3.0，将45项AI功能深度嵌入企业协作工作流；FY27营收指引上修至50.8至50.9亿美元并授权10亿美元回购，标志着从'视频会议工具'向'AI驱动的工作平台'转型，在Google与Microsoft强压下重获增长动力。",
+ "origin": "袁征1997年加入WebEx，2007年随WebEx被Cisco以32亿美元收购后成为Cisco副总裁。在Cisco内部他多次提议改进WebEx的视频架构使其移动化、云端化，但屡遭高层否决。2011年袁征决定离开，带着约40名WebEx工程团队同事另起炉灶，核心信念是让视频会议变得像面对面一样简单。",
+ "milestones": [
+  {
+   "time": "1997年",
+   "stage": "拐点",
+   "outcome": "拐点",
+   "detail": "袁征从中国赴美，签证被拒8次后第9次获批，加入WebEx担任初创工程师，负责早期视频架构。WebEx从0做到8亿美元营收，袁征升至副总裁，为日后创立Zoom积累了核心技术与团队人脉，但个人在这一过程中经历了漫长移民困局。"
+  },
+  {
+   "time": "2011年",
+   "stage": "转折",
+   "outcome": "拐点",
+   "detail": "袁征向Cisco高层提出重构WebEx移动端架构的提案被否决，他对公司保守的产品路线彻底失望，决定离职。他带走了约40名WebEx工程团队核心成员，在圣何塞一间小办公室创立Zoom，初期种子轮从前WebEx合作伙伴处融资约300万美元。"
+  },
+  {
+   "time": "2013年",
+   "stage": "PMF",
+   "outcome": "PMF",
+   "detail": "Zoom正式向公众发布产品，凭借'一次点击即可加入会议'的极简体验和优于WebEx与Skype的视频质量，迅速在中小企业中获得口碑。BlueJeans、Skype等竞品的复杂体验让Zoom快速抢占市场，到2014年底用户突破3000万参会分钟。"
+  },
+  {
+   "time": "2017年",
+   "stage": "增长",
+   "outcome": "增长",
+   "detail": "Zoom完成由红杉资本领投的1亿美元D轮融资，估值达到10亿美元，正式进入独角兽行列。彼时月活用户已达数千万，营收突破1亿美元，但与Cisco WebEx、Microsoft Skype for Business的正面竞争日趋激烈。"
+  },
+  {
+   "time": "2019年4月",
+   "stage": "转折",
+   "outcome": "拐点",
+   "detail": "Zoom在纳斯达克IPO，上市首日股价从36美元发行价飙涨至62美元，涨幅72%，市值约159亿美元。但IPO后连续数个季度机构投资者质疑其增长可持续性，股价一度回落至60美元附近，市场担心其与Microsoft Teams的竞争劣势。"
+  },
+  {
+   "time": "2020年",
+   "stage": "增长",
+   "outcome": "增长",
+   "detail": "新冠疫情暴发，Zoom日活参会者从2019年底的约1000万暴增至2020年4月的3亿，营收从2020财年的6.2亿美元飙升至2021财年的26.5亿美元，股价峰值时市值突破1600亿美元，超过IBM、通用汽车等传统巨头。"
+  },
+  {
+   "time": "2020至2021年",
+   "stage": "失败",
+   "outcome": "失败",
+   "detail": "随着用户激增，Zoom接连爆发Zoombombing安全漏洞与端到端加密虚假声明等丑闻，FBI和纽约州总检察官介入调查。2021年Zoom企图以147亿美元股票收购云联络中心Five9，因股价下跌导致交易估值缩水遭股东否决，最终在2021年10月终止收购。"
+  },
+  {
+   "time": "2023年",
+   "stage": "转折",
+   "outcome": "拐点",
+   "detail": "后疫情增长放缓，Zoom宣布裁员1300人约占15%员工，同时推出AI Companion（原名Zoom IQ），将生成式AI嵌入会议摘要、白板、邮件等功能，开始从工具型SaaS向AI协作平台转型的战略重构。"
+  },
+  {
+   "time": "2026年",
+   "stage": "增长",
+   "outcome": "增长",
+   "detail": "Zoom推出AI Companion 3.0，包含45项AI功能，涵盖Agent式任务执行、跨平台协作记忆等能力；FY27营收指引上修至50.8至50.9亿美元，并授权10亿美元库藏股回购，AI驱动下股价企稳回升。"
+  }
+ ],
+ "turning_points": [
+  "2011年袁征向Cisco高层提出移动视频架构改革方案被否决后离开，带40名工程师创立Zoom",
+  "2019年4月Zoom以36美元发行价IPO首日飙至62美元，但股价随后回落，市场质疑其能否对抗Microsoft Teams",
+  "2020年疫情迫使全球远程办公，Zoom日活从1000万暴增至3亿，一夜成为家喻户晓的品牌",
+  "2021年Five9收购案因股价下跌估值缩水遭股东否决，Zoom布局云联络中心的战略受挫",
+  "2023年裁员15%后全力押注AI Companion，从工具型SaaS向AI协作平台转型"
+ ],
+ "failures": [
+  "袁征在Cisco内部多次提议重构WebEx架构均被驳回，产品在移动端严重落后于时代",
+  "签证被拒8次才获赴美签证，差点因移民问题无法进入硅谷",
+  "2020年Zoom爆发Zoombombing安全丑闻，FBI和纽约州总检察官介入调查，被禁止在多所学校和政府机构使用",
+  "2021年Zoom计划以147亿美元收购Five9，因股价下跌导致交易缩水最终终止，布局云联络中心受挫",
+  "后疫情时代Zoom营收增速从300%骤降至个位数，市值从1600亿美元高点跌至不足200亿美元"
+ ],
+ "keys": [
+  "袁征从WebEx带走的40人工程团队是Zoom早期技术护城河的核心来源",
+  "'一次点击加入会议'的极简体验让Zoom在Skype与WebEx的复杂体验中脱颖而出",
+  "疫情是Zoom最大的增长催化剂但非其成功的唯一原因，产品力才是根本",
+  "AI Companion 3.0是Zoom在Google与Microsoft围攻下的二次增长叙事核心",
+  "在视频会议这一同质化赛道，Zoom通过用户体验精细化而非技术突破建立了地位"
+ ],
+ "lessons": [
+  "在大公司内部推动变革往往比离职创业更难，袁征在Cisco被否决的提案恰好验证了这一点",
+  "产品的极简体验比功能堆砌更重要，Zoom用'一键加入'打败了功能更全的竞品",
+  "爆发式增长带来的安全短板会迅速反噬品牌，Zoom在Zoombombing事件中付出沉重代价",
+  "疫情红利消退后不转型就会被遗忘，Zoom从工具向AI协作平台转型是关键决策",
+  "收购案中对换股交易要谨慎，股价波动可能导致交易估值缩水而失败"
+ ],
+ "metrics": {
+  "FY2021营收": "26.5亿美元（截至2021年1月财年）",
+  "疫情DAU峰值": "3亿参会者（2020年4月袁征公开数字）",
+  "IPO发行价": "36美元/股，首日收盘62美元涨幅72%",
+  "峰值市值": "约1600亿美元（2020年10月股价峰值约588美元）",
+  "FY27营收指引": "50.8至50.9亿美元（2026年上修）",
+  "库藏股授权": "10亿美元",
+  "2023年裁员": "1300人约占15%员工"
+ },
+ "competitors": "Microsoft Teams是Zoom最直接的竞争对手，背靠Office 365生态捆绑销售，2023年日活用户已达3.2亿，远超Zoom付费席位数。Google Meet依托Google Workspace免费嵌入，在教育领域与中小企业市场蚕食Zoom份额。Cisco WebEx经历架构重构后仍保有企业级客户基础。在AI协作层面，Microsoft Copilot与Google Gemini已深度嵌入各自办公套件，Zoom AI Companion需要在独立SaaS模式下证明其溢价价值。后疫情时代视频会议赛道白热化，细分领域如Otter.ai等AI会议记录工具也在边缘形成替代威胁。",
+ "sources": [
+  "https://www.siyushenqi.com/33642.html",
+  "https://www.nxrte.com/zixun/70444.html",
+  "https://36kr.com/p/3478981476178825",
+  "https://coocolab.com/blog/eric-yuan-zoom-immigrant/",
+  "https://36kr.com/p/744004136890760",
+  "https://siuleeboss.com/ai-news/zoomai-companion-3-0-2026-03-11/",
+  "https://www.forecastock.tw/article/cmoneyairesearcher-06d4c58e-5578-11f1-b7aa-e48c36a2fdf3"
+ ]
+}

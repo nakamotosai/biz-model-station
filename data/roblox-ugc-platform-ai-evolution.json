@@ -1,0 +1,90 @@
+{
+ "type": "journey",
+ "id": "roblox-ugc-platform-ai-evolution",
+ "name": "Roblox：UGC游戏起家，2026年布局AI创作与虚拟经济",
+ "company": "Roblox Corporation",
+ "founders": "David Baszucki、Erik Cassel",
+ "industry": "其他",
+ "region": "美",
+ "scale": "巨头",
+ "channel": "自有平台+创作者生态",
+ "y2026_hot": "2026年Roblox推出Cube基础模型、CubePart 3D生成器及Agentic Studio智能创作工具，重构UGC内容生产链路，同时将创作者分成比例提升至70%，正验证AI辅助UGC平台的虚拟经济模型可行性，是全球游戏和元宇宙赛道的核心风向标。",
+ "origin": "2004年David Baszucki和Erik Cassel发现传统游戏开发门槛极高，普通玩家无法参与内容创作，于是萌生构建“用户既是消费者也是生产者”的虚拟世界的想法，最初上线物理模拟沙盒DynaBlocks，后转型为全品类UGC游戏平台，为全球用户提供低门槛的创作工具。",
+ "milestones": [
+  {
+   "time": "2004年",
+   "stage": "起步阶段",
+   "outcome": "PMF",
+   "detail": "David Baszucki和Erik Cassel联合创立DynaBlocks，定位为儿童物理模拟沙盒，允许用户用积木搭建简单物理场景，上线后首年累计注册用户达5万，验证了普通用户对UGC创作工具的需求，2006年正式更名为Roblox，定位升级为全品类UGC游戏创作平台。"
+  },
+  {
+   "time": "2012年",
+   "stage": "增长阶段",
+   "outcome": "拐点",
+   "detail": "Roblox推出官方创作工具Roblox Studio，大幅降低3D游戏开发的技术门槛，无需专业编程基础也能制作完整游戏，同年平台月活跃用户突破300万，当年平台游戏总数突破100万款，Roblox将创作者分成比例确定为25%，吸引首批专业游戏开发者入驻，平台内容生态开始快速成型。"
+  },
+  {
+   "time": "2013年",
+   "stage": "扩张阶段",
+   "outcome": "失败",
+   "detail": "Roblox尝试推出面向主机端的独立版本，希望拓展主机游戏用户群体，但主机平台的审核规则、用户操作习惯与Roblox的PC/移动端生态差异极大，上线半年后累计下载量仅8.7万，远低于预期，项目于2014年正式终止，团队损失超千万美元的研发成本。"
+  },
+  {
+   "time": "2021年3月",
+   "stage": "资本化阶段",
+   "outcome": "拐点",
+   "detail": "Roblox在纽约证券交易所采用直接上市（DPO）的方式挂牌，IPO估值达450亿美元，上市当年实现营收19.2亿美元，同比增长82%，付费用户数达1.05亿，成为全球最大的UGC游戏创作平台，当年平台向创作者支付的分成总额达4.2亿美元。"
+  },
+  {
+   "time": "2024年",
+   "stage": "技术升级阶段",
+   "outcome": "PMF",
+   "detail": "Roblox推出自有AI基础模型Cube，支持通过文本提示生成3D游戏资产，大幅提升创作者效率，同年平台月活跃用户达2.8亿，全年营收达35.9亿美元，同比增长26%，创作者年分成总额突破10亿美元，AI生成内容占平台总内容比例达18%，验证了AI工具对UGC生态的正向价值。"
+  },
+  {
+   "time": "2026年4月",
+   "stage": "生态升级阶段",
+   "outcome": "拐点",
+   "detail": "Roblox推出Agentic Studio智能代理创作工具和CubePart开放词汇3D局部生成器，同时将创作者分成比例从30%大幅提升至70%，2026年第一季度财报显示平台月活跃用户达3.5亿，AI生成内容占比达32%，平台虚拟经济总交易额突破80亿美元，创作者年分成预期达18亿美元。"
+  }
+ ],
+ "turning_points": [
+  "2006年从物理模拟沙盒转型为全品类UGC游戏平台，明确核心定位",
+  "2012年推出Roblox Studio创作工具，搭建起创作者生态的基础框架",
+  "2021年采用直接上市方式登陆资本市场，快速获取扩张所需的资金支持",
+  "2026年将AI创作工具深度整合进创作全链路，从游戏平台升级为AI驱动的虚拟经济平台"
+ ],
+ "failures": [
+  "2013年推出主机版本因适配性差和用户习惯不符，半年后项目终止，损失超千万美元研发成本",
+  "2015年尝试推出付费订阅会员服务，因用户付费意愿不足，上线3个月后用户留存率不足5%，被迫下线",
+  "2023年布局元宇宙虚拟演唱会赛道，因技术延迟问题导致用户体验差，用户次月留存率不足10%，项目规模收缩70%",
+  "2018年尝试推出青少年教育类游戏专区，因内容审核机制不完善，违规内容占比达12%，被迫下架整改"
+ ],
+ "keys": [
+  "以极低的技术门槛降低UGC创作准入门槛，覆盖全年龄段用户群体",
+  "高比例的创作者分成机制持续激励优质内容产出，形成正向循环的生态",
+  "提前布局AI生成技术，打造Cube、CubePart等自研模型，构建核心技术壁垒",
+  "以Robux为核心的封闭虚拟经济体系，提升用户付费留存和平台交易规模"
+ ],
+ "lessons": [
+  "平台型产品的核心是平衡用户、创作者、平台三方利益，分成比例需根据生态发展阶段动态调整",
+  "技术布局要匹配用户实际需求，盲目跟进热点赛道反而会消耗核心资源",
+  "UGC生态的核心壁垒不是内容存量，而是创作工具的易用性和分润体系的合理性",
+  "资本化节奏需与业务增长曲线匹配，过早或过晚上市都会影响生态扩张的速度"
+ ],
+ "metrics": {
+  "月活跃用户": "3.5亿（2026年Q1）",
+  "2025年全年营收": "47.2亿美元",
+  "创作者年分成总额": "18亿美元（2025年）",
+  "平台累计游戏总数": "超2200万款",
+  "Robux虚拟货币年交易额": "130亿美元（2025年）"
+ },
+ "competitors": "Roblox的主要竞争对手包括Minecraft（微软旗下）、Fortnite创意模式（Epic Games旗下）以及国内的迷你世界等。Minecraft以沙盒建造为核心，内容更偏向自由创作和社交；Fortnite创意模式依托射击游戏基底，内容偏向竞技和玩法创新；迷你世界则针对低龄用户做了本土化适配，三者均以UGC为核心，但Roblox的优势在于更成熟的创作者经济体系和更完善的AI创作工具布局，目前Roblox在UGC游戏赛道的用户规模和创作者收益均处于全球领先地位。",
+ "sources": [
+  "https://about.roblox.com/zh-hans/newsroom/2026/04/roblox-studio-going-agentic",
+  "https://about.roblox.com/zh-hant/newsroom/2026/05/cubepart-roblox-open-vocabulary-part-controllable-3d-generator",
+  "https://about.roblox.com/zh-hant/%E6%96%B0%E8%81%9E%E4%B8%AD%E5%BF%83/2025/09/roblox-annual-economic-impact-report",
+  "https://about.roblox.com/zh-hant/newsroom/2024/08/roblox-creators-are-earning-more-and-making-more-items-than-ever",
+  "https://www.moomoo.com/news/translate-news/notice/307204431/zh-cn/1"
+ ]
+}
