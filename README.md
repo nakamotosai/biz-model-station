@@ -27,7 +27,11 @@
 
 ## 许可与声明
 
-数据为原创整理（公开信息二次加工），仅作示例展示。完整实时数据与衍生服务见 [biz.saaaai.com](https://biz.saaaai.com)。
+**本仓库数据以 [CC BY 4.0（知识共享·署名）](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 授权**：
+- ✅ 可自由复制、修改、再分发、商用（含训练/引用）
+- 唯一要求：**署名来源**（注明 biz.saaaai.com 或本仓库链接）
+- 数据为原创整理（公开信息二次加工），来源台账见 [`docs/source-ledger.md`](docs/source-ledger.md)（400 条全量：来源 URL + 采集时间基线 + LICENSE 标注；机器可读 CSV 版 [`docs/provenance.csv`](docs/provenance.csv)）
+- 完整实时数据与衍生服务见 [biz.saaaai.com](https://biz.saaaai.com)；本站仅示例展示，**禁转售原始数据**
 
 ---
 <p align="center">📊 商业模式情报 · 每日更新 · <a href="https://biz.saaaai.com">biz.saaaai.com</a></p>
